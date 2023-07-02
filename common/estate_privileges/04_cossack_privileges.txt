@@ -342,6 +342,7 @@ estate_cossacks_establish_the_cossack_regiments = {
 	penalties = {
 	}
 	benefits = {
+		cav_to_inf_ratio = 0.05 #moved from the loyalty bonus
 	}
 	mechanics = {
 		enables_cossack_regiments
@@ -431,6 +432,7 @@ estate_cossacks_expand_the_cossack_regiments = {
 	penalties = {
 	}
 	benefits = {
+		cav_to_inf_ratio = 0.05 #moved from the loyalty bonus
 	}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }

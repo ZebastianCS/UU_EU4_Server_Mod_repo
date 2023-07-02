@@ -172,7 +172,7 @@
  khmer.3.c:0 "Mahayana Buddhism is right for us."
  dark_age_of_cambodia:0 "The Dark Age of Cambodia"
  desc_dark_age_of_cambodia:0 "Our civilization lies in ruins. The Khmer Empire has fallen."
- siamese_nation_title:0 "Form Siamese Nation"
+ siamese_nation_title:0 "(§R4§!)@SIA Form Siamese Nation"
  siamese_nation_desc:0 "The Thai peoples must be united under a single state, forging an empire that will dominate South-East Asia."
  flavor_peg.1.t:0 "Shin Sawbu"
  flavor_peg.1.d1:0 "With the male line of Pegu nearly depleted and [Root.Heir.GetName] still a mere child, the Kingdom of Pegu is rudderless. In these times of war and uncertainty the people look to Shin Sawbu, mother of King Binnya Waru, to guide them. Shin Sawbu is a woman of exceptional administrative talent and religious piety who has overseen the royal household for many decades. Proclaiming her as Queen Regent will surely be popular among the people."
@@ -397,7 +397,7 @@
  estate_nobles_command_of_the_military_desc:0 "The nobility are in control of the military, making us reliant on their favor to exert force."
  estate_nobles_command_of_the_military_tt:0 "Recruiting §YLeaders§! adds §Y5 Nobility Influence§!"
  EST_VAL_NOBLE_LEADER:0 "Command of the Military: §Y$VAL$%§!"
- restore_dai_viet_title:0 "Restore Dai Viet"
+ restore_dai_viet_title:0 "(§Y2§!)@DAI Restore the Kingdom of Dai Viet" #UU Change
  restore_dai_viet_desc:0 "Dai Viet has been torn apart by feuding noble houses. We must unite the Vietnamese people and restore our kingdom."
  northern_and_southern_dynasties:0 "The Northern and Southern Dynasties"
  northern_and_southern_dynasties_desc:0 "Conflict between the two most prominent noble families threaten to tear the country apart, dividing it between north and south."
@@ -506,7 +506,7 @@
  flavor_lxa.2.d:0 "As the civil war rages on, Vientiane has emerged as an independent kingdom, ruled by a former Prince of Lan Xang. Soon there will be nothing left of our beloved nation."
  flavor_lxa.3.t:0 "The Kingdom of Luang Prabang"
  flavor_lxa.3.d:0 "As the civil war rages on, Luang Prabang has emerged as an independent kingdom, ruled by a former Prince of Lan Xang. Soon there will be nothing left of our beloved nation."
- restore_lan_xang_title:0 "Restore Lan Xang"
+ restore_lan_xang_title:0 "(§Y2§!)@LXA Restore the Kingdom of Lan Xang" #UU Change
  restore_lan_xang_desc:0 "The great Lao nation has been shattered into pieces. It is up to us to reunite the nation by controlling the most important cities and eliminating contenders to the throne."
  custom_idea_transport_power:0 "Exercises in Futility"
  custom_idea_transport_power_desc:0 "Although extremely unlikely to survive a serious engagement, we will train our transport crews in rudimentary boarding procedures to give them the illusion of security in the event of an attack."

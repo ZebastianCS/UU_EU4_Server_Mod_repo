@@ -3364,9 +3364,9 @@
  ###NEW DECISIONS###
  couronian_nation_baltic_german_title:0 "Embrace Kurlander Identity"
  couronian_nation_baltic_german_desc:0 "Our state has been reduced to Curonia, lands of the Latvians. It is to nobody's advantage if we still try to cling on to our old traditions and national identity. Instead, we should embrace our new home and bound with the Latvians. Let us embrace this new identity as a Balten duchy ruling over the Latvians of Curonia."
- livonian_nation_title:0 "Reform into Livonia"
+ livonian_nation_title:0 "(§T§O3§!)@LVA Reform into Livonia"
  livonian_nation_desc:0 "The age of crusading knights is fading fast. There will come a time when we no longer have anything to gain by holding on to the trappings of a monastic order. Besides, the Landmeister would much rather be a Duke... or King. By reforming into a secular state, we can revitalize our administration and gain the respect of our neighbors."
- livonian_nation_batlic_german_title:0 "Form Livonia"
+ livonian_nation_batlic_german_title:0 "(§T§O3§!)@LVA Form Livonia"
  livonian_nation_batlic_german_desc:0 "The lands of Curonia, Livonia and Estonia were once part of the Livoinan Order. Should the Order fail in this duty, we can take their place and usher in a new era of prosperity and Livonian courage."
  ###DIPLOMATIC ACTIONS###
  sell_indulgence_title:0 "Offer Indulgence"
@@ -5018,7 +5018,7 @@
  FU2_spread_the_northern_style:0 "Spread the Northern Style"
  FU2_spread_the_northern_style_desc:0 "Our artists have no reason to feel jealously towards their Italian counterparts. The spread of Renaissance ideas across our realm has given birth to a unique style and many famed men of the arts."
 
- declare_hanseatic_league_title:0 "Declare the Hanseatic League"
+ declare_hanseatic_league_title:0 "(§T§O3§!)@[Root.GetTag] Declare the Hanseatic League"
  declare_hanseatic_league_desc:0 "The wealth nested within the ports of the Baltic and North Germany must be harnessed by able and meticulous merchants. It is up to us to improve upon the old legacies of trade, commerce and ample coin. The institutions of old were rotten to their core, their merchants pleased with mediocrity and corruption. The time has come for us to wipe the slate clean, undo and burn down the status quo! And from its ashes a new Hansa will be born, evolved but untamed!"
  
  #BRE / HAM Loc 

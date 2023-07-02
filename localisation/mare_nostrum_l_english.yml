@@ -96,7 +96,7 @@
  THEYUNCONDITIONALLYSURRENDEREDOTHER:1 "$COUNTRY$ has §YUnconditionally Surrendered§! to a third party."
  REASON_UNCONDITIONAL_SURRENDER_OFFER_BLOCKED:1 "§RYou can't offer anything because they have §YUnconditionally Surrendered§! to you.§!"
  LEAGUE_TRADE_EMBARGO:0 "Can't cancel because Trade League leader $LEADER$ is embargoing $TARGET$."
- restore_roman_empire_title:0 "Restore the Roman Empire"
+ restore_roman_empire_title:0 "(§M5§!)@ROM Restore the Roman Empire"
  restore_roman_empire_desc:0 "Not since the Romans in the second century has one empire commanded the entirety of the Mediterranean and beyond. If we claim this land, we can scoff at whatever pretenders may claim in Constantinople or the Holy Roman Empire and proclaim ourselves the true successors of Rome."
  restore_roman_empire_tt:0 "All your owned provinces will cease to be part of the Holy Roman Empire."
  FLEET_BLOCKADING_PORTS:0 "§Y$ADJ$§! ships here are blockading the port in "

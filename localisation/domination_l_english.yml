@@ -5731,14 +5731,14 @@
  eng_order_of_chivalry:0 "Order of Chivalry"
  eng_jousting_tournaments:0 "Jousting Tournaments"
  gbr_pax_britannica:0 "Pax Britannica"
- ave_pax_angevina:0 "Pax Angevina"
+ ave_pax_angevina:0 "Pax Andecavina" #UU Better Latin
  trade_protectorate_subject_modifier:0 "Trade Protectorate"
  trade_protectorate_low_development_subject_modifier:0 "Weak Trade Protectorate"
  trade_protectorate_overlord_modifier:0 "Trade Protectorate"
  ###BRITISH DECISIONS###
- force_british_union_debate_title:0 "[Root.GetActsOfUnionDecisionTitle]"
+ force_british_union_debate_title:0 "(§T§O3§!)@GBR [Root.GetActsOfUnionDecisionTitle]"
  force_british_union_debate_desc:0 "[Root.GetActsOfUnionDecisionDesc]"
- force_french_union_debate_title:0 "[Root.GetActsOfUnionDecisionTitle]"
+ force_french_union_debate_title:0 "(§T§O3§!)@AVE [Root.GetActsOfUnionDecisionTitle]"
  force_french_union_debate_desc:0 "[Root.GetActsOfUnionDecisionDesc]"
  acts_of_union_debate_title:0 "Force Acts of Union Debate"
  acts_of_union_debate_desc:0 "Our country is split into two crowns, both of equal importance to our authority. The [Root.GetParliamentOrFallbackName] must discuss now the future of our two thrones."

@@ -244,7 +244,7 @@
  TRA:0 "Transylvania"
  TRE:0 "Trebizond"
  TRI:0 "Trier"
- TRP:0 "Tripoli"
+ TRP:0 "Tripolitania" #Changed for consistency
  TRV:0 "Travanacore"
  TUN:0 "Tunis"
  TUR:0 "Ottomans"

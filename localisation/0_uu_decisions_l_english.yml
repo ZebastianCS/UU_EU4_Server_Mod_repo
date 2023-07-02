@@ -1,28 +1,35 @@
 ﻿l_english:
  #ELB Formation
- elbian_nation_title:0 "Form the Elbian Confederation"
+ elbian_nation_title:0 "(§T§O3§!)@ELB Form the Elbian Confederation"
  elbian_nation_desc:0 "The Czechs and Saxons have grown ever closer through their similar understanding of religion and culture. It is time to properly align our interests and confederate into a single state."
- elbian_nation_diplomatically_title:0 "Form the Elbian Confederation Diplomatically"
+ elbian_nation_diplomatically_title:0 "(§T§O3§!)@ELB Confederate Elbia Diplomatically"
  elbian_nation_diplomatically_desc:0 "The Czechs and Saxons have grown ever closer through their similar understanding of religion and culture. It is time to properly align our interests and confederate into a single state."
  #AUH Formation
- form_austrohungarian_empire_title:0 "Form Austro-Hungarian Empire"
+ form_austrohungarian_empire_title:0 "(§R4§!)@AUH Form Austro-Hungarian Empire"
  form_austrohungarian_empire_desc:0 "Abandon the Empire in favor of our own Imperial ascendance."
- form_austrohungarian_empire_diplomatically_title:0 "Form Austro-Hungarian Empire Diplomatically"
+ form_austrohungarian_empire_diplomatically_title:0 "(§R4§!)@AUH Form Austria-Hungary Diplomatically"
  form_austrohungarian_empire_diplomatically_desc:0 "Abandon the Empire in favor of our own Imperial ascendance."
  #CTG Formation
- ctg_nation_title:0 "Reform Carthage"
+ ctg_nation_title:0 "(§T§O3§!)@CTG Reform Carthage"
  ctg_nation_desc:0 "It's time we lead our people into the prosperous times of our once glorious past and abandon this uncivilized pirating."
  #SON Formation
- songhai_nation_title:0 "Unite the Songhai"
+ songhai_nation_title:0 "(§Y2§!)@SON Unite the Songhai"
  songhai_nation_desc:0 "The Songhai people have been under foreign domination for too long. It is time to become a strong kingdom in our own right, and forge our own Empire to span the Sahel!"
  #African Caliphate Formations
- uu_sokoto_nation_title:0 "Establish the Sokoto Caliphate"
+ uu_sokoto_nation_title:0 "(§R4§!)@SOK Establish the Sokoto Caliphate"
  uu_sokoto_nation_desc:0 "The religious movement led by the Fulani preachers has reached its apex. We must do away with the old systems of governance and establish a Caliphate to rule over the Hausa cities, with our nation's most learned Islamic scholar and his descendants being our spiritual as well as temporal leaders."
  uu_kick_out_fulani_scholar_title:0 "Ban the Fulani Preachers"
  uu_kick_out_fulani_scholar_desc:0 "We made a grave mistake by allowing these proselytizers free reign over our people. We must ban them from continuing their preaching and crack down on their activities."
  uu_allow_sokoto_decision_tt:0 "Has the country modifier '§YFulani Preacher Accepted§!' from the event '§YFulani Preachers§!', which fires in the early 1500s."
- uu_macina_nation_title:0 "Establish the Massina Caliphate"
+ uu_macina_nation_title:0 "(§R4§!)@ZAF Establish the Massina Caliphate"
  uu_macina_nation_desc:0 "The religious movement led by the Fulani preachers has reached its apex. We must do away with the old systems of governance and establish a new Caliphate based in the Massina, with our nation's most learned Islamic scholar and his descendants being our spiritual as well as temporal leaders."
+ #Indian Formations 
+ uu_hindustan_nation_title:0 "(§M5§!)@HIN Unite Hindustan"
+ uu_hindustan_nation_desc:0 "At long last, all of Hindustan has been subjugated by a modern and sophisticated Indian sultanate. We will proclaim the Empire of Hindustan and bring all the lands of the Indian subcontinent under our rule."
+ uu_bharat_nation_title:0 "(§M5§!)@BHA Unite Bharatvarsha"
+ uu_bharat_nation_desc:0 "At long last, all of the Indian subcontinent has been united by a modern and sophisticated indigenous Indian empire. We will proclaim the Empire of Bharat and bring all the lands of the Indian subcontinent under our rule."
+ uu_bharat_regions_1_tt:0 "Owns 15 provinces in each of the Western India, Bengal, and Coromandel regions."
+ uu_bharat_regions_2_tt:0 "Owns 20 provinces in each of the Hindustan and Deccan regions."
  #Military Dictatorship
  military_coup_title:0 "Military Coup"
  military_coup_desc:0 "Only the strong can lead. Our current ruler is too weak."

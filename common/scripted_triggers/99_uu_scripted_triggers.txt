@@ -47,7 +47,7 @@ can_form_tier_two_trigger = { #Kingdoms, usually for one culture specifically
         tag = ORI #Orissa 
         #Arab Kingdoms 
         tag = ALG #Algiers 
-        tag = TRP #Tripoli 
+        tag = TRP #Tripoli (tryptophan?)
         tag = MOR #Morocco 
         tag = TUN #Tunis 
         tag = YEM #Yemen
@@ -65,8 +65,6 @@ can_form_tier_two_trigger = { #Kingdoms, usually for one culture specifically
         tag = NBI #Nubia 
         tag = SOM #Somalia
         tag = SON #Songhai 
-        tag = MAL #Mali 
-        tag = KBO #Kanem-Bornu 
         tag = KON #Kongo 
         #Polynesian Kingdoms 
         tag = UHW #Hawaii Formable 
@@ -98,9 +96,13 @@ can_form_tier_two_trigger = { #Kingdoms, usually for one culture specifically
         #Horde Formables 
         tag = MCH #Manchu
         tag = ILK #The Illest Khanate
+        #African Fallen Empires 
+        tag = MAL #Mali 
+        tag = KBO #Kanem-Bornu 
         #Other 
         tag = BYZ #Byzantium 
-        tag = DLH #Delhi (below other India tags so it can still form Punjab) 
+        tag = DLH #Delhi (below other India tags so it can still form Punjab)
+        tag = RZI #Rozwi (so it can form Zimbabwe)  
     }
 	NOT = {
         has_country_flag = formed_tier_four_flag
@@ -135,7 +137,6 @@ can_form_tier_two_trigger = { #Kingdoms, usually for one culture specifically
         tag = ETH #Ethiopia 
         tag = KIT #Kitara
         tag = GZI #Zimbabwe 
-        tag = RZI #Rozwi (can still form Zimbabwe via mission)
         #Asian Empire Rank Tags 
         tag = JAP #Japan 
         tag = MSA #Malaya
@@ -205,8 +206,12 @@ can_form_tier_three_trigger = { #Major Kingdoms, usually composed of other kingd
         #Horde Formables 
         tag = MCH #Manchu
         tag = ILK #The Illest Khanate
+        #African Fallen Empires 
+        tag = MAL #Mali 
+        tag = KBO #Kanem-Bornu 
         #Other 
-        tag = BYZ #Byzantium 
+        tag = BYZ #Byzantium
+        tag = RZI #Rozwi (so it can form Zimbabwe) 
         tag = DLH #Delhi (below other India tags so it can still form Punjab) 
     }
 	NOT = {
@@ -242,7 +247,6 @@ can_form_tier_three_trigger = { #Major Kingdoms, usually composed of other kingd
         tag = ETH #Ethiopia 
         tag = KIT #Kitara
         tag = GZI #Zimbabwe 
-        tag = RZI #Rozwi (can still form Zimbabwe via mission)
         #Asian Empire Rank Tags 
         tag = JAP #Japan 
         tag = MSA #Malaya
@@ -274,7 +278,7 @@ can_form_tier_three_trigger = { #Major Kingdoms, usually composed of other kingd
     }
 }
 
-can_form_tier_four_trigger = { #Empire Rank Nations 
+can_form_tier_four_trigger = { #Empire Rank Nations, usually for whole culture groups 
     NOT = {
         has_country_flag = formed_tier_four_flag
         #European Empires 
@@ -308,7 +312,6 @@ can_form_tier_four_trigger = { #Empire Rank Nations
         tag = ETH #Ethiopia 
         tag = KIT #Kitara
         tag = GZI #Zimbabwe 
-        tag = RZI #Rozwi (can still form Zimbabwe via mission)
         #Asian Empire Rank Tags 
         tag = JAP #Japan 
         tag = MSA #Malaya
@@ -372,6 +375,7 @@ can_form_small_colonial_trigger = { #Small Colonial Tags
         tag = FLO #Florida
         tag = VRM #Vermont
         tag = SNA #Sonora
+        tag = ALA #Alaska
         #Canada Provinces
         tag = QUE #Quebec
         tag = CSC #Cascadia 

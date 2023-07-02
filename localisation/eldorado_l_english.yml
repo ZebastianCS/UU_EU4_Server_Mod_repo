@@ -1078,7 +1078,7 @@
  CANNOT_SACRIFICE_UNTIL:0 "§R- We have recently had a ruler or heir sacrificed, we cannot sacrifice another until §Y$DATE$§!.§!"
  SACRIFICE_RULER_DESC:0 "Sacrificing §Y$TITLE$ $RULER$§! of §Y$COUNTRY$§! to the Gods will lower our Doom by §G$AMT$§!, reduce relations by §R-100§! and increase the Liberty desire of all our vassals by §R$LD_INC$%§!."
  SACRIFICE_HEIR_DESC:0 "Sacrificing the heir of §Y$COUNTRY$§! to the Gods will lower our Doom by §G$AMT$§!, reduce relations by §R-75§! and increase the Liberty desire of all our vassals by §R$LD_INC$%§!."
- maya_nation_title:0 "Reunite the League of Mayapan"
+ maya_nation_title:0 "(§R4§!)@MAY Reunite the League of Mayapan"
  maya_nation_desc:0 "Once all Maya states of importance fought under the same banner. Let us recreate the League of Mayapan and put the petty conflicts that once shattered the confederation behind us."
  ND_IDEA_ALREADY_SELECTED:0 "§YYou have already selected this modifier, selecting will swap slots with the previously selected.§!"
  RANDOM_OR_EMPTY_SETUP_DESC:0 "§YRandom or Custom Setup has been selected in Options. Please create a Custom Nation to start the game.§!"

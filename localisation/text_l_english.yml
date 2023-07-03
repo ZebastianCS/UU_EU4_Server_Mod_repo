@@ -4605,7 +4605,7 @@
  support_crats_faction_title:1 "Support Grand Secretariat"
  support_crats_faction_desc:1 "The central administration is the fount upon which the entire empire rests. Let us strengthen the influence of the Confucian meritocrats so that we can build a strong and stable state."
  LOSE_CORE_EFFECT2:0 "$WHO$ lose core on $PROV$.\n"
- CAV_TO_INF_RATIO:1 "Your Army, excluding Artillery, cannot be comprised of more than §Y$MAX$%§W Cavalry or you will suffer the Insufficient Support penalty causing additional losses in combat."
+ CAV_TO_INF_RATIO:1 "In this mod, Cavalry to Infantry ratio is calculated by regiments and not by units, so the Insufficient Support tactics penalty does not apply. Your Cavalry to Infantry Ratio can be viewed in the Triggered Modifiers panel, if applicable."
  SHORTCUT:0 "§WShortcut: $KEY|Y$"
  SM_SHORTCUT:0 "Shortcut tooltip"
  braveheart:0 "The Highlanders"

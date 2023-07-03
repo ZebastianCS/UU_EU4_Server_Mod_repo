@@ -762,7 +762,7 @@
  INSUFFICIENT_SUPPORT_TITLE:0 "§YInsufficient Support§!"
  INSUFFICIENT_SUPPORT_DESC:1 "The front row's cavalry ratio is too high (§Y$RATIO$%§!). This reduces the Military Tactics of cavalry regiments by up to §R$PENALTY$%§!."
  INSUFFICIENT_SUPPORT_UNIT_DESC_YES:0 "@$TAG$$NAME$ receives penalty (max ratio $MAX|%1R$)."
- INSUFFICIENT_SUPPORT_UNIT_DESC_NO:0 "@$TAG$$NAME$ does NOT receive penalty (max ratio $MAX|%1G$)."
+ INSUFFICIENT_SUPPORT_UNIT_DESC_NO:0 "In this mod, Cavalry to Infantry ratio is calculated by regiments and not by units, so the Insufficient Support tactics penalty does not apply. Your Cavalry to Infantry Ratio can be viewed in the Triggered Modifiers panel, if applicable."
  FE_IRONMAN_MULTIPLAYER:0 "Ironman is not available in multiplayer."
  FE_IRONMAN_NOCLOUD:0 "Ironman needs user to be logged on to Steam."
  FE_NOT_IRONMAN_AND_OBSERVER:0 "It's not possible to play Ironman Mode as an observer."

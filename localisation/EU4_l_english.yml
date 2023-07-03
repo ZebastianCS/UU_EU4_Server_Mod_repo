@@ -1336,7 +1336,7 @@
  MORALE_ADD_DESC:0 "This is the Morale of the combat leader and should be seen as representative. Every unit still uses its own values during combat."
  COMBATVIEW_INFANTRY_DESC:0 "Infantry is the most common troop type in most armies. Can only attack from the front line."
  COMBATVIEW_ARTILLERY_DESC:2 "Artillery can fire from the second rank. Artillery also helps to reduce the damage taken by friendly regiments in the first rank in front of it. Artillery takes double damage when attacked and is only effective during the Fire phase.\n\nReinforcement to the second rank is limited to $SPEED|Y$ regiments per day, based on the commanding General's §YManeuver§!."
- COMBATVIEW_CAVALRY_DESC:1 "The front row's cavalry ratio is §Y$RATIO$%§!. If the ratio of cavalry to infantry is too high, the cavalry will receive the §YInsufficient Support§! modifier. Cavalry can only attack from the first row of units."
+ COMBATVIEW_CAVALRY_DESC:1 "In this mod, Cavalry to Infantry ratio is calculated by regiments and not by units, so the Insufficient Support tactics penalty does not apply. Your Cavalry to Infantry Ratio can be viewed in the Triggered Modifiers panel, if applicable."
  FROM_MIL_TECH:0 "From military technology:"
  FROM_MIL_TECH_VALUE:0 "From military technology: §G$VALUE$§W"
  FROM_DISCIPLINE:0 "Discipline: $VALUE$"

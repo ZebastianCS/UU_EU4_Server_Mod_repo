@@ -939,7 +939,7 @@ FKN_Missions_2 = {
 		}
 		effect = {
 			custom_tooltip = fkn_defend_the_protestant_league_dt
-			set_country_flag = fkn_improved_expansionist_zealotry
+			set_country_flag = improved_expansionist_zealotry
 		}
 	}
 }

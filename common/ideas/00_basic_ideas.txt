@@ -1594,6 +1594,7 @@ humanist_ideas = {
 
 	humanist_tolerance = {
 		no_religion_penalty = yes
+		improve_relation_modifier = 0.3	#moved
 	}
 	tolerance_idea = {
 		global_unrest = -2
@@ -1602,20 +1603,26 @@ humanist_ideas = {
 	local_traditions = {
 		overextension_impact_modifier = -0.8 #kek?
 		harmonization_speed = 0.25
+		advisor_pool = 2	#new
 	}
 	ecumenism = {
 		tolerance_heretic = 2
 		tolerance_heathen = 2
+		tolerance_of_heretics_capacity = 1	#new
+		tolerance_of_heathens_capacity = 1	#new
 	}
 	indirect_rule = {
 		years_of_nationalism = -10	
+		promote_culture_cost = -0.5	#new
 	}
 	cultural_ties = {
 		num_accepted_cultures = 2
 		manpower_in_accepted_culture_provinces = 0.15
 	}
 	benevolence = {
-		improve_relation_modifier = 0.3
+		#improve_relation_modifier = 0.3	#moved
+		max_possible_parliament_seats = 10	#new
+		parliament_backing_chance = 0.15	#new
 	}
 	ai_will_do = {
 		factor = 0.55

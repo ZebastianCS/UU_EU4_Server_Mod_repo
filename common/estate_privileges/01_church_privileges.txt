@@ -1461,7 +1461,7 @@ estate_church_for_the_faith = {
 		}
 		modifier = {
 			church_loyalty_modifier = 0.1
-			land_morale = 0.15
+			land_morale = 0.10		#UU nerfed from 15
 			war_exhaustion = -0.05
 			max_absolutism = 5
 		}

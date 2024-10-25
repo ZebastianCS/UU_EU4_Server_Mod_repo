@@ -2306,6 +2306,14 @@ al_andalusia_government = {
 			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180�
 		}
 	}
+	custom_attributes = {	#uu added
+		enables_divine_idea_group = yes
+		enables_aristocratic_idea_group = no
+		enables_estate_janissaries = yes
+	}
+	government_abilities = {	#uu added
+		iqta_mechanic
+	}
 }
 
 prussian_monarchy = {

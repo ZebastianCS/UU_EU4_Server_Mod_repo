@@ -346,7 +346,6 @@ country_event = { #Sokoto
 					has_province_flag = zflag_2
 				}
 				add_core = SOK
-				remove_core = ROOT
 			}
 		}
 		set_country_flag = uu_war_with_sok
@@ -633,7 +632,6 @@ country_event = { #Massina
 					has_province_flag = zflag_10
 				}
 				add_core = event_target:old_tag_target
-				remove_core = ROOT
 			}
 		
 			release = event_target:old_tag_target
@@ -734,7 +732,6 @@ country_event = { #Massina
 					has_province_flag = zflag_20
 				}
 				add_core = ZAF
-				remove_core = ROOT
 			}
 		}
 		set_country_flag = uu_war_with_zaf
@@ -1019,7 +1016,6 @@ country_event = { #Fulo
 					has_province_flag = zflag_3
 				}
 				add_core = event_target:old_tag_target
-				remove_core = ROOT
 			}
 		
 			release = event_target:old_tag_target
@@ -1120,7 +1116,6 @@ country_event = { #Fulo
 					has_province_flag = zflag_4
 				}
 				add_core = FUL
-				remove_core = ROOT
 			}
 		}
 		set_country_flag = uu_war_with_ful
@@ -1331,13 +1326,16 @@ country_event = { #Fulani preachers
 			days = 5475
 		}
 		NOT = {
-			has_country_modifier = uu_fulani_preacher_accepted
-			has_country_modifier = uu_fulani_preacher_rejected
+			has_country_flag = uu_fulani_preacher_happened_flag
 		}
 	}
 
 	mean_time_to_happen = {
 		days = 1825
+	}
+
+	immediate = {
+		hidden_effect = { set_country_flag = uu_fulani_preacher_happened_flag }
 	}
 
 	option = {
@@ -1435,8 +1433,6 @@ country_event = { #giving troops
 	}
 }
 
-# Note: idek why these next two events give so many errors, they work perfectly fine
-
 province_event = { #Theocrats take a province
 	id = uufulojihad.100
     title = uufulojihad.100.t
@@ -1512,7 +1508,6 @@ province_event = { #Monarchists take a province
 	}
 	immediate = {
 		hidden_effect = {
-			remove_core = owner
 			cede_province = controller
 			if = {			#Taking forts will capture all adjacent provs.
 				limit = { has_fort_building_trigger = yes } 

@@ -1830,9 +1830,12 @@ country_event = {
 		name = flavor_gbr.100.a
 		define_heir = {
 			name = "Henry"
-			adm = 5
-			dip = 5
-			mil = 5
+			change_adm = 1	#UU
+			change_dip = 1
+			change_mil = 1
+			# adm = 5
+			# dip = 5
+			# mil = 5
 			age = 0
 			dynasty = ROOT
 		}

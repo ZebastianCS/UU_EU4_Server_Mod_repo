@@ -3318,9 +3318,12 @@ country_event = {
 		define_heir = {
 			name = "Pyotr"
 			dynasty = ROOT
-			adm = 6 
-			dip = 6
-			mil = 6
+			change_adm = 1	#UU
+			change_dip = 1
+			change_mil = 1
+			# adm = 6 
+			# dip = 6
+			# mil = 6
 			age = 15
 		}
 		hidden_effect = {

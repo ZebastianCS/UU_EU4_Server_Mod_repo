@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.2
+#UU UPDATED 1.37.5
 tribe_mechanic = {
 	tribal = yes
 	monarchy = yes

@@ -1,4 +1,29 @@
-#UU UPDATED 1.36.1
+#UU UPDATED 1.37.5
+
+uu_merc_religious_holyorder = {    
+    icon = GFX_holy_order_calatrava
+    trigger = {
+        has_active_policy = Merc-Religious 
+    }
+    color = { 232 48 2 } #Papaya
+    cost = 50
+    cost_type = mil_power        #Merc nations don't really need mil
+    per_province_effect = {
+        add_base_production = 1  #Intended
+    }
+    per_province_abandon_effect = {
+       add_base_production = -1 
+    }
+    modifier = {
+		supply_limit_modifier = 0.25
+        trade_goods_size_modifier = 0.1
+    }
+    ai_priority = {
+        factor = 1
+    }
+    localization = holy_order
+}
+
 benedictines = {
     icon = GFX_holy_order_benedictines
     trigger = {
@@ -879,33 +904,7 @@ du_si = {
     }
     localization = coordinator_office
 }
-####UU
 
-uu_merc_religious_holyorder = {    
-    icon = GFX_holy_order_calatrava
-    trigger = {
-        has_active_policy = Merc-Religious 
-    }
-    color = { 232 48 2 } #Papaya
-    cost = 50
-    cost_type = mil_power        #Merc nations don't really need mil
-    per_province_effect = {
-        add_base_production = 1 
-    }
-    per_province_abandon_effect = {
-       add_base_production = -1 
-    }
-    modifier = {
-		supply_limit_modifier = 0.25
-        trade_goods_size_modifier = 0.1
-    }
-    ai_priority = {
-        factor = 1
-    }
-    localization = holy_order
-}
-
-#Persia
 
 kashifs = {
     icon = GFX_holy_order_kashifs
@@ -935,7 +934,7 @@ kashifs = {
 			owner = { adm = 5 } 
         }
     }
-    localization = coordinator_office #TODO
+    localization = coordinator_office
 }
 
 #1.36 Orders
@@ -1020,7 +1019,7 @@ zahediyeh_order = {
 scuola_grande = {
     icon = GFX_holy_order_scuola_grande
     trigger = {
-		tag = VEN
+		is_or_was_tag = { tag = VEN }
     }
     color = { 173 216 230 }
     cost = 50

@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.2
+#UU UPDATED 1.37.5
 theocracy_mechanic = {
 	has_devotion = yes
 	rulers_can_be_generals = no
@@ -701,7 +701,10 @@ dutch_theocracy_reform = {
 	}
 	conditional = {
 		allow = {
-			has_dlc = "Res Publica"
+			or = {
+				has_dlc = "Res Publica"
+				has_dlc = "Winds of Change"
+			}
 		}
 		queen = no
 		heir = no

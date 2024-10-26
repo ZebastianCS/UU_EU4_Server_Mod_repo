@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.2
+#UU UPDATED 1.37.5
 united_cantons_reform = {
 	icon = "united_cantons_reform"
 	allow_normal_conversion = yes
@@ -1054,7 +1054,7 @@ strengthen_the_ulema_reform = {
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		custom_attributes = {
-			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180�
+			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180°
 		}
 	}
 	
@@ -1738,7 +1738,7 @@ legacy_of_the_safavid_reform = {
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		custom_attributes = {
-			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180�
+			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180°
 		}
 	}
 	ai = {
@@ -5191,7 +5191,6 @@ seven_provinces_reform = {
 				add_province_modifier = {
 					name = ned_seven_provinces_organization_positive_modifier
 					duration = -1
-					hidden = yes
 				}
 			}
 			every_owned_province = {
@@ -5202,7 +5201,6 @@ seven_provinces_reform = {
 				add_province_modifier = {
 					name = ned_seven_provinces_organization_negative_modifier
 					duration = -1
-					hidden = yes
 				}
 			}
 		}

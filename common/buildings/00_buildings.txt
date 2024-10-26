@@ -23,7 +23,7 @@
 # AI will consider each building to be worth 0.01 ducats per year as a base, so making ai_will_do above cost will have them build it at some point.
 # It will still check whether it can afford a building before doing so though, but may save up to it.
 
-# UU UPDATED 1.37.0
+# UU UPDATED 1.37.5
 ################################################
 # Tier 1, 15th Century Buildings
 ################################################

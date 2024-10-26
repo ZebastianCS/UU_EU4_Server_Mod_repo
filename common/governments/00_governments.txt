@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.0
+#UU UPDATED 1.37.5
 monarchy = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
@@ -618,6 +618,7 @@ republic = {
 		protectorate_parliament_legacy
 		prussian_republic
 		united_cantons_legacy
+		turkoman_ottoman_institutions
 	}
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
@@ -665,6 +666,7 @@ republic = {
 				#Mamluks
 				egyptian_government_reform
 				city_alliance_reform
+				turkoman_ottoman_institutions
 			}
 		}
 		republican_virtues = {
@@ -672,7 +674,7 @@ republic = {
 				republican_authoritarianism_reform
 				nepotism_reform
 				republicanism_reform
-				hanseatic_city_reform #new
+				hanseatic_city_reform #uu
 				democratic_values_reform
 				aristocratic_values_reform
 				religious_values_reform
@@ -1064,7 +1066,7 @@ tribal = {
 				matrilineal_system
 				feudal_tribe
 				great_man
-				not_siberian_tribe #new
+				not_siberian_tribe #uu
 				#1.36
 				#Turkomen
 				turkoman_ottoman_institutions
@@ -1165,7 +1167,7 @@ tribal = {
 				tribe_becomes_horde_reform
 				tribe_remain_tribal_reform
 				tribe_tribal_unity
-				tribe_settle_the_land_reform #new
+				tribe_settle_the_land_reform #uu
 			}
 		}
 	}
@@ -1268,6 +1270,7 @@ theocracy = {
 				#Egypt
 				egyptian_government_reform
 				blood_theocracy_reform
+				turkoman_ottoman_institutions
 			}
 		}
 		internal_vs_external_mission = {

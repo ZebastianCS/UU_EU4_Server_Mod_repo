@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.2
+#UU UPDATED 1.37.5
 republic_mechanic = {
 	basic_reform = yes
 	republican_name = yes
@@ -370,6 +370,10 @@ venice_merchants_reform = {
 			was_tag = VEN		#UU 
 			AND = {
 				is_playing_custom_nation = yes
+				have_had_reform = venice_merchants_reform
+			}
+			AND = {
+				tag = ITA
 				have_had_reform = venice_merchants_reform
 			}
 		}

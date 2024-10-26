@@ -1,6 +1,4 @@
-#UU UPDATED 1.37.0
-
-
+#UU UPDATED 1.37.5
 
 # OBS! Full modding not supported. Code support still needed to remove/rename the original subject types.
 # Custom ones CAN be created with scriptable diplomatic actions (see "dummy" at the bottom of this file), although this is not currently very functional.
@@ -468,8 +466,8 @@ appanage = {	#UU changed
 	}
 	
 	# Subject Interactions
-	seize_court_resources = no	#maybe later
-	request_extra_levies = no
+	seize_court_resources = yes
+	request_extra_levies = yes
 	grant_administrative_autonomy = yes
 	#(disable)
 	scutage = yes
@@ -743,12 +741,6 @@ crown_colony = {
 		modifier = crown_colony_subject
 	}
 	
-	modifier_subject = {
-		modifier = ITA_extra_goods_produced_for_colonies
-		trigger = {
-			overlord = { has_country_flag = ITA_trades_to_come_flag }
-		}
-	}
 }
 
 private_enterprise = {
@@ -783,12 +775,6 @@ private_enterprise = {
 		modifier = private_enterprise_subject
 	}
 	
-	modifier_subject = {
-		modifier = ITA_extra_goods_produced_for_colonies
-		trigger = {
-			overlord = { has_country_flag = ITA_trades_to_come_flag }
-		}
-	}
 }
 
 self_governing_colony = {
@@ -824,12 +810,6 @@ self_governing_colony = {
 		modifier = self_governing_colony_subject
 	}
 	
-	modifier_subject = {
-		modifier = ITA_extra_goods_produced_for_colonies
-		trigger = {
-			overlord = { has_country_flag = ITA_trades_to_come_flag }
-		}
-	}
 }
 
 
@@ -1573,6 +1553,7 @@ nahuatl_tributary = {
 			religion = nahuatl
 			religion = mesoamerican_religion
 		}
+		is_subject = no
 	}
 
 	sprite = GFX_icon_nahuatl_tributary
@@ -1610,6 +1591,8 @@ nahuatl_tributary = {
 	can_rival = {
 	}
 	can_ally = {
+		independent_nations = no
+		same_overlord = nahuatl_tributary
 	}
 	can_marry = {
 	}
@@ -1689,6 +1672,14 @@ european_colony = {
 		}
 	}
 
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+
+	seize_territory = yes
+	replace_governor = no
+	start_colonial_war = no
 	customize_subject = no
 	sprite = GFX_icon_european_colony
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_european_colony

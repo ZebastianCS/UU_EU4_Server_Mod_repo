@@ -4469,7 +4469,7 @@ country_event = {
 		name = fetishist_flavor.600.a
 		trigger = {
 			has_unlocked_cult = yemoja_cult
-			NOT = { has_primary_cult = { cult = yemoja_cult } }
+			NOT = { has_adopted_cult = yemoja_cult }
 		}
 		add_country_modifier = {
 			name = junior_yemoja_cult
@@ -4490,7 +4490,7 @@ country_event = {
 		name = fetishist_flavor.600.b
 		trigger = {
 			has_unlocked_cult = roog_cult
-			NOT = { has_primary_cult = { cult = roog_cult } }
+			NOT = { has_adopted_cult = roog_cult }
 		}
 		add_country_modifier = {
 			name = junior_roog_cult
@@ -4511,7 +4511,7 @@ country_event = {
 		name = fetishist_flavor.600.c
 		trigger = {
 			has_unlocked_cult = nyame_cult
-			NOT = { has_primary_cult = { cult = nyame_cult } }
+			NOT = { has_adopted_cult = nyame_cult }
 		}
 		add_country_modifier = {
 			name = junior_nyame_cult
@@ -4532,7 +4532,7 @@ country_event = {
 		name = fetishist_flavor.600.d
 		trigger = {
 			has_unlocked_cult = cwezi_cult
-			NOT = { has_primary_cult = { cult = cwezi_cult } }
+			NOT = { has_adopted_cult = cwezi_cult }
 		}
 		add_country_modifier = {
 			name = junior_cwezi_cult
@@ -4553,7 +4553,7 @@ country_event = {
 		name = fetishist_flavor.600.e
 		trigger = {
 			has_unlocked_cult = central_african_ancestor_cult
-			NOT = { has_primary_cult = { cult = central_african_ancestor_cult } }
+			NOT = { has_adopted_cult = central_african_ancestor_cult }
 		}
 		add_country_modifier = {
 			name = junior_central_african_ancestor_cult
@@ -4574,7 +4574,7 @@ country_event = {
 		name = fetishist_flavor.600.f
 		trigger = {
 			has_unlocked_cult = mwari_cult
-			NOT = { has_primary_cult = { cult = mwari_cult } }
+			NOT = { has_adopted_cult = mwari_cult }
 		}
 		add_country_modifier = {
 			name = junior_mwari_cult
@@ -4595,7 +4595,7 @@ country_event = {
 		name = fetishist_flavor.600.g
 		trigger = {
 			has_unlocked_cult = enkai_cult
-			NOT = { has_primary_cult = { cult = enkai_cult } }
+			NOT = { has_adopted_cult = enkai_cult }
 		}
 		add_country_modifier = {
 			name = junior_enkai_cult
@@ -4616,7 +4616,7 @@ country_event = {
 		name = fetishist_flavor.600.h
 		trigger = {
 			has_unlocked_cult = waaq_cult
-			NOT = { has_primary_cult = { cult = waaq_cult } }
+			NOT = { has_adopted_cult = waaq_cult }
 		}
 		add_country_modifier = {
 			name = junior_waaq_cult
@@ -4637,7 +4637,7 @@ country_event = {
 		name = fetishist_flavor.600.i
 		trigger = {
 			has_unlocked_cult = zanahary_cult
-			NOT = { has_primary_cult = { cult = zanahary_cult } }
+			NOT = { has_adopted_cult = zanahary_cult }
 		}
 		add_country_modifier = {
 			name = junior_zanahary_cult
@@ -4658,7 +4658,7 @@ country_event = {
 		name = fetishist_flavor.600.j
 		trigger = {
 			has_unlocked_cult = christianity_cult
-			NOT = { has_primary_cult = { cult = christianity_cult } }
+			NOT = { has_adopted_cult = christianity_cult }
 		}
 		add_country_modifier = {
 			name = junior_christianity_cult
@@ -4679,7 +4679,7 @@ country_event = {
 		name = fetishist_flavor.600.k
 		trigger = {
 			has_unlocked_cult = islam_cult
-			NOT = { has_primary_cult = { cult = islam_cult } }
+			NOT = { has_adopted_cult = islam_cult }
 		}
 		add_country_modifier = {
 			name = junior_islam_cult
@@ -4700,7 +4700,7 @@ country_event = {
 		name = fetishist_flavor.600.l
 		trigger = {
 			has_unlocked_cult = buddhism_cult
-			NOT = { has_primary_cult = { cult = buddhism_cult } }
+			NOT = { has_adopted_cult = buddhism_cult }
 		}
 		add_country_modifier = {
 			name = junior_buddhism_cult
@@ -4721,7 +4721,7 @@ country_event = {
 		name = fetishist_flavor.600.m
 		trigger = {
 			has_unlocked_cult = dharmic_cult
-			NOT = { has_primary_cult = { cult = dharmic_cult } }
+			NOT = { has_adopted_cult = dharmic_cult }
 		}
 		add_country_modifier = {
 			name = junior_dharmic_cult
@@ -4742,7 +4742,7 @@ country_event = {
 		name = fetishist_flavor.600.n
 		trigger = {
 			has_unlocked_cult = south_central_american_cult
-			NOT = { has_primary_cult = { cult = south_central_american_cult } }
+			NOT = { has_adopted_cult = south_central_american_cult }
 		}
 		add_country_modifier = {
 			name = junior_south_central_american_cult
@@ -4763,7 +4763,7 @@ country_event = {
 		name = fetishist_flavor.600.o
 		trigger = {
 			has_unlocked_cult = norse_cult
-			NOT = { has_primary_cult = { cult = norse_cult } }
+			NOT = { has_adopted_cult = norse_cult }
 		}
 		add_country_modifier = {
 			name = junior_norse_cult
@@ -4784,7 +4784,7 @@ country_event = {
 		name = fetishist_flavor.600.p
 		trigger = {
 			has_unlocked_cult = jewish_cult
-			NOT = { has_primary_cult = { cult = jewish_cult } }
+			NOT = { has_adopted_cult = jewish_cult }
 		}
 		add_country_modifier = {
 			name = junior_jewish_cult
@@ -4805,7 +4805,7 @@ country_event = {
 		name = fetishist_flavor.600.q
 		trigger = {
 			has_unlocked_cult = zoroastrian_cult
-			NOT = { has_primary_cult = { cult = zoroastrian_cult } }
+			NOT = { has_adopted_cult = zoroastrian_cult }
 		}
 		add_country_modifier = {
 			name = junior_zoroastrian_cult

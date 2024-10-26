@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.0
+#UU UPDATED 1.37.5
 age_of_discovery = {
 	start = 1400
 	
@@ -57,7 +57,7 @@ age_of_discovery = {
 					controlled_by = owner
 					is_core = ROOT
 				}
-				amount = 3
+				amount = 3	#UU
 			}
 		}
 		obj_30_development_city = {
@@ -95,13 +95,13 @@ age_of_discovery = {
 		# } 
 		
 		obj_many_vassals = {
-			num_of_subjects = 4
+			num_of_subjects = 4 #UU
 		}		
 	
-		obj_two_continents = {
+		obj_two_continents = {	
 			OR = {
 				num_of_continents = 2
-				151 = { owned_by = ROOT }
+				151 = { owned_by = ROOT } #UU
 			}
 		}
 	
@@ -175,7 +175,7 @@ age_of_discovery = {
 				on_age_ability_taken = { age = age_of_discovery }
 			}
 			modifier = {
-				cav_to_inf_ratio = 0.5
+				cav_to_inf_ratio = 0.5	#UU
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -310,7 +310,7 @@ age_of_reformation = {
 	
 	objectives = {
 		obj_christian_convert = {
-			custom_trigger_tooltip = {
+			custom_trigger_tooltip = {	#UU
 				tooltip = obj_christian_convert_tooltip
 				has_country_flag = age_change_religion_absolutism
 			}
@@ -331,7 +331,18 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 3
+			calc_true_if = {
+				all_subject_country = {
+					OR = {
+						is_subject_of_type = colony
+						is_subject_of_type = crown_colony
+						is_subject_of_type = private_enterprise
+						is_subject_of_type = self_governing_colony
+						is_subject_of_type = european_colony
+					}
+				}
+				amount = 3 #UU
+			}
 		}
 		
 		obj_force_converted = {
@@ -360,7 +371,7 @@ age_of_reformation = {
 					value = yes
 				}
 				trading_bonus = {
-					trade_goods = tea 
+					trade_goods = tea #UU
 					value = yes
 				} 
 			}
@@ -370,7 +381,7 @@ age_of_reformation = {
 			is_subject = no
 			OR = {
 				has_unified_culture_group = yes
-				num_accepted_cultures = 3
+				num_accepted_cultures = 3	#UU
 			}
 		}
 	}	
@@ -482,7 +493,7 @@ age_of_reformation = {
 				OR = {
 					tag = SPA
 					AND = {
-						tag = ADU
+						tag = ADU	#UU
 						NOT = { exists = SPA }
 					}
 				}
@@ -631,7 +642,7 @@ age_of_absolutism = {
 		}
 		
 		obj_emperor_of_china = {
-			army_professionalism = 0.80
+			army_professionalism = 0.80	#UU
 		}
 		
 		obj_cultures_accepted = {
@@ -643,6 +654,7 @@ age_of_absolutism = {
 				tooltip = obj_religious_league_war_on_winning_side_tooltip
 				has_country_flag = religious_league_war_on_winning_side
 			}
+			
 		}
 	}	
 	
@@ -667,7 +679,7 @@ age_of_absolutism = {
 				on_age_ability_taken = { age = age_of_absolutism }
 			}
 			modifier = {
-				rival_change_cost = -1.0
+				rival_change_cost = -1.0	#UU
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -680,7 +692,7 @@ age_of_absolutism = {
 				on_age_ability_taken = { age = age_of_absolutism }
 			}
 			modifier = {
-				fort_maintenance_modifier = -0.33
+				fort_maintenance_modifier = -0.33	#UU
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -694,7 +706,7 @@ age_of_absolutism = {
 				on_age_ability_taken = { age = age_of_absolutism }
 			}
 			modifier = {
-				max_absolutism = 30
+				max_absolutism = 30	#UU
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -767,7 +779,7 @@ age_of_absolutism = {
 				tag = NED
 			}
 			modifier = {
-				global_trade_power = 0.20
+				global_trade_power = 0.20	#UU
 				trade_steering = 0.20
 				num_of_age_rewards = 1
 			}
@@ -1068,7 +1080,7 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		ab_necro_sokoto = {
+		ab_necro_sokoto = {	#UU
 			allow = {
 				OR = {
 					tag = SOK

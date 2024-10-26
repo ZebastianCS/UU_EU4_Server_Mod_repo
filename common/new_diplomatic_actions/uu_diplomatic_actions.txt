@@ -140,10 +140,10 @@ uu_send_attache = {
 				remove_fow = 1
 			}
 		} 
-		country_event = {
-			id = uu_diplomatic_actions.1
-			days = 27
-		}
+		#country_event = {
+		#	id = uu_diplomatic_actions.1
+		#	days = 27
+		#}
 	}
 	on_decline = {}
 }

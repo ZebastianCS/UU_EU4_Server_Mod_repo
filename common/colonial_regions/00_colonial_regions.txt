@@ -66,7 +66,7 @@ colonial_alaska = {
 		trigger = {
 			culture_group = japanese_g
 		}
-		name = "COLONIAL_ALASKA_Hokkaigan" #DOD inspired, "North Coast"
+		name = "COLONIAL_ALASKA_Hokkaigan" #"North Coast" (DOD)
 	}
 	names = {
 		trigger = {
@@ -772,14 +772,7 @@ colonial_california = {
 			culture_group = east_asian
 			owns = 4637
 		}
-		name = "COLONIAL_CALIFORNIA_Qingqiu" #DOD inspired, "Green Hills" from Shan Hai Jing
-	}
-	names = {
-		trigger = {
-			culture_group = japanese_g
-			owns = 4637
-		}
-		name = "COLONIAL_CALIFORNIA_Kinkoku" #Made this one up. "Gold Kingdom"
+		name = "COLONIAL_CALIFORNIA_Qingqiu" #"Green Hills" from Shan Hai Jing (DOD)
 	}
 	# Generic
 	names = {

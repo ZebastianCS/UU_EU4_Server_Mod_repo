@@ -1300,6 +1300,8 @@ Maritime-Infra = { ##Buffs ports
 		full_idea_group = infrastructure_ideas
 	}
 	
+	uu_Maritime_Infra_policy_localization = 0.1
+
 	effect = {
 		hidden_effect = {
 			every_owned_province = {

@@ -1250,7 +1250,7 @@ Pluto-Maritime = {	##buffs ports
 	}
 
 	light_ship_power = 0.5
-	uu_Maritime_Pluto_policy_localization = 0.2
+	uu_Maritime_Pluto_policy_localization = 0.25
 
 	effect = {
 		hidden_effect = {

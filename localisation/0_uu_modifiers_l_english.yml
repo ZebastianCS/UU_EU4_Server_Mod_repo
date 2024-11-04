@@ -173,6 +173,16 @@
  uu_shaman_vision_quest:0 "Shaman Vision Quest"
 
  ###############################################################
+ # Japan Mission Modifiers
+ ###############################################################
+
+ uujap_inflation_goods_mod:0 "Currency Shortage Relieved"
+ uujap_premier_gold_mine_mod:0 "Premier Mint for Gold and Silver Coins"
+ uujap_gokaido_mod:0 "Gokaido"
+ uujap_colonist_mod:0 "Early Colonial Ventures"
+ uujap_edo_new_capital_mod:0 "A Second Capital"
+
+ ###############################################################
  # New Estuaries
  ###############################################################
 

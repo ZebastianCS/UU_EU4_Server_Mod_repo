@@ -140,7 +140,10 @@ estate_burghers_pluto_weapons = {
 	on_granted_province = {
 		if = {
 			limit = {
-				has_building = weapons
+				OR = {
+					has_building = weapons
+					has_building = wharf
+				}
 				OR = {
 					owner = { is_at_war = yes }
 					owner = {
@@ -201,7 +204,10 @@ estate_vaisyas_pluto_weapons = {
 	on_granted_province = {
 		if = {
 			limit = {
-				has_building = weapons
+				OR = {
+					has_building = weapons
+					has_building = wharf
+				}
 				OR = {
 					owner = { is_at_war = yes }
 					owner = {

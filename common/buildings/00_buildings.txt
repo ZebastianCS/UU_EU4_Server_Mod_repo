@@ -2367,7 +2367,22 @@ wharf = {
 			type = production 
 			value = 1 
 		}
-		
+		if = {
+		 	limit = {
+		 		OR = {
+					has_estate_privilege = estate_burghers_pluto_weapons
+					has_estate_privilege = estate_vaisyas_pluto_weapons
+				}
+				OR = {
+					is_at_war = yes 
+					any_neighbor_country = { is_at_war = yes }
+				}
+		 	}
+		 	add_province_modifier = {
+				name = uu_better_weapons_manus_priv_mod
+				duration = -1
+			}
+		}
 	}
 	on_destroyed = {
 		remove_development_from_building = {
@@ -2379,6 +2394,12 @@ wharf = {
 			building = manufactory 
 			type = production 
 			value = 1
+		}
+		if = {
+		 	limit = {
+		 		has_province_modifier = uu_better_weapons_manus_priv_mod
+		 	}
+		 	remove_province_modifier = uu_better_weapons_manus_priv_mod
 		}
 	}
 	on_obsolete = {

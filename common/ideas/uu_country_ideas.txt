@@ -912,7 +912,7 @@ HSN_ideas = { #Hisn Kayfa + Arabia
 	hsn_elite_warriors = {
 		cavalry_power = 0.2			#Was 0.1
 	}
-	hsn_rise_of_the_eagle = {
+	hsn_rise_of_the_eagle_idea = {	#thanks paradox for renaming this idea in 1.37...
 		core_creation = -0.15
 	}
 	hsn_strenghten_central_authority = {

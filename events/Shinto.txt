@@ -3317,7 +3317,7 @@ country_event = {
 
 ########
 
-country_event = {	#Shinto Incident Manager
+country_event = {	#Shinto Incident Manager - UU
 	id = shinto_events.999
 	title = shinto_events.999.t
 	desc = shinto_events.999.desc

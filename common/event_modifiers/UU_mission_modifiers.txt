@@ -749,6 +749,7 @@ uukbo_dynastic_struggle_modifier = {
 
 uukbo_strong_government = {
 	core_creation = -0.1
+	global_autonomy = -0.1
 	global_tax_modifier = 0.15
 	advisor_cost = -0.2
 }
@@ -835,13 +836,13 @@ uujap_malacca_trade_eff_mod = {
 }
 uujap_edo_new_capital_mod = {
 	local_great_project_upgrade_cost = -0.25
-	local_development_cost = -0.5
+	local_development_cost = -0.3
 	local_governing_cost = -0.5
-	local_build_time = -0.33
+	local_build_time = -0.25
 	province_trade_power_value = 10
 }
 uujap_inflation_goods_mod = {
-	inflation_reduction = 0.2
+	inflation_reduction = -0.1
 	global_trade_goods_size_modifier = 0.1
 }
 uujap_premier_gold_mine_mod = {
@@ -850,9 +851,26 @@ uujap_premier_gold_mine_mod = {
 }
 uujap_gokaido_mod = {
 	local_friendly_movement_speed = 0.2
-	local_autonomy = -0.1
-	local_development_cost = -0.05
-	local_tax_modifier = 0.1
-	local_production_efficiency = 0.1
-	local_governing_cost = -0.1
+	local_autonomy = -0.15
+	local_tax_modifier = 0.15
+	local_production_efficiency = 0.15
+	local_governing_cost = -0.15
+}
+uujap_dejima_port_entry_modifier = {
+	global_own_trade_power = 0.2
+	province_trade_power_modifier = 0.2
+	local_institution_spread = 0.25
+	trade_goods_size = 1
+}
+uujap_confucianism_harmony_mod = {
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	harmonization_speed = 0.25
+}
+uujap_religious_harmony_mod = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.2
+}
+uujap_all_incidents_mod = {
+	tolerance_own = 2
 }

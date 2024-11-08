@@ -32,6 +32,18 @@
  benefit_from_offerings_title:0 "(§Y-Karma§!) Benefit From Temple Offerings"
   benefit_from_offerings_desc:0 "Things are going good and people have left plenty of offerings at the temples..."
  uu_buddhist_decision_tooltip:0 "This decision can only be taken once every §Y10§! years."
+ #Shinto Isolationism Decisions
+ uu_iso_plus_title:0 "(§Y+Isolationism§!) Tighten Migration Restrictions"
+  uu_iso_plus_desc:0 "By placing more limitations on who can enter and leave the country as well as on foreign trade and relations, we can adopt a more Isolationist foreign policy."
+ uu_iso_minus_title:0 "(§Y-Isolationism§!) Relax Migration Restrictions"
+  uu_iso_minus_desc:0 "By repealing limitations on who can enter and leave the country as well as on foreign trade and relations, we can adopt a more Open foreign policy."
+ shinto_incident_recent_tooltip_uu2:0 "At least 30 years since last incident, or since last change in Isolationism"
+ #MJL Change Muslim School
+ mjl_change_muslim_school_title:0 "Change Islamic School"
+  mjl_change_muslim_school_desc:0 "§YChanging Islamic chools is only possible once per game!§!\n"
+  mjl_change_muslim_school_decision_tt:0 "Change the Islamic school, or Maddhab, that our country follows. §YOnly possible once per game.§!"
+  uu_muslim_school_tt:0 "§YThis decision can only be taken once per game.§!"
+ mjl_events.EVTDESC5:0 "As a country on the verge of change we need to decide which particular religious school we should start patronizing. While there are many ways to follow God we should have a new specific guiding doctrine for our rulers to follow."
  #Indian Formations 
  uu_hindustan_nation_title:0 "Unite Hindustan" #(§M5§!)@HIN
   uu_hindustan_nation_desc:0 "At long last, all of Hindustan has been subjugated by a modern and sophisticated Indian sultanate. We will proclaim the Empire of Hindustan and bring all the lands of the Indian subcontinent under our rule."
@@ -48,12 +60,6 @@
  U.U_search_for_el_dorado_title:0 "Start the search for El Dorado"
   U.U_search_for_el_dorado_desc:0 "We may invest some of our money and troops and maybe find the legendary city of El Dorado"
  is_searching_el_dorado:0 "Is searching for El Dorado"
- #MJL Change Muslim School
- mjl_change_muslim_school_decision_tt:0 "Change the Islamic school, or Maddhab, that our country follows. §YOnly possible once per game.§!"
- mjl_change_muslim_school_title:0 "Change Islamic School"
- mjl_change_muslim_school_desc:0 "§YChanging Islamic chools is only possible once per game!§!\n"
- mjl_events.EVTDESC5:0 "As a country on the verge of change we need to decide which particular religious school we should start patronizing. While there are many ways to follow God we should have a new specific guiding doctrine for our rulers to follow."
- uu_muslim_school_tt:0 "§YThis decision can only be taken once per game.§!"
  #UU Hansa Cosmetic Rename
  uuhsa_rename_decision_title:0 "Change Country Name to just 'Hansa'"
   uuhsa_rename_decision_desc:0 "If you think 'Hanseatic League' is too long?"

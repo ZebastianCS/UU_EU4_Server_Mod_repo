@@ -789,7 +789,6 @@
  ########################################################################
 
  uujap_build_army_mission_title:0 "Prepare the Army"
-  uujap_build_army_mission_desc:0 "If we are to be victorious in this upcoming war, our forces must be properly prepared - both physically and spiritually."
  uujap_alaska_title:0 "Into the Sunrise"
  uujap_empire_rising_sun_title:0 "Empire of the Rising Sun"
  uujap_south_china_title:0 "Control Southern China"
@@ -800,11 +799,10 @@
  uujap_philippines_title:0 "Another Archipelago"
  uujap_spice_islands_title:0 "The Spice Islands"
  uujap_capture_emperor_title:0 "Capture the Emperor"
-  uujap_capture_emperor_desc:0 "Though everyone in Japan knows the emperor wields no real power, the office of Shogun means nothing without his support. As long as we continue his comfortable treatment in the palace, a captured emperor will have no reason not to recognize us as legitimate representatives of his authority throughout Japan."
  uujap_samurai_title:0 "The Samurai Caste"
  uujap_issue_new_coin_title:0 "Issue New Coins"
   uujap_issue_new_coin_desc:0 "All across Japan, there is a shortage of coins as economies grow and spending increases. We will have to find a solution if our markets are to continue functioning, and our army is to be paid."
- uujap_permit_money_changers_title:0 "Promote Money-Changers"
+ uujap_permit_money_changers_title:0 "Ginza Money Changers"
   uujap_permit_money_changers_desc:0 "The varying qualities of our coins poses complications for commerce in our lands. If we permit the formation of specific guilds - Ginza - to appraise, exchange, and mint coins of different materials on behalf of the government at a floating exchange rate, the economy should flow more freely as a result."
  uujap_gokaido_title:0 "The Five Highways"
  uujap_rice_brokers_title:0 "The Rice Broker System"
@@ -812,7 +810,18 @@
   uujap_new_capital_mission_desc:0 "Now that our control over Japan is secured, there is no more need to operate out of Kyoto where the emperor resides. The Shogun has already moved his base of operations to Edo Castle in the province of Musashi, a strategically important location surrounded by flat ground and a natural harbour. We must build this area up into a new capital to equal, or even surpass, Kyoto."
  uujap_fate_emperor_title:0 "The Balance of Power"
  uujap_secure_authority_title:0 "Secure Authority"
-
+ uujap_dejima_title:0 "The Island Port of Dejima"
+  uujap_dejima_desc:0 "With contact established with the nations of the West and trade soon to follow, we should restrict foreign business to a specific designated area, allowing us to control the flow of foreign goods and ideas into our country. Plans have been drawn up to create an artificial island from a peninsula near Nagasaki, which we will call Dejima."
+ uujap_atakebune_title:0 "Atakebune Warfare"
+  uujap_atakebune_desc:0 "The Warring States period created an environment of huge naval investment throughout Japan, as every daimyo strove for naval supremacy. Thus was born the Atakebune, large oar-powered coastal warships big enough to transport armies and to carry limited amounts of cannon."
+ uujap_religious_harmony_title:0 "Internal Harmony"
+  uujap_religious_harmony_desc:0 "For our country to truly be united, there must be no division along religious lines in our country. We have explored our religious options thoroughly, and now we must restore harmony."
+ uujap_all_incidents_title:0 "Shinto in a Modern World"
+  uujap_all_incidents_desc:0 "The Shinto faith is innately tied with Japanese culture, but the changing world around us has forced us to reconsider the way we interact with the world. The Shinto faith of the modern world is surely something much different from it was only a few centuries ago."
+ uujap_attack_korea_title:0 "Invasion of Korea"
+  uujap_attack_korea_desc:0 "Korea has for long been a knife aimed at Japan's throat. It's time for us to finally cross the sea and establish a strong and secure presence in the peninsula."
+ uujap_tanegashima_guns_title:0 "Tanegashima's Matchlocks"
+  uujap_tanegashima_guns_desc:0 "The new type of matchlock arquebus fabricated copying the ones recovered from the island of Tanegashima have proved to be a great improvement for all our armies. We must expand their production even further, so that we have more guns than any other country."
  #Events 
  uujap_events.1.t:0 "The Issue of Coins, and the Issue Thereof"
   uujap_events.1.desc:0 "For centuries, the main source of coinage in Japan was via import from China. However, the natural demand for coins as the local Japanese population and economy grew, combined with the public reluctance to accept as well as increased expenditures on military affairs meant that by the mid-16th century, the imported coins were no longer enough to sustain the growing economy. Government decrees of Erizeni-Rei (prohibiting the act of Erizeni, or the act of not accepting low-quality coinage) proved ineffective in forcing circulation of the increasingly devalued currency, and many domains took to minting their own gold coinage. A notable example is the Takeda clan of the late 16th century, whose mints and coins were later taken over by the victorious Tokugawa shogunate."
@@ -823,3 +832,5 @@
  #Tooltips
  uujap_spawned_gold_mission_tt:0 "§GIf we are the first to complete this mission, we will receive the following reward in a random Gold province, or the capital if we own no Gold provinces:§!"
  uujap_gokaido_tt:0 "§GAll of the aforementioned provinces will gain the following reward:§!"
+ uujap_all_incidents_trigger_tt:0 "All Shinto Incidents have happened for [Root.GetName], aside from Rising Shogunate Authority."
+ uujap_all_incidents_unlock_decision_tt:0 "§lWe will unlock a decision to adjust our own Isolationism at the cost of Stability every 30 years.§!"

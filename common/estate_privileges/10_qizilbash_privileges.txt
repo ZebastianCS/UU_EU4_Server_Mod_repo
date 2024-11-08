@@ -557,7 +557,7 @@ estate_qizilbash_regimental_discipline = {
 		add_country_modifier = {
 			name = estate_qizilbash_regimental_discipline_qizilbash
 			duration = -1
-			hidden = yes
+			#hidden = yes
 		}
 		#scaling_with_influence_privilege_tooltip = {
 		#	estate_privilege = estate_qizilbash_regimental_discipline

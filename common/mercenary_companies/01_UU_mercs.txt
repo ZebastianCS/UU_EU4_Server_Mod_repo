@@ -83,8 +83,8 @@ ctg_immortals_company = {
 	}
 }
 merc_cav_horde_company = {
-    regiments_per_development = 0.05
-	cavalry_weight = 0.75
+    regiments_per_development = 0.1
+	cavalry_weight = 0.85
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
         AND = {
@@ -93,6 +93,9 @@ merc_cav_horde_company = {
 		}
     }
 	cost_modifier = 1
-	max_size = 12
+	max_size = 20
     min_size = 4
+	modifier = {
+		fire_damage = 0.20
+	}
 }

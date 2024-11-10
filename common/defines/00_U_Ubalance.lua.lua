@@ -13,6 +13,7 @@
  NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.15  --lowered from 25
 
  NDefines.NCountry.LAND_FORCELIMIT_EXTRA_COST_FACTOR = 4 --twice as high
+ NDefines.NCountry.NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 4 --twice as high
 
  -- NDefines.NMilitary.SLACKEN_MANPOWER_INCREASE = 1.5 RIP in 1.35
  NDefines.NDiplomacy.ABANDON_UNION_PRESTIGE = 0

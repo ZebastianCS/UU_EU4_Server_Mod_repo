@@ -251,8 +251,6 @@ monarchy = {
 				#Visible but locked
 				secularization_of_the_state_reform
 				#Invisible until unlocked
-				#UU added
-				uu_religious_festivities_reform
 				#1.35
 				fiqh_laws_reform
 				sufism_decree_reform
@@ -770,8 +768,6 @@ republic = {
 				#1.36
 				legacy_of_the_safavid_reform
 				state_madrasas_reform
-				#UU added
-				uu_religious_festivities_reform
 			}
 		}
 		military_doctrines = {
@@ -1344,8 +1340,6 @@ theocracy = {
 				anglican_state_church_reform
 				#1.36
 				legacy_of_the_safavid_reform
-				#UU added
-				uu_religious_festivities_reform
 			}
 		}
 		military_doctrines = {

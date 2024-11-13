@@ -11,6 +11,7 @@
  NDefines.NMilitary.BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.1
  NDefines.NMilitary.BACK_LINE_REINFORCE_SPEED = 6
  NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.15  --lowered from 25
+ NDefines.NMilitary.STRELSKY_STARTING_STRENGTH = 0.1        --lowered from 1.0
 
  NDefines.NCountry.LAND_FORCELIMIT_EXTRA_COST_FACTOR = 4 --twice as high
  NDefines.NCountry.NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 4 --twice as high

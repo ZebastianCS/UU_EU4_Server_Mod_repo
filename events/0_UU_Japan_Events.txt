@@ -1,2 +1,52 @@
 namespace = uujap_events
 
+country_event = {   #Erizeni-Rei and the Issue of Coins
+    id = uujap_events.1
+    title = uujap_events.1.t 
+    desc = uujap_events.1.desc 
+    picture = ECONOMY_eventPicture
+
+    is_triggered_only = yes 
+
+    option = {
+        name = uuujap_events.1.a
+        add_inflation = -1 
+        add_country_modifier = {
+            name = uujap_inflation_goods_mod
+            duration = 7300
+        } 
+    }
+    option = {
+        name = uuujap_events.1.b 
+        add_years_of_income = 0.5 
+        add_inflation = 2
+        if = {
+            limit = {
+                any_owned_province = { trade_goods = gold }
+            }
+            random_owned_province = {
+                limit = {
+                    trade_goods = gold
+                }
+                add_base_production = 1
+            }
+        }
+    }
+}
+
+country_event = {   #Osaka and the Dojima Rice Exhange 
+    id = uujap_events.2
+    title = uujap_events.2.t 
+    desc = uujap_events.2.desc 
+    picture = ECONOMY_eventPicture  #TODO
+
+    is_triggered_only = yes 
+    
+    option = {
+        name = uuujap_events.2.a
+        1021 = {
+            change_province_name = Osaka 
+			rename_capital = Osaka
+        }
+    }
+}

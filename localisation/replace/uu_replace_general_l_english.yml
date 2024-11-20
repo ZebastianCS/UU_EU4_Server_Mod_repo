@@ -281,3 +281,7 @@
  MODIFIER_MAX_ABSOLUTISM_EFFECT:0 "Max Absolutism modifier"
  mechanic_gain_monarch_power_from_force_converting_yes:0 "Enforcing Religion in peace deals will grant Monarch Points equal to the development of the converted nation." #UU change
 
+ #Relocalizing base game ideas for clarity
+ estates_general:0 "Estates General of France" #France, was just Estates General
+ army_professionalism:0 "Prussian Professionalism"  #Prussia, was just Army Professionalism
+ the_qizilbash:1 "Qizilbash Warriors" #Persia, was The Qizilbash

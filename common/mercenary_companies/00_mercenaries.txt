@@ -184,16 +184,7 @@ merc_bande_nere = {
 	sprites = { dlc056_lan_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { 
-				OR = {
-					region = italy_region
-					region = iberia_region
-					region = france_region
-				}
-			}
-			ai = no #UU
-		}
+		2978 = { trade_range = ROOT }
 		custom_trigger_tooltip = {
 			tooltip = no_new_mercs_tt
 			NOT = { has_global_flag = new_european_mercs }
@@ -211,14 +202,8 @@ merc_schwarze_garde = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		OR = {
-			capital_scope = { 
-				OR = {
-					region = south_german_region
-					region = north_german_region
-				}
-			}
+			61 = { trade_range = ROOT }
 			has_country_modifier = swedish_mercenary_core
-			ai = no #UU
 			has_unlocked_merc_company = {
 				merc_company = merc_schwarze_garde
 			}
@@ -240,14 +225,8 @@ merc_doppelsoeldner = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		OR = {
-			capital_scope = { 
-				OR = {
-					region = south_german_region
-					region = north_german_region
-				}
-			}
+			70 = { trade_range = ROOT }
 			has_country_modifier = swedish_mercenary_core
-			ai = no #UU
 			has_unlocked_merc_company = {
 				merc_company = merc_doppelsoeldner
 			}
@@ -259,7 +238,7 @@ merc_doppelsoeldner = {
 	}
 }
 
-# Reisläufer (Switzerland)
+# Reislï¿½ufer (Switzerland)
 merc_reislaufer = {
     regiments_per_development = 0.025
     home_province = 165 # 
@@ -268,16 +247,8 @@ merc_reislaufer = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		OR = {
-			capital_scope = { 
-				OR = {
-					region = south_german_region
-					region = north_german_region
-					region = italy_region
-					region = france_region
-				}
-			}
+			165  = { trade_range = ROOT }
 			has_country_modifier = swedish_mercenary_core
-			ai = no #UU
 			has_unlocked_merc_company = {
 				merc_company = merc_reislaufer
 			}
@@ -300,14 +271,8 @@ merc_hessian_jaegerkorps = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		OR = {
-			capital_scope = { 
-				OR = {
-					region = south_german_region
-					region = north_german_region
-				}
-			}
+			1762 = { trade_range = ROOT }
 			has_country_modifier = swedish_mercenary_core
-			ai = no #UU
 			has_unlocked_merc_company = {
 				merc_company = merc_hessian_jaegerkorps
 			}
@@ -332,15 +297,7 @@ merc_routiers = {
 	sprites = { dlc001_bri_sprite_pack dlc087_bri_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			ai = no #UU
-			capital_scope = {
-				OR = {
-					region = france_region
-					region = british_isles_region
-				}
-			}
-		}
+		170  = { trade_range = ROOT }
 		current_age = age_of_discovery
 	}
 }
@@ -352,16 +309,7 @@ merc_bascoli = {
 	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			tag = ENG
-			capital_scope = { 
-				OR = {
-					region = iberia_region
-					region = france_region
-				}
-			}
-			ai = no #UU
-		}
+		173 = { trade_range = ROOT }
 		current_age = age_of_discovery
 	}
 }
@@ -376,12 +324,7 @@ merc_levends = {
 	sprites = { easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				region = balkan_region
-			}
-			ai = no #UU
-		}
+		4754 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -394,13 +337,7 @@ merc_stratioti = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes	
 		OR = {
-			AND = { 
-				religion_group = christian
-				any_owned_province = {
-					region = balkan_region
-				}
-			}
-		ai = no #UU
+			4174 = { trade_range = ROOT }
 		}
 	}
 	modifier = { }
@@ -416,12 +353,7 @@ merc_morlachs = {
 	sprites = { easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				region = balkan_region
-			}
-			ai = no #UU
-		}
+		1826 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -436,11 +368,7 @@ merc_guardia_corsa = {
 	sprites = { sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { region = italy_region }
-			any_owned_province = { area = corsica_sardinia_area }
-			ai = no #UU
-		}
+		1247 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -456,6 +384,7 @@ merc_hadjuks = {
 	sprites = { dlc102_wal_sprite_pack  easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
+		4128 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -470,19 +399,7 @@ merc_gallowglasses = {
 	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { region = british_isles_region }
-			any_owned_province = {
-				OR = {
-					area = kingdom_of_the_isles_area
-					area = munster_area
-					area = connacht_area
-					area = leinster_area
-					area = ulster_area
-				}
-			}
-			ai = no #UU
-		}
+		4380 = { trade_range = ROOT }
 		custom_trigger_tooltip = {
 			tooltip = no_new_mercs_tt
 			NOT = { has_global_flag = new_european_mercs }
@@ -502,10 +419,9 @@ merc_redshanks = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
 		OR = {
-			capital_scope = { region = british_isles_region }
 			has_country_modifier = scottish_mercenaries
 			has_country_modifier = swedish_mercenary_core
-			ai = no #UU
+			4364 = { trade_range = ROOT }
 		}
 		custom_trigger_tooltip = {
 			tooltip = no_new_mercs_tt
@@ -528,15 +444,9 @@ merc_scottish_guard = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
 		OR = {
-			capital_scope = { 
-				OR = {
-					region = british_isles_region
-					region = france_region
-				}
-			}
+			252 = { trade_range = ROOT }
 			has_country_modifier = scottish_mercenaries
 			has_country_modifier = swedish_mercenary_core
-			ai = no #UU
 		}
 		custom_trigger_tooltip = {
 			tooltip = new_mercs_tt
@@ -559,10 +469,7 @@ merc_seimeni = {
 			limit = {
 				NOT = { has_country_flag = hordes_unlock_hungarian_mercenaries_flag }
 			}
-			OR = {
-				primary_culture = romanian
-				primary_culture = transylvanian
-			}
+			157 = { trade_range = ROOT }
 			custom_trigger_tooltip = {
 				tooltip = new_mercs_tt
 				has_global_flag = new_european_mercs
@@ -577,18 +484,8 @@ merc_armatoles = {
     home_province = 1853
 	sprites = { dlc006_byz_sprite_pack easterngfx_sprite_pack }
     trigger = {
-		is_allowed_to_recruit_mercenaries = yes 
-		OR = {
-			capital_scope = { 
-				OR = {
-					area = thrace_area
-					area = macedonia_area
-					area = northern_greece_area
-					area = morea_area
-				}
-			}
-			ai = no #UU
-		}
+		is_allowed_to_recruit_mercenaries = yes
+		1853 = { trade_range = ROOT } 
 		1853 = {
 			owner = {
 				primary_culture = turkish
@@ -603,11 +500,7 @@ merc_white_company = {
 	sprites = { dlc049_ENG_sprite_pack dlc042_eng_sprite_pack dlc028_eng_sprite_pack eng_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
-		OR = {
-			capital_scope = { region = british_isles_region }
-			any_owned_province = { region = british_isles_region }
-			ai = no #UU
-		}
+		236 = { trade_range = ROOT }
 		current_age = age_of_discovery
 	}
 	modifier = { }
@@ -623,19 +516,7 @@ merc_flemish_company = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		OR = {
-			capital_scope = { 
-				OR = {
-					region = south_german_region
-					region = north_german_region
-					region = low_countries_region
-					region = british_isles_region
-					region = france_region
-				}
-			}
-			any_owned_province = {
-				region = low_countries_region
-			}
-			ai = no #UU
+			90 = { trade_range = ROOT }
 			has_unlocked_merc_company = {
 				merc_company = merc_flemish_company
 			}
@@ -653,10 +534,7 @@ merc_forlorn_hope = {
 	sprites = { dlc049_ENG_sprite_pack dlc042_eng_sprite_pack dlc028_eng_sprite_pack eng_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes	
-		OR = { 
-			capital_scope = { region = british_isles_region }
-			ai = no #UU 
-		}
+		237 = { trade_range = ROOT }
 	}
 	modifier = {
 		reinforce_speed = -0.25
@@ -684,6 +562,7 @@ merc_buccaneer_battalion = {
 		489 = {
 			is_city = yes
 		}
+		489 = { trade_range = ROOT }
 	}
 	modifier = {
 		discipline = -0.025
@@ -708,14 +587,7 @@ merc_bandeirantes = {
 				}
 			}
 		}
-		OR = {
-			is_colonial_nation = yes
-			is_former_colonial_nation = yes
-			any_subject_country = {
-				is_colonial_nation = yes
-			}
-			ai = no #UU
-		}
+		766 = { trade_range = ROOT }
 	}
 	modifier = {
 		discipline = -0.025
@@ -733,18 +605,7 @@ merc_huai_army = {
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				OR = {
-					superregion = china_superregion 
-					superregion = tartary_superregion
-				}
-			}
-			any_owned_province = {
-				superregion = china_superregion 
-			}
-			ai = no #UU
-		}
+		688 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -759,18 +620,7 @@ merc_xiang_army = {
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				OR = {
-					superregion = china_superregion 
-					superregion = tartary_superregion
-				}
-			}
-			any_owned_province = {
-				superregion = china_superregion 
-			}
-			ai = no #UU
-		}
+		2174 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -786,17 +636,7 @@ merc_wolf_troops = {
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					superregion = china_superregion
-					region = indo_china_region
-					region = manchuria_region
-					region = korea_region
-				}
-			}
-			ai = no #UU
-		}
+		2164 = { trade_range = ROOT }
 	}
 	modifier = {
         shock_damage = 0.1
@@ -813,16 +653,7 @@ merc_shanxi_guard = {
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
-		OR = {
-			capital_scope = {
-				OR = {
-					superregion = china_superregion 
-					superregion = tartary_superregion
-					region = korea_region
-				}
-			}
-			ai = no #UU
-		}
+		2177 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -837,15 +668,7 @@ merc_yongning_warriors = {
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
-		OR = {
-			capital_scope = {
-				OR = {
-					superregion = china_superregion 
-					superregion = tartary_superregion
-				}
-			}
-			ai = no #UU
-		}
+		4213 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -857,10 +680,7 @@ merc_kanto_ronin = {
 	sprites = { dlc068_jap_sprite_pack jap_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { region = japan_region }
-			ai = no #UU
-		}
+		1028 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -872,16 +692,7 @@ merc_kyushu_wokou = {
 	sprites = { dlc067_smz_sprite_pack jap_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = { 
-			any_owned_province = {
-				OR = {
-					region = japan_region
-					region = manchuria_region
-					region = korea_region
-				}
-			}
-			ai = no #UU
-		}
+		1818 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -893,10 +704,7 @@ merc_shikoku_yojimbo = {
 	sprites = { dlc067_hsk_sprite_pack jap_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { region = japan_region }
-			ai = no #UU
-		}	
+		1819 = { trade_range = ROOT }	
 	}
 	modifier = { }
 }
@@ -908,10 +716,7 @@ merc_purbiyas = {
 	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { superregion = india_superregion }
-			ai = no #UU
-		}
+		555 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -925,12 +730,7 @@ merc_gorkhalis = {
 	sprites = { dlc091_npl_sprite_pack indiangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				superregion = india_superregion
-			}
-			ai = no #UU
-		}
+		4485 = { trade_range = ROOT }
 	}
 	modifier = {
         infantry_power = 0.05
@@ -949,15 +749,7 @@ merc_gosains = {
 	sprites = { dlc092_jnp_sprite_pack indiangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			AND = {
-				religion = hinduism
-				any_owned_province = {
-					superregion = india_superregion
-				}
-			}
-			ai = no #UU
-		}
+		523 = { trade_range = ROOT }
 	}
 	modifier = {
         land_morale = 0.05
@@ -974,15 +766,7 @@ merc_tamil_company = {
 	sprites = { dlc024_vij_sprite_pack vij_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = deccan_region
-					region = coromandel_region
-				}
-			}
-			ai = no #UU
-		}
+		2085 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -993,16 +777,7 @@ merc_company_of_the_ganges = {
 	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = bengal_region
-					region = hindusthan_region
-					region = west_india_region
-				}
-			}
-			ai = no #UU
-		}
+		4497 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -1017,10 +792,7 @@ merc_banjara_company = {
 	sprites = { dlc091_mer_sprite_pack indiangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { superregion = india_superregion }
-			ai = no #UU
-		}
+		514 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -1035,17 +807,7 @@ merc_bukhara_band = {
 	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = persia_region
-					region = khorasan_region
-					region = central_asia_region
-					region = caucasia_region
-				}
-			}
-			ai = no #UU
-		}
+		442 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -1061,19 +823,7 @@ merc_mesopotamian_mamluks = {
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				region = mashriq_region
-			}
-			accepted_culture = al_iraqiya_arabic
-			AND = {
-				religion_group = muslim
-				any_owned_province = {
-					region = mashriq_region
-				}
-			}
-			ai = no #UU
-		}
+		410 = { trade_range = ROOT }
 	}
     modifier = {
         cavalry_shock = 1.0
@@ -1091,21 +841,7 @@ merc_nile_mamluks = {
 	sprites = { dlc002_mam_sprite_pack dlc058_mam_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			AND = {
-				NOT = { tag = MAM }
-				NOT = { was_tag = MAM }
-				capital_scope = {
-					OR = {
-						region = mashriq_region
-						region = arabia_region
-						region = egypt_region
-						region = maghreb_region
-					}
-				}
-			}
-			ai = no #UU
-		}
+		361 = { trade_range = ROOT }
 	}
     modifier = {
         cavalry_power = 0.1
@@ -1122,15 +858,7 @@ merc_delhi_mamluks = {
 	sprites = { dlh_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			AND = {
-				religion_group = muslim
-				capital_scope = {
-					superregion = india_superregion
-				}
-			}
-			ai = no #UU
-		} 
+		522 = { trade_range = ROOT } 
 	}
     modifier = { }
 }
@@ -1141,19 +869,7 @@ merc_zeybeks = {
 	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			AND = {
-				religion_group = muslim
-				any_owned_province = {
-					OR = {
-						area = aegean_archipelago_area
-						area = hudavendigar_area
-						area = aydin_area
-					}
-				}
-			}
-			ai = no #UU
-		} 
+		318 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1164,11 +880,7 @@ merc_sekban = {
 	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			tag = TUR
-			capital_scope = { region = anatolia_region }
-			ai = no #UU
-		} 
+		324 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1180,18 +892,7 @@ merc_zanj_company = {
 	sprites = { dlc057_zan_sprite_pack africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = east_africa_region
-					area = mogadishu_area
-				}
-			}
-			capital_scope = {
-				region = arabia_region
-			}
-			ai = no #UU
-		}
+		1199 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1203,23 +904,7 @@ merc_madagascar_company = {
 	sprites = { africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				OR = {
-					region = east_africa_region
-					region = south_africa_region
-				}
-			}
-			any_owned_province = {
-				OR = {
-					area = madagascar_highlands_area
-					area = betsimasaraka_area
-					area = sakalava_area
-					area = southern_madagascar
-				}
-			}
-			ai = no #UU
-		}
+		1792 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1232,16 +917,7 @@ merc_sahel_company = {
 	sprites = { dlc062_tmb_sprite_pack africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = sahel_region
-					region = niger_region
-					region = guinea_region
-				}
-			}
-			ai = no #UU
-		} 
+		1132 = { trade_range = ROOT } 
 	}
     modifier = {
 		movement_speed = 0.1
@@ -1259,15 +935,7 @@ merc_asafo_company = {
 	sprites = { dlc062_msi_sprite_pack africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = niger_region
-					region = guinea_region
-				}
-			}
-			ai = no #UU
-		} 
+		2255 
 	}
     modifier = {
         land_morale = 0.05
@@ -1281,21 +949,7 @@ merc_nubian_company = {
 	sprites = { dlc057_nub_sprite_pack africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				OR = {
-					superregion = near_east_superregion
-					region = horn_of_africa_region
-					region = sahel_region
-					region = maghreb_region
-					region = egypt_region
-				}
-			}
-			any_owned_province = {
-				region = horn_of_africa_region
-			}
-			ai = no #UU
-		}
+		2798 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1308,18 +962,7 @@ merc_tonkinese_army = {
 	cost_modifier = 1.1
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				OR = {
-					superregion = china_superregion
-					superregion = east_indies_superregion
-				}
-			}
-			any_owned_province = {
-				region = indo_china_region
-			}
-			ai = no #UU
-		}
+		2372 = { trade_range = ROOT }
 	}
     modifier = {
 		land_attrition = -0.2
@@ -1337,27 +980,7 @@ merc_mongol_mercenaries = {
 	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_neighbor_country = {
-				OR = {
-					primary_culture = altaic_new 
-					culture_group = altaic
-				}
-			}
-			culture_group = altaic
-			primary_culture = altaic_new 
-			any_owned_province = {
-				OR = {
-					culture_group = altaic
-					culture = altaic_new 
-					region = north_china_region
-					region = mongolia_region
-					region = manchuria_region
-					region = central_asia_region
-				}
-			}
-			ai = no #UU
-		}
+		4678 = { trade_range = ROOT }
 	}
     modifier = {
         cavalry_power = 0.2
@@ -1371,24 +994,7 @@ merc_royal_circassian_guards = {
 	sprites = { dlc047_cir_sprite_pack easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
-		OR = {
-			AND = {
-				capital_scope = { 
-					OR = {
-						superregion = near_east_superregion 
-						region = crimea_region
-						region = egypt_region
-						region = central_asia_region
-						AND = {
-							region = balkan_region
-							religion_group = muslim
-						}
-					}
-				}
-				government = monarchy
-			}
-			ai = no #UU
-		} 
+		463 = { trade_range = ROOT } 
 	}
     modifier = {
 		prestige_from_land = 0.15
@@ -1404,24 +1010,7 @@ merc_bedouin_auxiliaries = {
 	sprites = { dlc080_shm_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				OR = {
-					superregion = near_east_superregion
-					superregion = persia_superregion
-					region = egypt_region
-					region = maghreb_region
-				}
-			}
-			any_owned_province = {
-				OR = {
-					region = arabia_region
-					region = mashriq_region
-					region = egypt_region
-				}
-			}
-			ai = no #UU
-		}
+		383 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1432,22 +1021,7 @@ merc_kurdish_company = {
 	sprites = { dlc079_hsn_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				OR = {
-					region = persia_region
-					region = mashriq_region
-					region = anatolia_region
-				}
-			}
-			any_owned_province = {
-				OR = {
-					area = al_jazira_area
-					area = north_kurdistan_area
-				}
-			}
-			ai = no #UU
-		}
+		4293 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1458,11 +1032,7 @@ merc_laz_auxiliaries = {
 	sprites = { easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { region = caucasia_region }
-			tag = BYZ
-			ai = no #UU
-		}
+		2196 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1473,10 +1043,7 @@ merc_tabarestan_company = {
 	sprites = { dlc079_tab_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { superregion = persia_superregion }
-			ai = no #UU
-		} 
+		417 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1487,10 +1054,7 @@ merc_novgorod_company = {
 	sprites = { dlc020_nov_sprite_pack rus_base_sprite_pack easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { superregion = eastern_europe_superregion }
-			ai = no #UU
-		} 
+		310 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1501,11 +1065,7 @@ merc_crimean_company = {
 	sprites = { dlc047_cri_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			religion_group = muslim
-			religion = tengri_pagan_reformed
-			ai = no #UU
-		}
+		284 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1518,18 +1078,7 @@ merc_buryat_band = {
 	sprites = { asiangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = east_siberia_region
-					region = mongolia_region
-					region = north_china_region
-					region = manchuria_region
-					region = korea_region
-				}
-			}
-			ai = no #UU
-		} 
+		1058 = { trade_range = ROOT } 
 	}
     modifier = {
         movement_speed = 0.1
@@ -1542,16 +1091,7 @@ merc_lithuanian_company = {
 	sprites = { dlc003_lit_sprite_pack dlc074_lit_sprite_pack easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = poland_region
-					region = baltic_region
-					region = ruthenia_region
-				}
-			}
-			ai = no #UU
-		} 
+		272 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1564,20 +1104,8 @@ merc_frisian_free_company = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		OR = {
-			capital_scope = { 
-				OR = {
-					region = north_german_region 
-					region = low_countries_region
-				}
-			}
-			any_owned_province = {
-				OR = {
-					area = frisia_area
-					area = weser_area
-				}
-			}
+			4382 = { trade_range = ROOT }
 			has_country_modifier = swedish_mercenary_core
-			ai = no #UU
 			has_unlocked_merc_company = {
 				merc_company = merc_frisian_free_company
 			}
@@ -1596,11 +1124,7 @@ merc_finnish_company = {
 	sprites = { dlc116_FIN_sprite_pack dlc054_swe_sprite_pack dlc028_swe_sprite_pack swe_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { region = scandinavia_region }
-			any_owned_province = { area = finland_area }
-			ai = no #UU
-		}
+		28 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1676,10 +1200,7 @@ merc_moorish_battalion = {
 	sprites = { dlc058_mor_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
-		OR = {
-			capital_scope = { region = maghreb_region }
-			ai = no #UU
-		}
+		343 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1690,15 +1211,7 @@ merc_kutai_company = {
 	sprites = { asiangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = {
-				superregion = east_indies_superregion
-			}
-			any_owned_province = {
-				region = indonesia_region
-			}
-			ai = no #UU
-		}
+		638 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1710,15 +1223,7 @@ merc_miquelet_company = {
 	sprites = { dlc098_nav_sprite_pack dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { 
-				OR = {
-					region = iberia_region
-					region = france_region
-				}
-			}
-			ai = no #UU
-		} 
+		2987 = { trade_range = ROOT } 
 	}
     modifier = {
 		movement_speed = 0.1
@@ -1742,14 +1247,7 @@ merc_free_company_of_volunteers = {
 				}
 			}
 		}
-		OR = {
-			is_colonial_nation = yes
-			is_former_colonial_nation = yes
-			any_subject_country = {
-				is_colonial_nation = yes
-			}
-			ai = no #UU
-		}
+		4579 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1763,24 +1261,7 @@ merc_crabats = {
 	sprites = { easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			AND = {
-				religion_group = christian
-				OR = {
-					capital_scope = { 
-						OR = {
-							region = balkan_region
-							region = south_german_region
-							region = carpathia_region
-						}
-					}
-					any_owned_province = {
-						area = croatia_area
-					}
-				}
-			}
-			ai = no #UU
-		} 
+		131 = { trade_range = ROOT }
 	}
 	modifier = { }
 }
@@ -1792,16 +1273,7 @@ merc_free_swiss_guard = {
 	sprites = {  dlc103_swi_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
-		OR = {
-			capital_scope = { superregion = europe_superregion }
-			any_owned_province = {
-				OR = {
-					area = switzerland_area
-					area = romandie_area
-				}
-			}
-			ai = no #UU
-		}
+		165 = { trade_range = ROOT }
 		NOT = { tag = PAP }
 	}
 	modifier = {
@@ -1827,14 +1299,7 @@ merc_colonial_rangers = {
 				}
 			}
 		}
-		OR = {
-			is_colonial_nation = yes
-			is_former_colonial_nation = yes
-			any_subject_country = {
-				is_colonial_nation = yes
-			}
-			ai = no #UU
-		}
+		2569 = { trade_range = ROOT }
 	}
     modifier = {
 		movement_speed = 0.1
@@ -1851,17 +1316,7 @@ merc_independent_cossack_host = {
 	sprites = { dlc047_zaz_sprite_pack easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			has_estate = estate_cossacks
-			has_reform = cossacks_reform
-			any_neighbor_country = {
-				OR = {
-					has_estate = estate_cossacks
-					has_reform = cossacks_reform
-				}
-			}
-			ai = no #UU
-		}
+		283 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1874,14 +1329,7 @@ merc_kazakh_company = {
 	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { region = central_asia_region }
-			has_estate = estate_nomadic_tribes
-			any_neighbor_country = {
-				has_estate = estate_nomadic_tribes
-			}
-			ai = no #UU
-		}
+		478 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1892,15 +1340,7 @@ merc_yaka_free_warriors = {
 	sprites = { africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				OR = {
-					region = central_africa_region
-					region = kongo_region
-				}
-			}
-			ai = no #UU
-		} 
+		4085 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1911,12 +1351,7 @@ merc_great_lakes_free_warriors = {
 	sprites = { africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				region = central_africa_region
-			}
-			ai = no #UU
-		}
+		4064 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1927,12 +1362,7 @@ merc_thai_company = {
 	sprites = { ayu_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			any_owned_province = {
-				region = indo_china_region
-			}
-			ai = no #UU
-		} 
+		600 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1944,12 +1374,7 @@ merc_yucatan_company = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			central_america_superregion = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		} 
+		2633 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1961,12 +1386,7 @@ merc_misquito_coast_company = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			central_america_superregion = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		} 
+		838 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -1978,18 +1398,7 @@ merc_navajo_raiders = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			california_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			great_plains_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			rio_grande_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		}
+		878 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -2001,21 +1410,7 @@ merc_chonnonton_warriors = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			northeast_america_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			canada_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			hudson_bay_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			great_lakes_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		}
+		2586 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -2028,18 +1423,7 @@ merc_inuit_warriors = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			cascadia_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			canada_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			hudson_bay_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		}
+		974 = { trade_range = ROOT }
 	}
     modifier = { shock_damage = 0.1 }
 }
@@ -2052,15 +1436,7 @@ merc_free_mohawks = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			northeast_america_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			canada_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		}
+		964 = { trade_range = ROOT }
 	}
     modifier = {
 		land_morale = 0.05
@@ -2074,18 +1450,7 @@ merc_muscogee_mercenaries = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			southeast_america_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			mississippi_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			carribeans_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		}
+		925 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -2097,15 +1462,7 @@ merc_quito_company = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			peru_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			colombia_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		}
+		820 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -2117,18 +1474,7 @@ merc_silver_company = {
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		is_random_new_world = no
-		OR = {
-			upper_peru_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			la_plata_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			brazil_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		}
+		795 = { trade_range = ROOT }
 	}
     modifier = { }
 }
@@ -2142,21 +1488,7 @@ merc_dahomey_amazons = {
 	sprites = { dlc062_ben_sprite_pack africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			guinea_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			niger_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			kongo_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			sahel_region = {
-				country_or_non_sovereign_subject_holds = root
-			}
-			ai = no #UU
-		}
+		1140 = { trade_range = ROOT }
 	}
     modifier = {
         may_recruit_female_generals = yes
@@ -2173,10 +1505,7 @@ merc_gascon_musket_company = {
 	sprites = { dlc120_TOU_sprite_pack dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack dlc120_TOU_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		OR = {
-			capital_scope = { superregion = europe_superregion }
-			ai = no #UU
-		} 
+		175 = { trade_range = ROOT }
 		NOT = { current_age = age_of_discovery }
 	}
 	modifier = {
@@ -2192,10 +1521,7 @@ merc_tyrolean_guard = {
 		is_allowed_to_recruit_mercenaries = yes
 		OR = {
 			AND = {
-				OR = {
-					capital_scope = { region = south_german_region }
-					ai = no #UU
-				}
+				4758 = { trade_range = ROOT }
 				NOT = { current_age = age_of_discovery }
 			}
 			has_unlocked_merc_company = {
@@ -2493,7 +1819,7 @@ merc_prussian_volunteer_army = {
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	cost_modifier = 2
 	cavalry_weight = 0
-    home_province = 41 # Königsberg
+    home_province = 41 # Kï¿½nigsberg
 	sprites = { dlc054_pru_sprite_pack dlc028_bra_sprite_pack pru_base_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -2628,8 +1954,8 @@ wandering_knights_of_rhodes = {
 	sprites = { dlc040_kni_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		KNI = { exists = no }
-		capital_scope = { continent = europe }
 		religion_group = christian
+		320 = { trade_range = ROOT }
 	}
 	modifier = { 
 		shock_damage = 0.05

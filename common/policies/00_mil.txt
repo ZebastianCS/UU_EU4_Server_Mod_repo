@@ -713,8 +713,8 @@ GStaff-Infra = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-	land_forcelimit_modifier = 0.2
-	build_time = -0.1
+	land_forcelimit_modifier = 0.1
+	manpower_recovery_speed = 0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -1258,7 +1258,7 @@ Explo-GStaff = {
 	}
 	
 	land_forcelimit_modifier = 0.1
-	infantry_power = 0.1
+	land_maintenance_modifier = -0.1
 
 	
 	effect = {}

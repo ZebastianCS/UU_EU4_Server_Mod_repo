@@ -237,7 +237,7 @@ trade_collapse = {
 }
 
 diplomatic_negotiation = {
-	global_tariffs = -0.25
+	global_tariffs = -0.125 #UU
 }
 
 trade_investment = {

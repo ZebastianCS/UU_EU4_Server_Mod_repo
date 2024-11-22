@@ -281,7 +281,7 @@ Explo-Expansion = {
 	}
 	
 	global_colonial_growth = 20
-	global_tariffs = 0.15
+	global_tariffs = 0.075
 	
 	effect = {}
 	removed_effect = {}
@@ -841,7 +841,7 @@ Aristo-Explo = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	global_tariffs = 0.15
+	global_tariffs = 0.075
 	liberty_desire_from_subject_development = -0.1
 
 	effect = {}
@@ -913,7 +913,7 @@ Explo-Defensive = {
 		full_idea_group = defensive_ideas
 	}
 
-	global_tariffs = 0.25
+	global_tariffs = 0.125
 	land_attrition = -0.1
 
 	effect = {}

@@ -195,7 +195,7 @@ colonial_taxation = {
 	}
 	
 	modifier = {
-		global_tariffs = 0.25
+		global_tariffs = 0.125
 	}
 	
 	chance = {

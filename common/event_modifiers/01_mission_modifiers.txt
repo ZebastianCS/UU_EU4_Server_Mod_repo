@@ -461,7 +461,7 @@ liv_lva_colonial_ambition = {
 
 liv_lva_american_trade_dominance = {	#Permanent
 	trade_efficiency = 0.1
-	global_tariffs = 0.15
+	global_tariffs = 0.075 #UU
 }
 
 liv_lva_random_new_world_colonialism = {
@@ -1073,7 +1073,7 @@ nor_colonial_enthusiasm = {
 }
 
 nor_new_world_administration = { #Permanent
-	global_tariffs = 0.25
+	global_tariffs = 0.125 #UU
 	liberty_desire_from_subject_development = -0.33
 	trade_steering = 0.1
 }
@@ -1095,7 +1095,7 @@ nor_holder_of_the_kalmar_union = {	#Permanent
 }
 
 nor_domination_of_the_new_world = {	#Permanent
-	global_tariffs = 0.25
+	global_tariffs = 0.125 #UU
 	treasure_fleet_income = 0.25
 	global_trade_power = 0.1
 }
@@ -1587,7 +1587,7 @@ por_brazil_colonial = {
 }
 
 por_brazil_tariffs = {
-	global_tariffs = 0.25
+	global_tariffs = 0.125 #UU
 	reduced_liberty_desire = 10
 }
 
@@ -1631,7 +1631,7 @@ eng_french_recovery = {
 }
 
 eng_caribbean_trade = {
-	global_tariffs = 0.25
+	global_tariffs = 0.125 #UU
 	native_assimilation = 0.25
 }
 
@@ -1823,7 +1823,7 @@ gbr_religious_stability = {
 }
 
 gbr_new_world_dominance = {	#Permanent
-	global_tariffs = 0.25
+	global_tariffs = 0.125 #UU
 	trade_efficiency = 0.1
 }
 
@@ -1915,7 +1915,7 @@ ave_national_bank = {
 }
 
 ave_new_world_dominance = {	#Permanent
-	global_tariffs = 0.15
+	global_tariffs = 0.075 #UU
 	trade_efficiency = 0.05
 }
 
@@ -2011,7 +2011,7 @@ the_darien_scheme = {
 }
 
 nova_scotia_modifier = {
-	global_tariffs = 0.15
+	global_tariffs = 0.075 #UU
 }
 cod_boom = {
 	trade_goods_size = 2.0
@@ -2054,14 +2054,14 @@ spa_rb_italian_ambition_mod = {
 }
 
 spa_rb_overseas_trade = {
-	global_tariffs = 0.25
+	global_tariffs = 0.125 #UU
 	global_trade_power = 0.1
 }
 
 # Dutch Missions
 
 ned_brazil_mod = {
-	global_tariffs = 0.1
+	global_tariffs = 0.05 #UU
 	colonist_placement_chance = 0.03
 }
 
@@ -2117,7 +2117,7 @@ french_callais = {
 	province_trade_power_modifier = 0.25
 }
 french_tariffs = {
-	global_tariffs = 0.2
+	global_tariffs = 0.1 #UU
 }
 fra_into_germany = {
 	ae_impact = -0.20
@@ -2260,7 +2260,7 @@ gen_asia_holding_mod = {
 gen_america_holding_mod = {
 	global_colonial_growth = 20
 	colonist_placement_chance = 0.02
-	global_tariffs = 0.15
+	global_tariffs = 0.075 #UU
 }
 
 gen_indian_holding_mod = {
@@ -2624,7 +2624,7 @@ rus_new_world_colonization = {
 }
 
 rus_tariffs_of_the_new_world = {	#Permanent
-	global_tariffs = 0.25
+	global_tariffs = 0.125 #UU
 	reduced_liberty_desire = 20
 }
 
@@ -3752,7 +3752,7 @@ mor_colonized_brazil = {
 }
 
 mor_new_world_power = {
-	global_tariffs = 0.05
+	global_tariffs = 0.025 #UU
 }
 
 # Golden Century Spanish modifiers
@@ -3766,7 +3766,7 @@ fortified_navarra = {
 }
 
 viceroyalty_of_new_spain = {
-	global_tariffs = 0.1
+	global_tariffs = 0.05 #UU
 	liberty_desire_from_subject_development = -0.1
 	free_dip_policy = 1 
 }
@@ -5057,7 +5057,7 @@ hab_chinese_riches = {
 }
 
 hab_austrian_australia = {
-	global_tariffs = 0.15
+	global_tariffs = 0.075 #UU
 	trade_steering = 0.1
 }
 
@@ -9200,7 +9200,7 @@ fra_french_canadian_settlers_modifier = {
 }
 fra_overseas_focus_modifier = {
 	trade_company_investment_cost = -0.2
-	global_tariffs = 0.15
+	global_tariffs = 0.075 #UU
 	trade_efficiency = 0.05
 }
 fra_masters_of_india_modifier = {
@@ -13709,7 +13709,7 @@ SUN_gp_for_colonies_modifier = {
 }
 
 SUN_tariffs_for_colonies_modifier = {
-	global_tariffs = 0.05
+	global_tariffs = 0.025 #UU
 }
 
 SUN_modernization_period = {

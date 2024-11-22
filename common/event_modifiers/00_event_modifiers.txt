@@ -538,7 +538,7 @@ enforcing_unity = {
 }
 
 agenda_colonial_administration = {
-	global_tariffs = 0.15
+	global_tariffs = 0.075 #UU
 	global_colonial_growth = 15
 }
 
@@ -623,11 +623,11 @@ out_of_date_commerce = {
 }
 
 excellent_administration = {
-	global_tariffs = 0.2
+	global_tariffs = 0.1 #UU
 }
 
 corrupt_viceroys = {
-	global_tariffs = -0.10
+	global_tariffs = -0.05 #UU
 	yearly_corruption = 0.1
 }
 
@@ -899,7 +899,7 @@ great_wall_reparations = {
 }
 
 british_merchant_navy = {
-	global_tariffs = 0.05
+	global_tariffs = 0.025 #UU
 }
 
 britanna_rules_the_waves = {
@@ -1166,7 +1166,7 @@ the_anti_christian_edict = {
 }
 
 more_tariffs = {
-	global_tariffs = 0.10
+	global_tariffs = 0.05 #UU
 }
 
 master_of_mint_boost = {
@@ -2437,7 +2437,7 @@ swedish_free_trade_policy = {
 }
 
 swedish_colonial_reforms = {
-	global_tariffs = 0.10
+	global_tariffs = 0.05 #UU
 }
 
 the_absolutism = {
@@ -2812,12 +2812,12 @@ foreign_ruler = {
 }
 
 colonial_governors = {
-	global_tariffs = 0.10
+	global_tariffs = 0.05 #UU
 	local_unrest = 10
 }
 
 centralized_colony_rule = {
-	global_tariffs = -0.25
+	global_tariffs = -0.125 #UU
 	local_unrest = 3
 }
 
@@ -3438,7 +3438,7 @@ colonial_policy = {
 }
 
 less_colonial_corruption = {
-	global_tariffs = 0.10
+	global_tariffs = 0.05 #UU
 }
 
 duke_of_coimbra = {
@@ -3465,7 +3465,7 @@ reactionary_policies = {
 }
 
 african_slaves = {
-	global_tariffs = 0.1
+	global_tariffs = 0.05 #UU
 }
 
 portuguese_missionaries = {
@@ -5595,7 +5595,7 @@ severe_militia_raid = {
 
 colonial_assembly = {
 	stability_cost_modifier = -0.05
-	global_tariffs = -0.05
+	global_tariffs = -0.025 #UU
 }
 
 enhanced_colonial_militia = {
@@ -7181,7 +7181,7 @@ pap_veneration_relics = {
 	global_tax_income = 5
 }
 pap_condemn_slavery = {
-	global_tariffs = -0.05
+	global_tariffs = -0.025 #UU
 }
 
 pap_swiss_guard_timer = { }
@@ -7304,7 +7304,7 @@ valladolid_sepulveda = { #Applied to colonial underlings as a result of Valladol
 }
 
 valladolid_sepulveda_motherland = { #Applied to colonial underlings as a result of Valladolid Debate
-	global_tariffs = 0.1
+	global_tariffs = 0.05 #UU
 }
 
 valladolid_las_casas = { #Applied to colonial underlings as a result of Valladolid Debate
@@ -7361,7 +7361,7 @@ spanish_bible_translation = {
 }
 
 spa_new_colonial_reforms = {
-	global_tariffs = 0.1
+	global_tariffs = 0.05 #UU
 }
 
 spa_new_colonial_reforms_subject = {
@@ -13549,7 +13549,7 @@ bill_of_rights_parliament = {	#Permanent
 	#No longer pretender rebel event
 }
 acts_of_taxation_parliament = {
-	global_tariffs = 0.15
+	global_tariffs = 0.075 #UU
 }
 act_of_representation_parliament = {
 	reduced_liberty_desire = 10 

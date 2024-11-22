@@ -9439,7 +9439,7 @@ versailles = {
 	}
 }
 
-el_escorial = {
+el_escorial = {	#UU halved tariffs
 	# province it starts in
 	start = 217
 	
@@ -9580,7 +9580,7 @@ el_escorial = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			global_autonomy = -0.01	
-			global_tariffs = 0.05
+			global_tariffs = 0.025 #UU
 			treasure_fleet_income = 0.05			
 		}
 
@@ -9612,7 +9612,7 @@ el_escorial = {
 		country_modifiers = {
 			global_autonomy = -0.025
 			governing_capacity_modifier = 0.05
-			global_tariffs = 0.1
+			global_tariffs = 0.05 #UU
 			treasure_fleet_income = 0.1
 		}
 
@@ -9644,7 +9644,7 @@ el_escorial = {
 		country_modifiers = {
 			global_autonomy = -0.05
 			governing_capacity_modifier = 0.1
-			global_tariffs = 0.2
+			global_tariffs = 0.1 #UU
 			treasure_fleet_income = 0.2
 		}
 

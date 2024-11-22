@@ -885,7 +885,7 @@ iron = {
 slaves = {
 	color = { 0.0 0.0 0.0 }
 	modifier = {
-		global_tariffs = 0.25
+		global_tariffs = 0.125 #UU
 	}
 	province = {
 		local_missionary_strength = 0.01

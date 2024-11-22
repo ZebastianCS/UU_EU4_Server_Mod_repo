@@ -610,6 +610,7 @@ base_values = {
 	has_marines = yes
 	has_voc_indiamen = yes				#UU 
 	allowed_voc_indiamen_fraction = 4 	#UU 4x naval FL (I really don't know why you'd need more)
+	global_tariffs = -0.5				#UU halved base global tariffs and global tariff modifiers
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI

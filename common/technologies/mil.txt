@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.0
+#UU UPDATED 1.37.2
 monarch_power = MIL
 
 # applied when a country is ahead of time in this technology
@@ -321,7 +321,6 @@ technology = {
 	}
 	
 	#Spanish Square
-	#star_bastion
 	fort_16th = yes
 	sprite_level = 2
 	
@@ -373,7 +372,8 @@ technology = {
 		printing_press = 0.3
 	}
 	
-
+	#Star Bastions
+	#fort_16th = yes
 	infantry_fire		=	0.3
 	
 	enable = african_hussar
@@ -466,7 +466,7 @@ technology = {
 		printing_press = 0.5
 		global_trade = 0.15
 	}
-	fort_17th = yes
+	fort_17th = yes	#UU Moved
 	cavalry_shock		=	1.0
 	supply_limit		= 	0.5	
 	
@@ -521,6 +521,8 @@ technology = {
 	#Gustavian Infantry
 	military_tactics 	= 	0.25
 	supply_limit		=	0.5
+
+	#fort_17th = yes	#UU moved
 
 	
 	enable = austrian_tercio   
@@ -596,7 +598,6 @@ technology = {
 	}
 	
 	#Cartridge	(1620)?)
-	fort_18th	= yes	
 	cavalry_fire		=	0.5
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
@@ -674,6 +675,7 @@ technology = {
 	}
 	
 	#Covered Way
+	fort_18th	= yes	
 	military_tactics 	= 	0.25
 
 	combat_width = 2
@@ -714,9 +716,7 @@ technology = {
 	}
 	
 	#Light Infantry Companies
-
 	#sprite_level = 4				#UU Removed
-
 
 	land_morale			=	1.0
 

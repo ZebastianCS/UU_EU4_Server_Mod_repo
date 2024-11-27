@@ -1,3 +1,4 @@
+#UU UPDATED 1.37.5
 estate_ghulams_land_rights = {
 	icon = privilege_grant_autonomy
 	land_share = 5

@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.0
+#UU UPDATED 1.37.5
 # If you add religions, and use those tags, do not change them without changing everywhere they are used.
 
 # Uses all 'modifiers' possible thats exported as a Modifier.
@@ -1969,6 +1969,7 @@ dharmic = {
 					martyrdom = {
 						type = MIL
 						cost = 50
+						
 						siege_ability = 0.10	#UU
 					}
 				}

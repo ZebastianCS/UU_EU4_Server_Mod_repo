@@ -1,5 +1,5 @@
 #UU removed capital/religion locks for most merc companies
-#UU UPDATED 1.37.2
+#UU UPDATED 1.37.5
 # Lombard Free Company
 merc_lombard_free_company = {
     regiments_per_development = 0.04
@@ -2101,7 +2101,7 @@ merc_keshig = {
 	}
 	modifier = { 
 		cavalry_fire = 0.5
-		fire_damage_received = 0.15
+		fire_damage_received = -0.15
 	}
 }
 

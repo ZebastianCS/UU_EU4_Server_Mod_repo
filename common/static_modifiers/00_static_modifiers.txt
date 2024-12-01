@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.0
+#UU UPDATED 1.37.5
 # All global modifiers are here. They are applied from certain game-features.
 #
 # Effects are fully scriptable here.
@@ -210,24 +210,24 @@ severe_winter = {
 
 mild_monsoon = {
 	local_hostile_attrition = 0.5
-#	local_hostile_movement_speed = -0.20
-#	local_friendly_movement_speed = -0.20
+#	local_hostile_movement_speed = -0.20	#UU
+#	local_friendly_movement_speed = -0.20	#UU
 
 	picture = "monsoon_mild"
 }
 
 normal_monsoon = {
 	local_hostile_attrition = 1
-#	local_hostile_movement_speed = -0.25
-#	local_friendly_movement_speed = -0.25
+#	local_hostile_movement_speed = -0.25	#UU
+#	local_friendly_movement_speed = -0.25	#UU
 
 	picture = "monsoon_normal"
 }
 
 severe_monsoon = {
 	local_hostile_attrition = 1.5
-#	local_hostile_movement_speed = -0.50
-#	local_friendly_movement_speed = -0.50
+#	local_hostile_movement_speed = -0.50	#UU
+#	local_friendly_movement_speed = -0.50	#UU
 
 	picture = "monsoon_severe"
 }
@@ -606,11 +606,12 @@ base_values = {
 	tolerance_of_heathens_capacity = 3
 	max_flagships = 1
 	num_of_parliament_issues = 10
-	max_possible_parliament_seats = 20	#UU
 	has_marines = yes
+	max_possible_parliament_seats = 20	#UU
 	has_voc_indiamen = yes				#UU 
 	allowed_voc_indiamen_fraction = 4 	#UU 4x naval FL (I really don't know why you'd need more)
-	global_tariffs = -0.5				#UU halved base global tariffs and global tariff modifiers
+	global_tariffs = -0.5				#UU 1.14: Halved base global tariffs and global tariff modifiers
+	sunk_ship_morale_hit_recieved = -1	#UU 1.14: Naval testing 
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -889,7 +890,7 @@ positive_piety = { #As of 1.23 Legalism
 	technology_cost = -0.1
 	global_manpower_modifier = 0.20
 	global_tax_modifier = 0.20
-	global_missionary_strength = 0.03
+	global_missionary_strength = 0.03 #UU
 	brahmins_muslim_loyalty_modifier = -0.1
 	church_loyalty_modifier = 0.1
 	piety_dhimmi_loyalty_modifier = -0.1
@@ -899,7 +900,7 @@ positive_piety = { #As of 1.23 Legalism
 negative_piety = { #As of 1.23 Mysticism
 	land_morale = 0.10
 	tolerance_heretic = 3	#UU
-	development_cost = -0.1
+	development_cost = -0.1 #UU
 	brahmins_muslim_loyalty_modifier = 0.1
 	piety_church_loyalty_modifier = -0.1
 	dhimmi_loyalty_modifier = 0.1
@@ -1163,7 +1164,6 @@ prestige = {
 	ae_impact = -0.10
 	embracement_cost = -0.1
 	imperial_authority_value = 0.1			#UU Change
-
 	monthly_heir_claim_increase = 0.05
 
 	monthly_persian_influence = 0.25
@@ -2229,7 +2229,6 @@ over_governing_capacity_modifier = {
 	improve_relation_modifier = -0.5
 	min_autonomy = 50  ##UU Change
 	yearly_corruption = 1.5  ##UU Change
-	monthly_militarized_society = -1.0
 	monthly_militarized_society = -1
 	monthly_prussian_militarized_society_1 = -1
 	monthly_prussian_militarized_society_2 = -1

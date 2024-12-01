@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.0
+#UU UPDATED 1.37.5
 #Ruler Personalities
 #1st personality will be assigned at 15 years of age.
 #2nd personality will be assigned after ruling for 10 years.
@@ -2556,13 +2556,11 @@ drunkard_personality = {
 	nation_designer_cost = -2
 } #Scandal at court more likely
 sinner_personality = {
-
 	ruler_allow = {
 		allow = {
 			NOT = { ruler_has_personality = pious_personality }
 			NOT = { ruler_has_personality = zealot_personality }
 		}
-	
 		chance = {
 			modifier = {
 				factor = -0.5
@@ -2583,13 +2581,11 @@ sinner_personality = {
 			}
 		}
 	}
-
 	heir_allow = {
 		allow = {
 			NOT = { heir_has_personality = pious_personality }
 			NOT = { heir_has_personality = zealot_personality }
 		}
-	
 		chance = {
 			modifier = {
 				factor = -0.5
@@ -2610,13 +2606,11 @@ sinner_personality = {
 			}
 		}
 	}
-	
 	consort_allow = {
 		allow = {
 			NOT = { consort_has_personality = pious_personality }
 			NOT = { consort_has_personality = zealot_personality }
 		}
-
 		chance = {
 			modifier = {
 				factor = -0.5
@@ -2637,15 +2631,14 @@ sinner_personality = {
 			}
 		}
 	}
-	
 	allow = {
 		OR = {
 			religion_group = christian
 			religion_group = muslim
 			religion_group = jewish_group
 		}
+		NOT = { has_country_flag = MUG_disable_sinner_flag }
 	}
-	
 	chance = {
 	}
 	

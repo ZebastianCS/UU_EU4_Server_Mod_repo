@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.0
+#UU UPDATED 1.37.5
 #Country scopes unless otherwise stated
 
 add_mutual_opinion_modifier_effect = {

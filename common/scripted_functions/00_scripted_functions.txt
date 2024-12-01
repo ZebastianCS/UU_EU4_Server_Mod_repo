@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.0
+#UU UPDATED 1.37.5
 # Hard-coded functions made fully or partly scripted
 #
 # Note that most functions use unique mechanics

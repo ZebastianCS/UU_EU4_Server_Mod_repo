@@ -1,4 +1,4 @@
-# UU UPDATED 1.37.0
+# UU UPDATED 1.37.5
 estate_church = {
 	icon = 1
 

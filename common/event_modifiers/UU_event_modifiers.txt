@@ -299,7 +299,7 @@ uu_plot_armour = {
 }
 
 #parliament stuff
-uu_parliament_infrastrucutre = {
+uu_parliament_infrastructure = {
 	local_development_cost_modifier = -0.1
 	local_build_cost = -0.05
 }

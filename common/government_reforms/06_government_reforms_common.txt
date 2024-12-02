@@ -1865,8 +1865,8 @@ cavalry_warfare_reform = {
 	}
 	modifiers = {
 		cav_to_inf_ratio = 0.2 	#UU buffed from 0.1
-		cavalry_flanking = 0.5 	#UU new 
-		cavalry_cost = -0.15	#UU buffed
+		cavalry_flanking = 1 	#UU new 
+		cavalry_cost = -0.1
 	}
 	
 	ai = {
@@ -3918,7 +3918,7 @@ lockean_proviso_reform = {
 	trigger = {
 		OR = { 
 			full_idea_group = economic_ideas
-			full_idea_group = infrastructure_ideas 
+			#full_idea_group = infrastructure_ideas #UU
 		}
 		if = {
 			limit = {
@@ -5191,6 +5191,7 @@ seven_provinces_reform = {
 				add_province_modifier = {
 					name = ned_seven_provinces_organization_positive_modifier
 					duration = -1
+					hidden = yes
 				}
 			}
 			every_owned_province = {
@@ -5201,6 +5202,7 @@ seven_provinces_reform = {
 				add_province_modifier = {
 					name = ned_seven_provinces_organization_negative_modifier
 					duration = -1
+					hidden = yes
 				}
 			}
 		}

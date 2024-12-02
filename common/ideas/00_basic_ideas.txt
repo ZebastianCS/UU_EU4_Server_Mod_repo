@@ -1729,7 +1729,7 @@ naval_ideas = {
 
 	bonus = {
 		global_naval_barrage_cost = -1
-		disengagement_chance = 0.15
+		disengagement_chance = 0.1
 	}
 
 	boarding_parties = {
@@ -1829,8 +1829,8 @@ court_ideas = {
 		imperial_authority_value = 0.1
 	}
 	court_embassies = {
-		max_absolutism_effect = 0.2
-		max_absolutism = 10
+		max_absolutism_effect = 0.1
+		max_absolutism = 20
 	}
 
 	ai_will_do = {

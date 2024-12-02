@@ -1017,7 +1017,10 @@ age_of_revolutions = {
 			allow = {
 				OR = {
 					tag = PRU
-					tag = GER
+					AND = {
+						tag = GER	#UU
+						NOT = { exists = PRU }
+					}
 				}
 			}
 			modifier = {

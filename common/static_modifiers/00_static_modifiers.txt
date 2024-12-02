@@ -566,6 +566,8 @@ left_trade_company = {
 scorched_earth = {
 	local_hostile_movement_speed = -0.50
 	local_monthly_devastation = 0.25
+	province_trade_power_value = 0.005	#UU for visibility on trade mapmode
+	picture="local_hostile_movement_speed"
 }
 
 ##########################################################################
@@ -888,7 +890,7 @@ navy_tradition = {
 
 positive_piety = { #As of 1.23 Legalism
 	technology_cost = -0.1
-	global_manpower_modifier = 0.20
+	global_manpower_modifier = 0.4	#UU
 	global_tax_modifier = 0.20
 	global_missionary_strength = 0.03 #UU
 	brahmins_muslim_loyalty_modifier = -0.1
@@ -917,7 +919,7 @@ defender_of_faith = {
 	prestige = 1							#1% extra prestige yearly
 	missionaries = 1
 	devotion = 0.5
-	imperial_authority = 0.05			#UU_change
+	imperial_authority = 0.05			#UU
 	monthly_asha_vahishta = 0.25
 }
 

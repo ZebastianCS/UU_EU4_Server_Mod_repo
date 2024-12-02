@@ -315,7 +315,7 @@ development_of_infrastructure = { #uu just in parliament seats now
 					has_seat_in_parliament = yes
 				}
 				add_province_modifier = {
-					name = uu_parliament_infrastrucutre
+					name = uu_parliament_infrastructure
 					duration = 3650
 				}
 			}

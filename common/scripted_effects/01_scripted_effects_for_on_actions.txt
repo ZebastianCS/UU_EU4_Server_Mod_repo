@@ -4600,6 +4600,53 @@ on_capital_moved_effect = {
 			}
 		}
 	}
+	if = {		#UU remove excess parliament seats on move capital
+		limit = {
+			OR = {
+				owner = { 
+					has_global_modifier_value = {
+						which = max_possible_parliament_seats	#e.g. strengthened parliament t7 + angevin monarchy t1 + humanist
+						value = 50
+					}
+					num_of_owned_provinces_with = {
+						has_seat_in_parliament = yes
+						value = 50
+					}
+				}
+				owner = { 
+					has_global_modifier_value = {
+						which = max_possible_parliament_seats	#e.g. strengthened parliament t7 + angevin monarchy t1/humanist
+						value = 40
+					}
+					num_of_owned_provinces_with = {
+						has_seat_in_parliament = yes
+						value = 40
+					}
+				}
+				owner = { 
+					has_global_modifier_value = {
+						which = max_possible_parliament_seats	#e.g. strengthened parliament t7
+						value = 30
+					}
+					num_of_owned_provinces_with = {
+						has_seat_in_parliament = yes
+						value = 30
+					}
+				}
+				owner = { 
+					has_global_modifier_value = {
+						which = max_possible_parliament_seats	#base 
+						value = 20
+					}
+					num_of_owned_provinces_with = {
+						has_seat_in_parliament = yes
+						value = 20
+					}
+				}
+			}
+		}
+		FROM = { set_seat_in_parliament = no }
+	}
 }
 
 on_government_change_effect = {

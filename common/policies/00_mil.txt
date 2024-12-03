@@ -33,7 +33,8 @@ Divine-Inno = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	morale_damage = 0.15
+	morale_damage_received = -0.1
+	monthly_splendor = 1
 	
 	effect = {}
 	removed_effect = {}
@@ -462,7 +463,7 @@ GStaff-Expansion = {
 	}
 	
 	leader_land_fire = 1
-	leader_land_manuever = 1
+	
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {

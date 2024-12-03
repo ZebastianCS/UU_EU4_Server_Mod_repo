@@ -143,7 +143,7 @@ Inno-Espionage = {
 	}
 	
 	technology_cost = -0.05
-	global_institution_spread = 0.50
+	global_unrest = -2
 	
 	effect = {
 
@@ -673,7 +673,7 @@ Court-Humanist = {
 	}
 	
 	advisor_pool = 2
-	global_monthly_devastation = -0.33
+	no_stability_loss_on_monarch_death = yes
 	
 	effect = {}
 	removed_effect = {}
@@ -718,7 +718,7 @@ Divine-Expansion = {
 	}
 	
 	missionaries = 1
-	colony_cost_modifier = -0.25
+	global_missionary_strength = 0.01
 	
 	effect = {}
 	removed_effect = {}
@@ -792,7 +792,10 @@ Merc-Expansion = {
 	removed_effect = {}
 	ai_will_do = {
 		factor = 1.0
-Quantity = {
+	}
+}
+
+Expansion-Quantity = {
 	monarch_power = ADM
 	
 	potential = {
@@ -1102,7 +1105,7 @@ Aristo-Infra = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-	land_maintenance_modifier = -0.10
+	global_supply_limit_modifier = 0.5
 	great_project_upgrade_cost = -0.25
 	
 	effect = {}
@@ -1274,8 +1277,8 @@ Infra-Influence = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-   dip_advisor_cost = -0.15
-   adm_advisor_cost = -0.15
+	accept_vassalization_reasons = 15
+	improve_relation_modifier = 0.25
 	
 	effect = {}
 	removed_effect = {}
@@ -1432,7 +1435,7 @@ Quality-Admin = {
 	}
 	
 	global_tax_modifier = 0.33
-	production_efficiency = 0.10
+	
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {

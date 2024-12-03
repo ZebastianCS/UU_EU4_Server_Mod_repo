@@ -258,7 +258,7 @@ Expansion-Espionage = {
 	}
 	
 	envoy_travel_time = -0.33
-	province_warscore_Cost = -0.10
+	cb_on_overseas = yes
 	
 	effect = {}
 	removed_effect = {}
@@ -304,7 +304,7 @@ Naval-Expansion = {
 	}
 	
 	leader_naval_fire = 1
-	global_colonial_growth = 0.20
+	
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {
@@ -439,8 +439,7 @@ Infra-Naval = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-	trade_efficiency = 0.10
-	global_own_trade_power = 0.10
+	ship_durability = 0.05
 	
 	effect = {}
 	removed_effect = {}
@@ -534,7 +533,7 @@ Admin-Influence = {
 	}
 
 	diplomatic_annexation_cost = -0.2
-	diplomatic_reputation = 2
+	diplomatic_reputation = 1
 
 	effect = {}
 	removed_effect = {}
@@ -653,7 +652,7 @@ Defensive-Espio = {
 	}
 
 	global_spy_defence = 0.2
-    garrison_size = 0.33
+
 	effect = {}
 	removed_effect = {}
 	
@@ -700,7 +699,7 @@ Quantity-Espio = {
 	}
 
 	diplomats = 2
-	spy_action_cost_modifier = 0.25
+	spy_offence = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -820,7 +819,6 @@ Quality-Trade = {
 	}
 
 	caravan_power = 0.25
-	placed_merchant_power = 10
 
 	effect = {}
 	removed_effect = {}
@@ -1011,7 +1009,7 @@ Advancement-Influence = {
 		full_idea_group = influence_ideas
 	}
 
-	monarch_power_tribute = 1
+	improve_relation_modifier = 0.25
 	reduced_liberty_desire = 10
 
 	effect = {}
@@ -1036,7 +1034,7 @@ Offensive-Influence = {
 	}
 
 	unjustified_demands = -0.25
-	accept_vassalization_reasons = 25
+	overextension_impact_modifier = -0.25
 
 	effect = {}
 	removed_effect = {}
@@ -1514,7 +1512,7 @@ Mercenary-Court = {
 		full_idea_group = court_ideas
 	}
 
-	governing_capacity = 100
+	global_rebel_suppression_efficiency = 2
 	loyalty_change_on_revoked = 0.05
 
 	effect = {}

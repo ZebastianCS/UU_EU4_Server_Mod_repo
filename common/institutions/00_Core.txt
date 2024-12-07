@@ -1,4 +1,4 @@
-#UU UPDATED 1.36.1
+#UU UPDATED 1.37.5
 # remember to add graphics for relevant ones when you add to this
 #
 # if a modifier is scaled, its multiplied with development in the province.
@@ -96,7 +96,7 @@ feudalism = {
 			owner = { technology_group = high_american }
 			owner = {
 				NOT = {
-					#government = tribal
+					#government = tribal				#UU allowed for all old world
 					#government = native
 					#primary_culture = bedouin_arabic
 					#primary_culture = uyghur
@@ -664,7 +664,7 @@ new_world_i = {
 		}
 		is_in_capital_area = yes
 		owner = { 
-			has_any_colonist_idea = yes
+			has_any_colonist_idea = yes	#UU change
 			#at least one province colonised or colonising, or have a subject colony
 			OR = {
 				any_owned_province = {
@@ -974,6 +974,12 @@ printing_press = {
 
 	
 	embracement_speed = {
+
+		modifier = {	#UU
+			factor = 0.5
+			scale = yes
+			trade_goods = paper
+		}
 	
 		modifier = {
 			factor = 0.6

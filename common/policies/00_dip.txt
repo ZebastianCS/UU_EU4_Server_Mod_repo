@@ -1515,7 +1515,7 @@ Mercenary-Court = {
 		full_idea_group = court_ideas
 	}
 
-	governing_capcity = 100
+	governing_capacity = 100
 	loyalty_change_on_revoked = 0.05
 
 	effect = {}

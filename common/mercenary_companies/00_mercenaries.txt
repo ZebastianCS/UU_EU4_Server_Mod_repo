@@ -935,7 +935,7 @@ merc_asafo_company = {
 	sprites = { dlc062_msi_sprite_pack africangfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
-		2255 
+		2255 = { trade_range = ROOT } 
 	}
     modifier = {
         land_morale = 0.05

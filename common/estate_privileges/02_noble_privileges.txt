@@ -1,4 +1,4 @@
-# UU UPDATED 1.37.2
+# UU UPDATED 1.37.5
 estate_nobles_land_rights = {
 	icon = privilege_grant_autonomy
 	land_share = 5
@@ -35,7 +35,7 @@ estate_nobles_land_rights = {
 	conditional_modifier = {
 		trigger = { has_country_flag = ned_land_rights_buff_flag }
 		modifier = {
-			governing_capacity = 50
+			governing_capacity = 20
 		}
 	}
 	conditional_modifier = {
@@ -3784,7 +3784,29 @@ estate_nobles_tupchi_artillery_corps = {
 	on_revoked = {
 		
 	}
-	#UU removed artillery_cost
+	conditional_modifier = {
+		trigger = {
+			OR = {
+				any_ally = {
+					OR = {
+						technology_group = western
+						technology_group = eastern
+						capital_scope = { continent = europe }
+					}
+				}
+				any_subject_country = {
+					OR = {
+						technology_group = western
+						technology_group = eastern
+						capital_scope = { continent = europe }
+					}
+				}
+			}
+		}
+		modifier = {
+			artillery_cost = -0.1	#UU nerf
+		}
+	}
 	benefits = {
 		artillery_power = 0.05
 	}
@@ -4112,7 +4134,19 @@ estate_nobles_MAY_arm_nobles_with_obsidian_blades = {
 	influence = 0.05
 	loyalty = 0.1
 	is_valid = {
-		technology_group = mesoamerican
+		OR = {
+			technology_group = mesoamerican
+			AND = {
+				technology_group = high_american
+				OR = {
+					was_tag = MAY
+					tag = MAY
+					has_country_flag = unlock_aztec_missions_flag
+					was_tag = AZT
+					tag = AZT
+				}
+			}
+		}
 	}
 	benefits = {
 		infantry_cost = -0.05

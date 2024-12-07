@@ -21,7 +21,7 @@ estate_ghulams_land_rights = {
 	conditional_modifier = {
 		trigger = { has_country_flag = ned_land_rights_buff_flag }
 		modifier = {
-			governing_capacity = 50
+			governing_capacity = 20
 		}
 	}
 	ai_will_do = {
@@ -389,8 +389,8 @@ estate_ghulams_levies_non_muslims = {
 	}
 	benefits = {
 		manpower_in_accepted_culture_provinces = 0.25
-		manpower_in_culture_group_provinces = 0.10	#UU nerf 
-		manpower_in_own_culture_provinces = 0.05	#UU nerf
+		manpower_in_culture_group_provinces = 0.15
+		manpower_in_own_culture_provinces = 0.1
 	}
 	mechanics = {
 		exempt_from_seize_land	#UU this is here because the below privilege is deleted
@@ -654,7 +654,29 @@ estate_ghulams_tupchi_artillery_corps = {
 	on_revoked = {
 		
 	}
-	#UU removed artillery_cost
+	conditional_modifier = {
+		trigger = {
+			OR = {
+				any_ally = {
+					OR = {
+						technology_group = western
+						technology_group = eastern
+						capital_scope = { continent = europe }
+					}
+				}
+				any_subject_country = {
+					OR = {
+						technology_group = western
+						technology_group = eastern
+						capital_scope = { continent = europe }
+					}
+				}
+			}
+		}
+		modifier = {
+			artillery_cost = -0.1	#UU nerf
+		}
+	}
 	benefits = {
 		artillery_power = 0.05
 	}

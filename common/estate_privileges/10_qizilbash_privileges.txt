@@ -1,4 +1,4 @@
-#UU UPDATED 1.37.2
+#UU UPDATED 1.37.5
 estate_qizilbash_land_rights = {
 	icon = privilege_grant_autonomy
 	land_share = 5
@@ -21,7 +21,7 @@ estate_qizilbash_land_rights = {
 	conditional_modifier = {
 		trigger = { has_country_flag = ned_land_rights_buff_flag }
 		modifier = {
-			governing_capacity = 50
+			governing_capacity = 20
 		}
 	}
 	ai_will_do = {
@@ -358,19 +358,31 @@ estate_qizilbash_horse_responsibilities = {
 	can_select = {
 	}
 	on_granted = {
-		#UU deleted war steed
+		#if = {		#UU deleted war steed
+		#	limit = { NOT = { has_country_flag = bred_a_new_war_steed } }
+		#	unlock_decision = {
+		#		type = horse_breeding_decision
+		#		custom_tooltip = horse_breeding_decision_at
+		#	}
+		#}
 		enable_estate_action = {
 			estate_action = GRANT_QIZILBASH_HORSES
 		}
 	}
 	on_revoked = {
-		#UU deleted war steed
+		#if = {
+		#	limit = { NOT = { has_country_flag = bred_a_new_war_steed } }
+		#	lock_decision = { type = horse_breeding_decision }
+		#}
 		disable_estate_action = {
 			estate_action = GRANT_QIZILBASH_HORSES
 		}
 	}
 	on_invalid = {
-		#UU deleted war steed
+		#if = {
+		#	limit = { NOT = { has_country_flag = bred_a_new_war_steed } }
+		#	lock_decision = { type = horse_breeding_decision }
+		#}
 		disable_estate_action = {
 			estate_action = GRANT_QIZILBASH_HORSES
 		}
@@ -638,7 +650,29 @@ estate_qizilbash_tupchi_artillery_corps = {
 	on_revoked = {
 		
 	}
-	#UU removed artillery_cost
+	conditional_modifier = {
+		trigger = {
+			OR = {
+				any_ally = {
+					OR = {
+						technology_group = western
+						technology_group = eastern
+						capital_scope = { continent = europe }
+					}
+				}
+				any_subject_country = {
+					OR = {
+						technology_group = western
+						technology_group = eastern
+						capital_scope = { continent = europe }
+					}
+				}
+			}
+		}
+		modifier = {
+			artillery_cost = -0.1	#UU nerf from 0.33
+		}
+	}
 	benefits = {
 		artillery_power = 0.05
 	}

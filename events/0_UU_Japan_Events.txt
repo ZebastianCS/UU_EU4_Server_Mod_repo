@@ -42,11 +42,20 @@ country_event = {   #Osaka and the Dojima Rice Exhange
 
     is_triggered_only = yes 
     
-    option = {
+    option = {  #embrace the inflation
         name = uuujap_events.2.a
-        1021 = {
-            change_province_name = Osaka 
-			rename_capital = Osaka
+        add_years_of_income = 1
+        add_country_modifier = {
+            name = uujap_ricebroker_inflation_mod
+            duration = 5840 #16 years
+        }
+    }
+
+    option = {  #embrace the inflation
+        name = uuujap_events.2.b
+        add_country_modifier = {
+            name = uujap_ricebroker_interest_mod
+            duration = -1
         }
     }
 }

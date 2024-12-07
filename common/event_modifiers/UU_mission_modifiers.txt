@@ -842,7 +842,7 @@ uujap_edo_new_capital_mod = {
 	province_trade_power_value = 10
 }
 uujap_inflation_goods_mod = {
-	inflation_reduction = -0.1
+	inflation_reduction = 0.1
 	global_trade_goods_size_modifier = 0.1
 }
 uujap_premier_gold_mine_mod = {
@@ -855,6 +855,15 @@ uujap_gokaido_mod = {
 	local_tax_modifier = 0.15
 	local_production_efficiency = 0.15
 	local_governing_cost = -0.15
+}
+uujap_ricebroker_inflation_mod = {
+	interest = -1.5
+	global_trade_goods_size_modifier = 0.2
+	inflation_reduction = -0.5
+}
+uujap_ricebroker_interest_mod = {
+	interest = -0.75
+	inflation_action_cost = -0.25
 }
 uujap_dejima_port_entry_modifier = {
 	global_own_trade_power = 0.2

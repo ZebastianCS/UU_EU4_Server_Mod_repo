@@ -1162,6 +1162,30 @@ uujap_5 = {
 			country_event = {
 				id = uujap_events.1
 			}
+			custom_tooltip = uujap_issue_new_coin_tt_a
+			tooltip = {
+				add_inflation = -1 
+				add_country_modifier = {
+					name = uujap_inflation_goods_mod
+					duration = 7300
+				}
+			}
+			custom_tooltip = uujap_issue_new_coin_tt_b
+			tooltip = {
+				add_years_of_income = 0.5 
+				add_inflation = 2
+				if = {
+					limit = {
+						any_owned_province = { trade_goods = gold }
+					}
+					random_owned_province = {
+						limit = {
+							trade_goods = gold
+						}
+						add_base_production = 1
+					}
+				}
+			}
 			custom_tooltip = uujap_spawned_gold_mission_tt
 			tooltip = {
 				capital_scope = { 
@@ -1332,25 +1356,50 @@ uujap_5 = {
 			change_ruler_stat = { type = adm amount = 1 }
 		}
 	}
-	uujap_rice_brokers = { #TODO
+	uujap_rice_brokers = {
 		icon = jap_encourage_fudasashi
 		required_missions = { 
 			uujap_gokaido 
 		}
 		position = 9
 		trigger = {
-			num_of_owned_provinces_with = {
-				region = japan_region 
+			num_of_owned_provinces_with = { 
 				trade_goods = grain 
-				has_manufactory_trigger = yes 
+				has_manufactory_trigger = yes
+				base_production = 7 
 				is_prosperous = yes
-				value = 7 
+				value = 8 
 			}
-
+			1021 = {
+				owned_by = ROOT 
+				development = 20
+			}
 		}
 		effect = {
 			country_event = {
-				id = event #event about the growth of Osaka as a port, renaming the province and etc.
+				id = uujap_events.2 #event about the growth of Osaka as a port, renaming the province and etc.
+			}
+			custom_tooltip = uujap_rice_brokers_tt_a
+			tooltip = {
+				add_years_of_income = 1
+				add_country_modifier = {
+					name = uujap_ricebroker_inflation_mod
+					duration = 5840 #16 years
+				}
+			}
+			custom_tooltip = uujap_rice_brokers_tt_b
+			tooltip = {
+				add_country_modifier = {
+					name = uujap_ricebroker_interest_mod
+					duration = -1
+				}
+			}
+			1021 = {
+				change_province_name = Osaka 
+				rename_capital = Osaka 
+				add_center_of_trade_level = 2  
+				add_base_tax = 2
+				add_base_production = 3
 			}
 		}
 	}

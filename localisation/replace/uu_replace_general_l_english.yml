@@ -281,8 +281,9 @@
  MODIFIER_MAX_ABSOLUTISM_EFFECT:0 "Max Absolutism modifier"
  mechanic_gain_monarch_power_from_force_converting_yes:0 "Enforcing Religion in peace deals will grant Monarch Points equal to the development of the converted nation." #UU change
  mechanic_manpower_from_defeating_armies_yes:0 "Winning battles gives us §G20%§! manpower of the enemy troops which fell in battle" #UU Change
- unlock_vozove_hradby_reform_tt:1 "Unlock '§YWagenburg Tactics§!' Tier 5 government reform, giving the following effects:\nMorale Damage Received: §G-10.0%§!\n\nThis reform also includes the following government mechanic:\nWinning battles on §Y[Root.GetAdjectiveCap]§! territory grants §G+0.5§! bonus Army Tradition."
- mechanic_battles_on_own_territory_bonus_tradition_yes:2 "Winning battles on our territory grants §G0.5§! bonus Army Tradition."
+ unlock_vozove_hradby_reform_tt:1 "Unlock '§YWagenburg Tactics§!' Tier 5 government reform, giving the following effects:\nMorale Damage Received: §G-10.0%§!\n\nThis reform also includes the following government mechanic:\nWinning battles on §Y[Root.GetAdjectiveCap]§! territory grants §G+0.33§! bonus Army Tradition."
+ mechanic_battles_on_own_territory_bonus_tradition_yes:2 "Winning battles on our territory grants §G+0.33§! bonus Army Tradition."
+ mechanic_army_tradition_on_stackwipe_yes:0 "Overrunning enemy armies now grants §G+0.33§! bonus Army Tradition."
  
  #Relocalizing base game ideas for clarity
  estates_general:0 "Estates General of France" #France, was just Estates General

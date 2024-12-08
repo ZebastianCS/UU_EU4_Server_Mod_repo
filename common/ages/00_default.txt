@@ -289,7 +289,6 @@ age_of_discovery = {
             modifier = {
                 legitimacy = 5
                 vassal_income = 0.5
-                vassal_forcelimit_bonus = 1
                 reduced_liberty_desire = 50
 				num_of_age_rewards = 1
             }
@@ -563,7 +562,7 @@ age_of_reformation = {
 				on_age_ability_taken = { age = age_of_reformation }
 			}
 			modifier = {
-				development_cost = -0.2
+				development_cost = -0.1	#UU nerf
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -679,7 +678,7 @@ age_of_absolutism = {
 				on_age_ability_taken = { age = age_of_absolutism }
 			}
 			modifier = {
-				rival_change_cost = -1.0	#UU
+				rival_change_cost = -0.9	#UU it caps at -90 anyway
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {

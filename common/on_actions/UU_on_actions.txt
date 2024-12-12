@@ -528,38 +528,48 @@ on_country_creation = {
 }
 
 on_expanded_infrastructure = {
-	change_variable = {
-        which = infra_clicks
-        value = 1
+	owner = {
+		change_variable = {
+        	which = infra_clicks
+        	value = 1
+		}
     }
 }
 
 on_expanded_infrastructure_removed = {
-	change_variable = {
-        which = infra_clicks
-        value = -1
-    }
+	owner = {
+		change_variable = {
+			which = infra_clicks
+			value = -1
+		}
+	}
 }
 
 on_adm_exploited = {
-	change_variable = {
-        which = exploit_adm_clicks
-        value = 1
-    }
+	owner = {
+		change_variable = {
+			which = exploit_adm_clicks
+			value = -1
+		}
+	}
 }
 
 on_dip_exploited = {
-	change_variable = {
-        which = exploit_dip_clicks
-        value = 1
-    }
+	owner = {
+		change_variable = {
+			which = exploit_dip_clicks
+			value = -1
+		}
+	}
 }
 
 on_mil_exploited = {
-	change_variable = {
-        which = exploit_mil_clicks
-        value = 1
-    }
+	owner = {
+		change_variable = {
+			which = exploit_mil_clicks
+			value = -1
+		}
+	}
 }
 
 on_heir_disinherited = {

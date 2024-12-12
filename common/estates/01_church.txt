@@ -25,10 +25,6 @@ estate_church = {
 				NOT = { government = native }
 				NOT = { is_revolutionary_republic_trigger = yes }
 				NOT = { has_reform = revolutionary_empire_reform }
-				OR = {
-					NOT = { tag = USA }
-					government = theocracy
-				}
 				is_nomad = no
 				is_colonial_nation = no
 			}

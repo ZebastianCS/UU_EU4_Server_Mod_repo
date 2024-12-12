@@ -834,11 +834,9 @@
   uuujap_events.2.b:0 "Such reckless policy will only cause problems later."
   
  #Tooltips
- uujap_issue_new_coin_tt_a:0 "§MThe event will give you the choice between:\nOption A:§!"
- uujap_issue_new_coin_tt_b:0 "§MOption B:§!"
+ uujap_eventopt_tt_a:0 "§MThe event will give you the choice between:\nOption A:§!"
+ uujap_eventopt_tt_b:0 "§MOption B:§!"
  uujap_spawned_gold_mission_tt:0 "§GIf we are the first to complete this mission, we will receive the following reward in a random Gold province, or the capital if we own no Gold provinces:§!"
  uujap_gokaido_tt:0 "§GAll of the aforementioned provinces will gain the following reward:§!"
- uujap_rice_brokers_tt_a:0 "§MThe event will give you the choice between:\nOption A:§!"
- uujap_rice_brokers_tt_b:0 "§MOption B:§!"
  uujap_all_incidents_trigger_tt:0 "All Shinto Incidents have happened for [Root.GetName], aside from §YRising Shogunate Authority.§!"
  uujap_all_incidents_unlock_decision_tt:0 "§lWe will unlock a decision to adjust our own Isolationism at the cost of Stability every 30 years.§!"

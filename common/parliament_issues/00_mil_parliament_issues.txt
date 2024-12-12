@@ -1,9 +1,8 @@
-appease_the_estates = { #UU canceled cuz bad
+appease_the_estates = {
 
 	category = 1
 
 	allow = {
-		always = no #UU canceled cuz bad
 		has_country_flag = pol_new_issues_tt
 	}
 	
@@ -433,27 +432,18 @@ the_draft = {
 	}
 
 	modifier = {
-		global_unrest = 10
+		global_unrest = 3
 	}
 	
 	effect = {
-		# issue_effect_scaling_with_estate_influence = {	#UU changed to not scale from seats [trinkle's idea]
-		# 	estate = estate_nobles
-		# 	effect1 = "add_yearly_manpower = 1"
-		# 	effect2 = "add_yearly_manpower = 2"
-		# 	effect3 = "add_yearly_manpower = 3"
-		# 	effect4 = "add_yearly_manpower = 4"
-		# 	effect5 = "add_yearly_manpower = 5"
-		# 	fallback_effect = "add_yearly_manpower = 3"
-		# }
 		issue_effect_scaling_with_estate_influence = {
 			estate = estate_nobles
-			effect1 = "add_years_of_manpower_scaled_to_seats = 0.5"
-			effect2 = "add_years_of_manpower_scaled_to_seats = 0.75"
-			effect3 = "add_years_of_manpower_scaled_to_seats = 1"
-			effect4 = "add_years_of_manpower_scaled_to_seats = 1.25"
-			effect5 = "add_years_of_manpower_scaled_to_seats = 1.5"
-			fallback_effect = "add_years_of_manpower_scaled_to_seats = 1"
+			effect1 = "add_years_of_manpower_scaled_to_seats = 1"	#increased because parliament seats limited
+			effect2 = "add_years_of_manpower_scaled_to_seats = 1.25"
+			effect3 = "add_years_of_manpower_scaled_to_seats = 1.5"
+			effect4 = "add_years_of_manpower_scaled_to_seats = 1.75"
+			effect5 = "add_years_of_manpower_scaled_to_seats = 2"
+			fallback_effect = "add_years_of_manpower_scaled_to_seats = 1.5"
 		}
 		hidden_effect = {
 			set_country_flag = uu_just_passed_mil_issue

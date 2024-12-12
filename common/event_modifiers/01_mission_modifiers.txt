@@ -1823,7 +1823,7 @@ gbr_religious_stability = {
 }
 
 gbr_new_world_dominance = {	#Permanent
-	global_tariffs = 0.125 #UU
+	global_tariffs = 0.1 #UU
 	trade_efficiency = 0.1
 }
 

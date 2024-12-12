@@ -106,7 +106,7 @@ uu_divi_mari_mod = {
 }
 
 uu_maritime_infra_port_town = {	#port town province modifier
-	local_development_cost_modifier = -0.1
+	local_development_cost = -0.1
 }
 
 uu_maritime_pluto_greed = {	#pure greed
@@ -300,7 +300,7 @@ uu_plot_armour = {
 
 #parliament stuff
 uu_parliament_infrastructure = {
-	local_development_cost_modifier = -0.1
+	local_development_cost = -0.1
 	local_build_cost = -0.05
 }
 

@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Puts a ducat sign in front of every mercenary company
  merc_bande_nere:0 "¤Bande Nere"
  merc_schwarze_garde:0 "¤Schwarze Garde"
  merc_doppelsoeldner:0 "¤Doppelsöldner"

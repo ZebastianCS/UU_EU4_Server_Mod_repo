@@ -1162,7 +1162,7 @@ uujap_5 = {
 			country_event = {
 				id = uujap_events.1
 			}
-			custom_tooltip = uujap_issue_new_coin_tt_a
+			custom_tooltip = uujap_eventopt_tt_a
 			tooltip = {
 				add_inflation = -1 
 				add_country_modifier = {
@@ -1170,7 +1170,7 @@ uujap_5 = {
 					duration = 7300
 				}
 			}
-			custom_tooltip = uujap_issue_new_coin_tt_b
+			custom_tooltip = uujap_eventopt_tt_b
 			tooltip = {
 				add_years_of_income = 0.5 
 				add_inflation = 2
@@ -1379,7 +1379,7 @@ uujap_5 = {
 			country_event = {
 				id = uujap_events.2 #event about the growth of Osaka as a port, renaming the province and etc.
 			}
-			custom_tooltip = uujap_rice_brokers_tt_a
+			custom_tooltip = uujap_eventopt_tt_a
 			tooltip = {
 				add_years_of_income = 1
 				add_country_modifier = {
@@ -1387,7 +1387,7 @@ uujap_5 = {
 					duration = 5840 #16 years
 				}
 			}
-			custom_tooltip = uujap_rice_brokers_tt_b
+			custom_tooltip = uujap_eventopt_tt_b
 			tooltip = {
 				add_country_modifier = {
 					name = uujap_ricebroker_interest_mod

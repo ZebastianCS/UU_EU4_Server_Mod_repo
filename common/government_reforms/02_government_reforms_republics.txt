@@ -1463,7 +1463,8 @@ crown_colony_government = {
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {	#UU Changed
 		embracement_cost = -0.1
-		governing_capacity = 100
+		development_cost_modifier = 0.25
+		interest = 2
 	}
 	effect = {
 		hidden_effect = {
@@ -1518,7 +1519,8 @@ private_enterprise_colony_government = {
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {	#UU Changed
 		embracement_cost = -0.1
-		merchants = 1
+		development_cost_modifier = 0.25
+		interest = 2
 	}
 
 	custom_attributes = {
@@ -1573,7 +1575,8 @@ self_governing_colony_government = {
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {
 		embracement_cost = -0.1
-		state_maintenance_modifier = -0.25
+		development_cost_modifier = 0.25
+		interest = 2
 	}
 
 	custom_attributes = {

@@ -618,7 +618,7 @@ revolutionary_republic_reform = {
 		land_morale = 0.1
 		global_autonomy = -0.2
 		max_revolutionary_zeal = 50
-		max_absolutism = 40
+		#max_absolutism = 40	#UU because why?
 		papal_influence = -100
 		allowed_rev_guard_fraction = 0.2	
 	}
@@ -721,11 +721,11 @@ junior_revolutionary_republic_reform = {
 		land_morale = 0.1
 		global_autonomy = -0.2
 		max_revolutionary_zeal = 25
-		max_absolutism = 40
+		#max_absolutism = 40	#UU because why?
 		papal_influence = -100
 		allowed_rev_guard_fraction = 0.2
 	}
-	fixed_rank = 2
+	#fixed_rank = 2	#UU
 	effect = {
 		custom_tooltip = break_every_non_rev_republic_alliance_tt
 		hidden_effect = {

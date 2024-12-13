@@ -549,7 +549,7 @@ on_adm_exploited = {
 	owner = {
 		change_variable = {
 			which = exploit_adm_clicks
-			value = -1
+			value = 1
 		}
 	}
 }
@@ -558,7 +558,7 @@ on_dip_exploited = {
 	owner = {
 		change_variable = {
 			which = exploit_dip_clicks
-			value = -1
+			value = 1
 		}
 	}
 }
@@ -567,7 +567,7 @@ on_mil_exploited = {
 	owner = {
 		change_variable = {
 			which = exploit_mil_clicks
-			value = -1
+			value = 1
 		}
 	}
 }

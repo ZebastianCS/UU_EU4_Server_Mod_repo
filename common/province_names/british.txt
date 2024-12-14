@@ -31,9 +31,10 @@
 2602 = { "Red Deer" "Red Deer" }
 2004 = { "Calgary" "Calgary" }
 957 = { "Delaware" "Wilmington" }
-962 = Trenton
+962 = "Trenton"
 2639 = { "Newark" "Newark" }
 2010 = "Hartford"
+989 = { "Northumberland" "Cobourg" }
 
 356 = "Benghazi"
 357 = "Derna"
@@ -118,7 +119,6 @@
 987 = { "Windsor" "Windsor" }
 988 = { "Simcoe" "Midhurst" }
 #989 = { "Ontario" "Kingston" }         #UU This is not where Kingston is
-989 = "Ontario"                         #UU
 990 = "Three Rivers"
 992 = { "Hull" "Hull" }
 993 = { "Montreal" "Montreal" }
@@ -195,7 +195,7 @@
 2566 = "Castine"
 2568 = "Cape Sable"
 2569 = { "Halifax" "Halifax" }
-2570 = "St. John"
+2570 = "Saint John"
 2572 = "Campbelton"
 2574 = "Nain"
 2577 = "Seven Islands"

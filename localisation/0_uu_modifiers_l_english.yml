@@ -207,7 +207,8 @@
   desc_jubba_estuary_modifier:0 "Controlling the important river estuary of the Jubba river strengthens our hold of the trade in the region."
  volta_estuary_modifier:0 "Volta Estuary"
   desc_volta_estuary_modifier:0 "Controlling the important river estuary of the Volta river strengthens our hold of the trade in the region."
-
+ colorado_estuary_modifier:0 "Colorado Estuary"
+  desc_colorado_estuary_modifier:0 "Controlling the important river estuary of the Colorado river strengthens our hold of the trade in the region."
 
  ###############################################################
  # Mercenary Event Modifiers Localisation.

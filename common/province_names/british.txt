@@ -1,4 +1,4 @@
-#UU 
+#zeb 
 295 = "Moscow"
 118 = "Rome"
 116 = "Florence"
@@ -26,6 +26,14 @@
 224 = "Seville"
 232 = "Braganza"
 334 = "Tangier"
+
+4892 = "Kingston"
+2602 = { "Red Deer" "Red Deer" }
+2004 = { "Calgary" "Calgary" }
+957 = { "Delaware" "Wilmington" }
+962 = Trenton
+2639 = { "Newark" "Newark" }
+2010 = "Hartford"
 
 356 = "Benghazi"
 357 = "Derna"
@@ -109,7 +117,8 @@
 986 = "Gaspe"
 987 = { "Windsor" "Windsor" }
 988 = { "Simcoe" "Midhurst" }
-989 = { "Ontario" "Kingston" }
+#989 = { "Ontario" "Kingston" }         #UU This is not where Kingston is
+989 = "Ontario"                         #UU
 990 = "Three Rivers"
 992 = { "Hull" "Hull" }
 993 = { "Montreal" "Montreal" }
@@ -124,7 +133,8 @@
 1005 = "York Factory"
 1006 = { "Churchill" "Churchill" }
 1007 = { "Thunder Bay" "Thunder Bay" }
-1008 = "Red River"
+#1008 = "Red River"
+1008 = { "Winnipeg" "Winnipeg" }        #UU
 1009 = "Berens River"
 1010 = "Dauphin"
 1011 = "The Pas"

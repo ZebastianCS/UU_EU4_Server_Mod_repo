@@ -183,6 +183,10 @@ volta_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+colorado_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
 # Recent Papal Creed
 recent_papal_creed = {
 }

@@ -1796,8 +1796,8 @@ province;red;green;blue;x;x
 1795;74;48;32;East Sahara;x
 1796;202;50;79;Central Africa;x
 1797;74;52;126;Inner Kongo;x
-#1798;202;54;173;Imatong;x
-1799;74;56;32;Urgoma;x
+1798;203;54;173;Imatong;x
+1799;75;56;32;Urgoma;x
 1800;203;58;79;Limpopo;x
 1801;75;60;126;Kalahari;x
 1802;203;62;173;Northern Amazonas;x
@@ -5017,3 +5017,4 @@ province;red;green;blue;x;x
 5016;230;162;138;Kindu;x
 5017;82;82;97;Ksar el-Kebir;x
 5018;230;183;21;Southern Carpathians;x
+5019;62;48;231;Colorado;x

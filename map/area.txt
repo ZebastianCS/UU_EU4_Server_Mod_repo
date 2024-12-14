@@ -3569,15 +3569,18 @@ laurentian_area = { #3
 }
 
 upper_ontario_area = { #5
-    991 1001 1007 2015 2671
+    1001 1007 2015 
+	2593 #UU moved
 }
 
 huronia_area = { #4
-    989 988 2585 2670  
+    989 988 2585 2670
+	2671 #UU moved   
 }
 
 ottawa_valley_area = { #3 NEW
     4890 4892 4897
+	991	#UU moved
 }
 
 james_bay_area = { #5
@@ -3589,7 +3592,7 @@ inner_ontario_area = { #5
 }
 
 hudson_bay_area = { #5
-    1005 1006 1009 2592 2594
+    1005 1006 2592 2594
 }
 
 red_river_area = { #3
@@ -3597,7 +3600,8 @@ red_river_area = { #3
 }
 
 manitoba_area = { #5 NEW
-    1008 1010 1011 2593 4919
+    1008 1010 1011 4919
+	1009	#UU moved
 }
 
 assiniboia_area = { #3

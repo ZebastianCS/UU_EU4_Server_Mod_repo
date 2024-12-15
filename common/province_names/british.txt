@@ -28,13 +28,13 @@
 334 = "Tangier"
 
 4892 = "Kingston"
-2602 = { "Red Deer" "Red Deer" }
-2004 = { "Calgary" "Calgary" }
+2550 = { "Fredericksburg" "Fredericksburg" }
 957 = { "Delaware" "Wilmington" }
 962 = "Trenton"
 2639 = { "Newark" "Newark" }
 2010 = "Hartford"
 989 = { "Northumberland" "Cobourg" }
+938 = { "New Bern" "New Bern" }
 
 356 = "Benghazi"
 357 = "Derna"
@@ -92,7 +92,7 @@
 948 = { "Marietta" "Marietta" }
 949 = "Blue Ridge"
 950 = { "Jamestown" "Jamestown" }
-952 = { "James River" "Richmond" }
+952 = { "Richmond" "Richmond" }
 953 = { "Maryland" "Annapolis" }
 956 = { "Philadelphia" "Philadelphia" }
 958 = { "Geneseo" "Geneseo" }

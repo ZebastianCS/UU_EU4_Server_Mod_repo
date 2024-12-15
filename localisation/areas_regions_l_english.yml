@@ -2022,7 +2022,7 @@ l_english:
  new_mexico_area:0 "New Mexico"
  new_mexico_area_name:0 "New Mexico"
  new_mexico_area_adj:0 "New Mexican"
- colorado_plateau_area:0 "Colorado Plateau"
+ colorado_plateau_area:0 "Arizona Plateau" #UU
  colorado_plateau_area_name:1 "Dinétah"
  colorado_plateau_area_adj:1 "Diné"
  arizona_area:0 "Arizona"

@@ -133,6 +133,12 @@ uu_special_color_effect = { #Applies specific colours to nations depending on go
 		}
 		change_country_color = { country = overlord }
 	}
+	every_subject_country = {
+		limit = {
+			NOT = { has_country_flag = uu_overlord_colour }
+		}
+		restore_country_color = yes
+	}
 }
 
 uu_special_name_effect = { #Applies specific names to nations depending on gov't. or otherwise

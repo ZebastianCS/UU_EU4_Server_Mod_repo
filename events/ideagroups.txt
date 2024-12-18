@@ -9095,6 +9095,7 @@ country_event = {
 				}
 				set_country_flag = refused_norse_ideas
 			}
+			remove_country_modifier = uu_usa_marines_modifier #UU coding 
 		}
 		swap_free_idea_group = yes		#keep progress
 	}

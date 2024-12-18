@@ -374,17 +374,14 @@ uu_rlg_mtm_cd_mod = {
 
 #usa marines
 
-uu_usa_marines_modifier = {
-	discipline = 0.5
-	infantry_combat_ability = 0.10
-	is_marine_modifier = yes
-}
-
-
-
-
 #texan meme Event
 
 uu_alamo_remembrance = {
    land_morale = 0.10
+}
+
+uu_usa_marines_modifier = {	
+	discipline = 0.05
+	infantry_power = 0.10
+	is_marine_modifier = yes
 }

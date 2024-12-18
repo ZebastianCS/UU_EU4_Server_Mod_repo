@@ -1934,7 +1934,7 @@ USA_ideas = { #merc buff
 		global_trade_goods_size_modifier = 0.20 #buffed from 0.15
 	}
 	shining_city_on_a_hill = {
-	development_cost = 0.10
+	development_cost = 0.10 # was yearly prestige
 	}
 	empire_of_liberty = {
 		min_autonomy_in_territories = -0.10
@@ -1962,7 +1962,7 @@ MEX_ideas = {
 		build_cost = -0.10
 	}	
 	the_republic_of_indians = {
-		culture_conversion_speed = 0.5
+		culture_conversion_speed = 0.5 # was + 1 promoted cultures (once again useless)
 	}
     peace_by_purchase = {
 	   national_unrest = -2 # was years of seperatism -5 (useless)
@@ -2006,7 +2006,7 @@ CSC_ideas = {
 		garrison_size = 0.20  # was fort cost
 	}
 	CSC_settling_boundaries = {
-		build_cost = -0.10
+		build_cost = -0.10   # was 33% spy detection chance (once again useless)
 		build_time = -0.20
 	}
 	CSC_nookta_sound = {
@@ -2016,6 +2016,6 @@ CSC_ideas = {
 		# shared with Canada
 	}
 	CSC_oregon_trail = {
-		reinforce_speed = 0.15
+		reinforce_speed = 0.15 # was -20% attrition
 	}
 }

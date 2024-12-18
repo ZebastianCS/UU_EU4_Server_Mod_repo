@@ -1898,10 +1898,8 @@ colonial_ideas = {	#Generic colonial
  
 USA_ideas = { #merc buff
 	start = {
-		combat_ability = 0.10
-		discipline = 0.5
-		is_marine_modifier
-		allowed_marine_fraction = 0.5
+		colonist_placement_chance = 0.1
+		global_unrest = -2
 	}
 	
 	bonus = {
@@ -1918,10 +1916,10 @@ USA_ideas = { #merc buff
 	free = yes
 	
 	freedom_of_religion = {
-	missionary_strength = 0.02
+		missionary_strength = 0.02
 	}
-	usa_bill_of_rights = {
-		global_unrest = -5
+	usa_continental_marines = {
+		allowed_marine_fraction = 0.5
 	}
 	manifest_destiny = {
 		colonists = 1
@@ -1931,10 +1929,10 @@ USA_ideas = { #merc buff
 		land_morale = 0.10
 	}
 	workshop_of_the_world = {
-		global_trade_goods_size_modifier = 0.20 #buffed from 0.15
+		global_trade_goods_size_modifier = 0.15
 	}
 	shining_city_on_a_hill = {
-	development_cost = 0.10 # was yearly prestige
+		development_cost = 0.10 # was yearly prestige
 	}
 	empire_of_liberty = {
 		min_autonomy_in_territories = -0.10
@@ -1945,7 +1943,8 @@ USA_ideas = { #merc buff
 
 MEX_ideas = {
 	start = {
-		
+		global_colonial_growth = 15
+		inflation_reduction = 0.1		
 	}
 	
 	bonus = {
@@ -2012,7 +2011,7 @@ CSC_ideas = {
 	CSC_nookta_sound = {
 		global_own_trade_power = 0.30
 	}
-	the_hudson_bay_company = {
+	can_hudson_bay_company = {
 		# shared with Canada
 	}
 	CSC_oregon_trail = {

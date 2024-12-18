@@ -509,7 +509,7 @@ country_event = { # Remember the alamo
  option = {
      name = uu_easter_egg_events.16.a
         add_country_modifier = {
-            uu_alamo_remembrance
+            name = uu_alamo_remembrance
             duration = 2    
         }     
     }

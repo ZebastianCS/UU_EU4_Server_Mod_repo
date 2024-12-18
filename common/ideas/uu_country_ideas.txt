@@ -1919,11 +1919,11 @@ USA_ideas = { #merc buff
 		missionary_strength = 0.02
 	}
 	usa_continental_marines = {
-       allowed_marine_fraction = 0.50
-	   effect = {
-       add_country_modifier = { 
-	   name = uu_usa_marines_modifier
-       duration = -1
+        allowed_marine_fraction = 0.50
+	    effect = {
+        	add_country_modifier = { 
+	   			name = uu_usa_marines_modifier
+        		duration = -1
 	   		}
 		}
 	}	

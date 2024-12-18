@@ -370,3 +370,12 @@ uu_rlg_mtm_cd_mod = {
 	picture = "global_sailors_modifier"
 }
 
+
+
+#usa marines
+
+uu_usa_marines_modifier = {
+discipline = 0.5
+combat_ability = 0.10
+is_marine_modifier = yes
+}

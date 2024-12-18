@@ -1893,3 +1893,129 @@ colonial_ideas = {	#Generic colonial
 #		legitimacy = 1
 #	}
 #}
+
+
+ 
+USA_ideas = { #merc buff
+	start = {
+		combat_ability = 0.10
+		discipline = 0.5
+		is_marine_modifier
+		allowed_marine_fraction = 0.5
+	}
+	
+	bonus = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	
+	trigger = {
+		tag = USA
+	}
+	free = yes
+	
+	freedom_of_religion = {
+	missionary_strength = 0.02
+	}
+	usa_bill_of_rights = {
+		global_unrest = -5
+	}
+	manifest_destiny = {
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
+	}
+	lessons_of_valley_forge = {
+		land_morale = 0.10
+	}
+	workshop_of_the_world = {
+		global_trade_goods_size_modifier = 0.20 #buffed from 0.15
+	}
+	shining_city_on_a_hill = {
+	development_cost = 0.10
+	}
+	empire_of_liberty = {
+		min_autonomy_in_territories = -0.10
+		global_autonomy = -0.025
+ 	}
+}
+
+
+MEX_ideas = {
+	start = {
+		
+	}
+	
+	bonus = {
+		land_forcelimit = 0.10 # was manpower recovery speed
+	}
+	
+	trigger = {
+		tag = MEX
+	}
+	free = yes
+	
+		
+	rebuilding_mexico = {
+		build_cost = -0.10
+	}	
+	the_republic_of_indians = {
+		culture_conversion_speed = 0.5
+	}
+    peace_by_purchase = {
+	   national_unrest = -2 # was years of seperatism -5 (useless)
+	}
+	casa_de_las_campanas = {
+		idea_cost = -0.10
+	}
+	repartimiento = {
+		production_efficiency = 0.20 # was 15%
+	}
+	heroes_of_the_revolution = {
+		leader_land_shock = 1
+	}
+	grito_de_delores = {
+		land_morale = 0.10	
+	}
+}
+
+
+
+CSC_ideas = {
+	start = {	
+		land_morale = 0.15 
+		build_cost = -0.1
+	}
+	bonus = {
+		missionary_strength = 0.02
+	}
+	trigger = {
+		tag = CSC
+	}
+	free = yes
+	CSC_melting_pot = {
+		num_accepted_cultures = 2
+	}
+	CSC_chinook_jargon = {
+		native_uprising_chance = -1 # was 0.5
+		native_assimilation = 1        ^ 
+	}
+	CSC_forts_of_hudson_bay = {
+		garrison_size = 0.20  # was fort cost
+	}
+	CSC_settling_boundaries = {
+		build_cost = -0.10
+		build_time = -0.20
+	}
+	CSC_nookta_sound = {
+		global_own_trade_power = 0.30
+	}
+	the_hudson_bay_company = {
+		# shared with Canada
+	}
+	CSC_oregon_trail = {
+		reinforce_speed = 0.15
+	}
+}

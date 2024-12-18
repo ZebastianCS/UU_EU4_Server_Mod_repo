@@ -1986,7 +1986,7 @@ MEX_ideas = {
 CSC_ideas = {
 	start = {	
 		land_morale = 0.15 
-		build_cost = -0.1
+		production_efficiency = 0.10
 	}
 	bonus = {
 		missionary_strength = 0.02

@@ -489,3 +489,28 @@ country_event = { #Remember your AI settings
         name = uu_easter_egg_events.15.a
     }
 }
+
+
+
+country_event = { # Remember the alamo
+    id = uu_easter_egg_events.16
+    title = uu_easter_egg_events.16.t
+    desc = uu_easter_egg_events.16.desc
+    picture = REVOLT_HUNGARIAN_eventPicture
+
+    trigger = {
+        tag = TEX
+    }
+    mean_time_to_happen = {
+        months = 240
+    }
+     
+
+ option = {
+     name = uu_easter_egg_events.16.a
+        add_event_modifier = {
+             uu_alamo_remembrance
+             time = 2    
+        }     
+    }
+}

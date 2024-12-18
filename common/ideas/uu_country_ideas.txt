@@ -1921,11 +1921,12 @@ USA_ideas = { #merc buff
 	usa_continental_marines = {
        allowed_marine_fraction = 0.50
 	   effect = {
-       add_country_modifier = { "uu_usa_marines_modifier"
-	   name = american marines
-       duration = 100000000000000
-	   }
-	}
+       add_country_modifier = { 
+	   name = uu_usa_marines_modifier
+       duration = -1
+	   		}
+		}
+	}	
 	manifest_destiny = {
 		colonists = 1
 		effect = { remove_temporary_colonist = yes }

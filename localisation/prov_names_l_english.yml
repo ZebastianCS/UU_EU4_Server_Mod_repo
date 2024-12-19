@@ -1330,7 +1330,7 @@ l_english:
  PROV1327:0 "Aral Sea"
  PROV1328:0 "Gulf of Suez"
  PROV1329:0 "Red Sea"
- PROV1330:0 "Bab el Mandeb"
+ PROV1330:0 "Bab al-Mandab"  #UU Change for consistent Arabic anglicization
  PROV1331:0 "Gulf of Aden"
  PROV1332:0 "Gulf of Oman"
  PROV1333:0 "Gulf of Masirah"
@@ -2315,7 +2315,7 @@ l_english:
  PROV2313:0 "Antioch"
  PROV2314:0 "Rahba"
  PROV2315:0 "Suez"
- PROV2316:0 "Al Gharbia"
+ PROV2316:0 "al-Gharbiya" #UU Change for consistent Arabic anglicization
  PROV2317:0 "Minya"
  PROV2318:1 "Bahiriya"
  PROV2319:0 "Manfalut"
@@ -2470,7 +2470,7 @@ l_english:
  PROV2468:0 "Tadla"
  PROV2469:0 "Dukkala"
  PROV2470:0 "Haha"
- PROV2471:0 "Chott el-Jerid"
+ PROV2471:0 "Shott al-Jarid"  #UU Change for consistent Arabic anglicization
  PROV2472:0 "Ouargla"
  PROV2473:0 "Sousse"
  PROV2474:1 "Tajarhi"
@@ -3016,7 +3016,7 @@ l_english:
  PROV4030:0 "Bara"
  PROV4031:0 "Antsalova"
  PROV4032:0 "Fiherana"
- PROV4033:0 "Al Qadarif"
+ PROV4033:0 "al-Qadarif"
  PROV4034:0 "Makua"
  PROV4035:0 "Ngindo"
  PROV4036:0 "Wayao"
@@ -3252,7 +3252,7 @@ l_english:
  PROV4266:0 "Izhkar"
  PROV4267:0 "Bolgar"
  PROV4268:0 "Aqabah"
- PROV4269:0 "Al Wajh"
+ PROV4269:0 "al-Wajh"  #UU Change for consistent Arabic anglicization
  PROV4270:0 "Azraq"
  PROV4271:0 "Suwayda"
  PROV4272:0 "al-Jawf" #UU Change for consistent Arabic anglicization
@@ -3267,9 +3267,9 @@ l_english:
  PROV4281:0 "Dhamar"
  PROV4282:0 "Sahda"
  PROV4283:0 "Shihr"
- PROV4284:0 "Al Ghaydah"
+ PROV4284:0 "al-Ghaydah"
  PROV4285:0 "Baraimi"
- PROV4286:0 "Ash Sharqiyah"
+ PROV4286:0 "ash-Sharqiyah" #UU Change for consistent Arabic anglicization
  PROV4287:0 "Ibra"
  PROV4288:0 "Shatt"
  PROV4289:0 "Shushtar"
@@ -3545,7 +3545,7 @@ l_english:
  PROV4559:1 "Menorca"
  PROV4560:0 "Ibiza"
  PROV4561:0 "Tétouan"
- PROV4562:0 "Mers el Kebir"
+ PROV4562:0 "al-Marsa al-Kabir"  #UU Change for consistent Arabic anglicization
  PROV4563:0 "Salé"
  PROV4564:0 "Anfa"
  PROV4565:0 "Tenerife"

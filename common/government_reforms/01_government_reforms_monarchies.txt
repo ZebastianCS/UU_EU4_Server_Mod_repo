@@ -17,7 +17,7 @@ monarchy_mechanic = {
 #Feudalism vs Autocracy:
 
 uu_timurid_monarchy = {
-	icon = "noble_muslim"
+	icon = "legacy_of_timur_reform"
 	allow_normal_conversion = yes
 	potential = {
 		tag = TIM
@@ -26,15 +26,11 @@ uu_timurid_monarchy = {
 	maintain_dynasty = yes
 	modifiers = {
 		unjustified_demands = -0.25
-		harsh_treatment_cost = -0.25
-		global_rebel_suppression_efficiency = 0.25
-		core_creation = -0.1
-		land_forcelimit = 5
+		harsh_treatment_cost = -0.5	#You can get -90% in age of absolutism
+		global_rebel_suppression_efficiency = 0.5
+		core_creation = -0.15
+		land_forcelimit = 5	#flat
 	}
-	custom_attributes = {
-		winning_battles_increases_legitimacy = yes
-	}
-
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
@@ -48,6 +44,9 @@ uu_timurid_monarchy = {
 		custom_attributes = {
 			has_tributaries = yes
 		}
+	}
+	custom_attributes = {
+		winning_battles_increases_legitimacy = yes
 	}
 }
 

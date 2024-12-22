@@ -3,10 +3,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			OR = {
-				can_form_tier_four_trigger = yes
-				tag = TIM
-			}
+			can_form_tier_four_trigger = yes
 			NOT = { has_country_flag = formed_persia_flag }
 			OR = {
 				ai = no

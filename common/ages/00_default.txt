@@ -289,7 +289,7 @@ age_of_discovery = {
             modifier = {
                 legitimacy = 5
                 vassal_income = 0.5
-                reduced_liberty_desire = 50
+                liberty_desire_from_subject_development = -0.5
 				num_of_age_rewards = 1
             }
         }

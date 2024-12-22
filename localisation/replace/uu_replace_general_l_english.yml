@@ -275,7 +275,7 @@
  tooltip_zoroastrian_cult:1 "This cult has the following benefits when selected:\nMerchants: §G+2§!\nMerchant Trade Power: §G+10.00§!" #UU Change
  tooltip_jewish_cult:1 "This cult has the following benefits when selected:\nAdvisor Cost: §G-10.0%§!\nInterest Per Annum: §G-0.25§!" #UU Change
 
- #misc tooltips
+ #misc tooltips, updated for UU changes
  BUILD_GREAT_PROJECT_EFFECT:0 "Builds the great project $NAME|Y$.\n" #UU added \n
  DESTROY_GREAT_PROJECT:0 "Destroys the great project $NAME|Y$.\n"   #UU added \n
  MODIFIER_MAX_ABSOLUTISM_EFFECT:0 "Max Absolutism modifier"
@@ -284,7 +284,12 @@
  unlock_vozove_hradby_reform_tt:1 "Unlock '§YWagenburg Tactics§!' Tier 5 government reform, giving the following effects:\nMorale Damage Received: §G-10.0%§!\n\nThis reform also includes the following government mechanic:\nWinning battles on §Y[Root.GetAdjectiveCap]§! territory grants §G+0.33§! bonus Army Tradition."
  mechanic_battles_on_own_territory_bonus_tradition_yes:2 "Winning battles on our territory grants §G+0.33§! bonus Army Tradition."
  mechanic_army_tradition_on_stackwipe_yes:0 "Overrunning enemy armies now grants §G+0.33§! bonus Army Tradition."
- 
+ TIM_unlock_razing_gov_reform:0 "Unlock the '§YPlunder Economy§!' Government Reform, at the §YNoble Privileges§! Monarchy Tier giving us §G+50.0%§! Razing Power Gain"
+ TIM_bring_taxation_under_control_title:0 "@TIM Restore the Treasury"
+ TIM_supremacy_of_the_sharia_title:0 "@TIM Supremacy of the Sharia"
+ MUG_commission_the_peacock_throne:0 "@MUG Commission the Peacock Throne"
+ MUG_viceroyalty_of_deccan:0 "@MUG Viceroyalty of Deccan"
+
  #Relocalizing base game ideas for clarity
  estates_general:0 "Estates General of France" #France, was just Estates General
  army_professionalism:0 "Prussian Professionalism"  #Prussia, was just Army Professionalism

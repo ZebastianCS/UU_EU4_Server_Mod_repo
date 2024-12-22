@@ -4687,6 +4687,7 @@ estate_nobles_TIM_soyurghal_grants = {
 	}
 	benefits = {
 		army_tradition_decay = -0.01
+		nobles_privilege_slots = 1	#UU
 	}
 	can_revoke = {
 		custom_trigger_tooltip = {
@@ -4727,8 +4728,8 @@ estate_nobles_TIM_chagatai_warriors = {
 
 estate_nobles_TIM_appease_the_elites = {
 	icon = privilege_army_tradition
-	max_absolutism = -10
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	max_absolutism = -5	#UU
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.15
 	loyalty = 0.05
 	is_valid = {
@@ -4749,7 +4750,7 @@ estate_nobles_TIM_appease_the_elites = {
 			}
 		}
 		modifier = {
-			yearly_army_professionalism = 0.01
+			yearly_army_professionalism = 0.005	#UU
 		}
 	}
 	

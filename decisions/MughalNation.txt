@@ -15,6 +15,7 @@ country_decisions = {
 				is_free_or_tributary_trigger = yes
 				ai = no
 			}
+			NOT = { tag = TIM }	#UU: Specific exception remains
 			NOT = { tag = PER }	#UU: Specific exception remains
 			NOT = { tag = ERS }	#UU: Why not
 			OR = {

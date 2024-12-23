@@ -1332,7 +1332,7 @@ BYZ_discipline = {
 }
 
 soyurghal_base_overlord_modifiers = {
-	land_forcelimit_modifier = 0.05
+	#land_forcelimit_modifier = 0.05		#UU removed
 	soyurghals_amount_check_influence = 1 #used for exporting, invisible by default
 }
 

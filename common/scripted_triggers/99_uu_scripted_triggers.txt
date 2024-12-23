@@ -1,4 +1,4 @@
-#UU UPDATED 1.36.1
+#UU UPDATED 1.37.5
 can_form_tier_two_trigger = { #Kingdoms, usually for one culture specifically
     NOT = {
         has_country_flag = formed_tier_two_flag

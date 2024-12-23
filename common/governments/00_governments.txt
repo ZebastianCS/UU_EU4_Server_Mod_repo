@@ -768,6 +768,10 @@ republic = {
 				#1.36
 				legacy_of_the_safavid_reform
 				state_madrasas_reform
+				#UU 
+				uu_canada_totemist_reform
+				uu_mexico_nahuatl_reform
+				uu_peru_inti_reform
 			}
 		}
 		military_doctrines = {

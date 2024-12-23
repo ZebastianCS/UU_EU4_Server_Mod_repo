@@ -10,9 +10,12 @@
   not_siberian_tribe_desc:0 "One or more clans headed by an elder with a council of other leaders to help him make decisions related to their respective areas."
  uu_timurid_monarchy:0 "Empire of Timur"
   uu_timurid_monarchy_desc:0 "An empire founded and built by Timur, the undefeated nomadic conqueror, descendant of the great Genghis Khan, with characteristics from its nomadic heritage but ultimately a settled government with many Islamic and/or Persianate adopted customs to maintain legitimacy over those conquered."
- uu_religious_festivities_reform:0 "Religious Festivities"
-  uu_religious_festivities_reform_desc:0 "Promoting religious festivities in the public will help us interwine our culture and religion even more"
- 
+ uu_canada_totemist_reform:0 "Adopt First Nations Traditions"
+  uu_canada_totemist_reform_desc:0 "By incorporating into our government the traditions of those who were here before us, we will create a system much better adapted to our new homeland."
+ uu_mexico_nahuatl_reform:0 "Integrate Nahua Traditions"
+  uu_mexico_nahuatl_reform_desc:0 "By incorporating into our government the traditions of those who were here before us, we will create a system much better adapted to our new homeland."
+ uu_peru_inti_reform:0 "Integrate Quechua Traditions"
+  uu_peru_inti_reform_desc:0 "By incorporating into our government the traditions of those who were here before us, we will create a system much better adapted to our new homeland."
  #Government Names
  UU_MAI:0 "Mai" #King of Kanem Bornu
  UU_CALIPHATE:0 "Caliphate" #For Sokoto

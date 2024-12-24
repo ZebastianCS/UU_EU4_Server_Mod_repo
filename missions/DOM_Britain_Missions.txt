@@ -2584,7 +2584,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_territorial_core = ROOT
+					add_permanent_claim = ROOT
 				}
 				random_province = {
 					limit = {
@@ -2598,7 +2598,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_territorial_core = ROOT
+					add_permanent_claim = ROOT
 				}
 				random_province = {
 					limit = {
@@ -2612,7 +2612,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_territorial_core = ROOT
+					add_permanent_claim = ROOT
 				}
 				random_province = {
 					limit = {
@@ -2626,7 +2626,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_territorial_core = ROOT
+					add_permanent_claim = ROOT
 				}
 				random_province = {
 					limit = {
@@ -2640,7 +2640,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_territorial_core = ROOT
+					add_permanent_claim = ROOT
 				}
 			}
 		}

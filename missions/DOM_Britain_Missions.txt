@@ -1249,6 +1249,7 @@ ave_row_slot_2_continuation = {
 	}
 	has_country_shield = yes
 
+	
 	ave_promote_angevin_culture = {
 		icon = english_alliance
 		required_missions = {  }
@@ -1263,109 +1264,22 @@ ave_row_slot_2_continuation = {
 		}		
 		trigger = {
 			not_in_mission_preview_mode = { key = GBR }
-			custom_trigger_tooltip = {
-				tooltip = ave_promote_angevin_culture_at
-				OR = {
-					employed_advisor = {
-						culture = english
-					}
-					employed_advisor = {
-						culture = scottish
-					}
-					employed_advisor = {
-						culture = welsh
-					}
-					employed_advisor = {
-						culture = cornish
-					}
-				}
-				OR = {
-					employed_advisor = {
-						culture = cosmopolitan_french
-					}
-					employed_advisor = {
-						culture = normand
-					}
-					employed_advisor = {
-						culture = breton
-					}
-					employed_advisor = {
-						culture = gascon
-					}
-					employed_advisor = {
-						culture = wallonian
-					}
-					employed_advisor = {
-						culture = burgundian
-					}
-					employed_advisor = {
-						culture = occitain
-					}
-				}
-			}
-			stability = 2
-			num_of_owned_provinces_with = {
-				OR = {
-					culture_group = british
-					culture_group = french
-				}
-				NOT = { local_autonomy_above_min = 10 }
-				value = 50
-			}
-			OR = {
-				FRA = { is_subject_of = ROOT }
-				development_in_provinces = {
-					culture_group = french
-					value = 200
-				}
-			}
-			if = {
-				limit = { has_government_attribute = english_parliament }
-				has_enacted_parliament_action = {
-					parliament_action = french_english_reconciliation_act		#Special tooltip here
-				}
-			}
+			tag = AVE	
 		}	
-		effect = {
-			custom_tooltip = ave_promote_angevin_culture_bt
-			hidden_effect = {
-				change_primary_culture = anglois
-				set_ruler_culture = anglois
-				if = {
-					limit = { has_heir = yes }
-					set_heir_culture = anglois
-				}
-				if = {
-					limit = { has_consort = yes }
-					set_consort_culture = anglois
-				}
-				every_subject_country = {
-					limit = {
-						culture_group = british
-						NOT = { primary_culture = american }
-					}
-					change_primary_culture = anglois
-				}
-				every_province = {
-					limit = {
-						culture_group = british
-						owner = {
-							OR = {
-								tag = ROOT
-								is_subject_of = ROOT
-							}
-						}
-					}
-					change_culture = anglois
-				}
-			}
-		}
+		effect  = {
+			country_event = {																		
+				id = UU_ave_mission_events.1
+		    }
+	    }
+		
 		ai_weight = {
 			factor = 250
-		}
-	}
-}
+	    }    
+    }
+}   
 
+  
+ 
 gbr_ave_hundred_years_mission = {
 	slot = 3
 	generic = no
@@ -1388,52 +1302,14 @@ gbr_ave_hundred_years_mission = {
 		icon = mission_hundred_years_war
 		required_missions = {  }
 		position = 1
-		provinces_to_highlight = {
-			OR = {
-				if = {
-					limit = { exists = FRA }
-					is_capital_of = FRA
-				}
-				else = {
-					province_id = 183
-				}
-				AND = {
-					province_id = 177
-					owned_by = ROOT
-				}
-			}
-		}		
+		
 		trigger = {
-			if = {
-				limit = {
-					exists = FRA
-				}
-				OR = {
-					war_with = FRA
-					custom_trigger_tooltip = {
-						tooltip = eng_war_france.tooltip
-						has_country_flag = rb_gave_up_maine
-					}
-					FRA = { is_subject_of = ROOT }
-					NOT = { owns_or_non_sovereign_subject_of = 177 }
-				}
-			}
-			else_if = {
-				limit = { 
-					NOT = { exists = FRA }
-				}
-				OR = {
-					owns_or_non_sovereign_subject_of = 183
-					183 = { owner = { war_with = ROOT } }
-					NOT = { owns_or_non_sovereign_subject_of = 177 }
-				}
-			}
+		tag = ENG
 		}		
+	
+		
 		effect = {
-			country_event_with_insight = {
-				id = flavor_gbr.1
-				insight_tooltip = gbr_ave_hundred_years_war_at
-			}
+
 		}
 		ai_weight = {
 			factor = 250
@@ -2708,7 +2584,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_permanent_claim = ROOT
+					add_territorial_core = ROOT
 				}
 				random_province = {
 					limit = {
@@ -2722,7 +2598,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_permanent_claim = ROOT
+					add_territorial_core = ROOT
 				}
 				random_province = {
 					limit = {
@@ -2736,7 +2612,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_permanent_claim = ROOT
+					add_territorial_core = ROOT
 				}
 				random_province = {
 					limit = {
@@ -2750,7 +2626,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_permanent_claim = ROOT
+					add_territorial_core = ROOT
 				}
 				random_province = {
 					limit = {
@@ -2764,7 +2640,7 @@ gbr_row_4 = {
 						}
 						NOT = { is_core = ROOT }
 					}
-					add_permanent_claim = ROOT
+					add_territorial_core = ROOT
 				}
 			}
 		}
@@ -3349,11 +3225,7 @@ ave_row_4 = {
 			is_in_deficit = no
 		}	
 		effect = {
-			add_prestige_or_monarch_power = {
-				amount = 20
-			}
-			custom_tooltip = fra_5_gov_cap_adm_adv_tt 
-			set_country_flag = 5_gov_cap_bonus_flag 
+			add_prestige = 100
 		}
 		ai_weight = {
 			factor = 250

@@ -385,3 +385,7 @@ uu_usa_marines_modifier = {
 	infantry_power = 0.10
 	is_marine_modifier = yes
 }
+
+UU_converting_anglois = {
+global_unrest = 5
+}

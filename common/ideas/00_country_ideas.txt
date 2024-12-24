@@ -222,48 +222,47 @@ ENG_ideas = {
 	# }
 # }
 
-AVE_ideas = {
-	start = {
-		global_manpower_modifier = 0.2
-		improve_relation_modifier = 0.3
-	}
-
-	bonus = {
-		years_of_nationalism = -5
-	}
-	
-	trigger = {
-		tag = AVE
-	}
-	free = yes		#will be added at load.
-
-	angevin_decentralized_rule = {
-		core_creation = -0.2
-	}
-	english_common_law = {
-		global_tax_modifier = 0.15
-		num_of_parliament_issues = 1
-	}
-	lessons_of_the_anglo_french_wars = {
-		discipline = 0.05
-	}
-	the_many_thrones = {
-		heir_chance = 0.5
-		years_to_integrate_personal_union = -10
-	}
-	reformed_angevin_infantry = {
-		infantry_power = 0.1
-	}
-	seneschal_of_france = {
-		governing_capacity_modifier = 0.15
-	}
-	rule_of_the_plantagenet = {
-		legitimacy = 1
-		devotion = 1
-		horde_unity = 1
-		republican_tradition = 0.3
-		meritocracy = 1
-	}
+#AVE_ideas = {
+#	start = {
+#		global_manpower_modifier = 0.2
+#		improve_relation_modifier = 0.3
+#	}
+#
+#	bonus = {
+#		years_of_nationalism = -5
+#	}
+#	
+#	trigger = {
+#		tag = AVE
+#	}
+#	free = yes		#will be added at load.
+#
+#	angevin_decentralized_rule = {
+#		core_creation = -0.2
+#	}
+#	english_common_law = {
+#	num_of_parliament_issues = 1
+#	}
+#	lessons_of_the_anglo_french_wars = {
+#		discipline = 0.05
+#	}
+#	the_many_thrones = {
+#		heir_chance = 0.5
+#		years_to_integrate_personal_union = -10
+#	}
+#	reformed_angevin_infantry = {
+#		infantry_power = 0.1
+#	}
+#	seneschal_of_france = {
+#		governing_capacity_modifier = 0.15
+#	}
+#	rule_of_the_plantagenet = {
+#		legitimacy = 1
+#		devotion = 1
+#		horde_unity = 1
+#		republican_tradition = 0.3
+#		meritocracy = 1
+#	}
 }
 
 EIC_ideas = {

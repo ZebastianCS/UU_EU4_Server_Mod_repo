@@ -350,3 +350,24 @@
  usa_continental_marines_desc:0 "The Continental Marines were the amphibious infantry of the American Colonies (and later the United States) during the Revolutionary War, formed by the Continental Congress in 1775. During naval engagements, in addition to manning the cannons along with the crew of the ship, Marine sharpshooters were stationed in the fighting tops of a ship's masts specifically to shoot the opponent's officers, naval gunners, and helmsmen."
  
 
+###############################################################
+ #Angevin Ideas
+ ###############################################################
+
+ AVE_ideas:0 "Angevin Ideas"
+ AVE_ideas_start:0 "Angevin Traditions"
+ AVE_ideas_bonus:0 "Angevin Ambition"
+ angevin_decentralized_rule:0 "Decentralized Rule"
+ angevin_decentralized_rule_desc:0 "During the days of the Plantagenet dynasty, the Angevin Empire's administration was managed through local governors and relatives of the king. While this decentralization is in antithesis to the rule of the king, it ensured smooth rule over the provinces in England and France."
+ english_industrial_power:0 "English industrial power "
+ english_industrial_power_desc:1 "The industrial prowess of england combined with that of france will make the world's most powerful economy!"
+ lessons_of_the_anglo_french_wars:0 "Lessons of the Anglo-French Wars"
+ lessons_of_the_anglo_french_wars_desc:0 "Even in the heydays of the Plantagenet rule, our state has always been in armed conflict with the Kingdom of France. The lessons from all these battles as well as the ones from the Hundred Years' War shape the discipline and will of our military to this day."
+ experienced_general_staff:0 "Experienced general staff"
+ experienced_general_staff_desc:0 "Our general staff has been tried and true throughout the hundred years war in france we have innovated and will continue to innovate."
+ reformed_angevin_infantry:0 "Reformed Angevin Infantry"
+ reformed_angevin_infantry_desc:0 "During the Hundred Years' War, our kingdom has used the English Longbowman to its fullest potential. However, there is always room for improvment. With the formation of the Anglo-French Union, we shall refine their techniques and teach them to our French subjects."
+ seneschal_of_france:0 "The Seneschal of France"
+ seneschal_of_france_desc:0 "The seneschal is a senior position which is filled by a member of the court who has been appointed by the king. During the Plantagenet times, the territories of France were governed by the members of the Plantagenet court."
+ British_naval_experience:0 "British naval experience"
+ British_naval_experience_desc:0 "Our fine english sailors and training have succeeded us and will continue to succeed."

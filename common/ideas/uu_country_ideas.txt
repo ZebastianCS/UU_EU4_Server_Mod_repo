@@ -2024,3 +2024,45 @@ CSC_ideas = {
 		reinforce_speed = 0.15 # was -20% attrition
 	}
 }
+
+
+
+AVE_ideas = {
+	start = {
+		manpower_in_own_culture_provinces = 0.2
+		land_morale = 0.1
+	}
+
+	bonus = {
+		development_cost_in_primary_culture = -0.10
+	}
+	
+	trigger = {
+		tag = AVE
+	}
+	free = yes		#will be added at load.
+
+	angevin_decentralized_rule = {
+		core_creation = -0.2
+	}
+	english_industrial_power = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	lessons_of_the_anglo_french_wars = {
+		discipline = 0.05
+	}
+	experienced_general_staff = {
+		leader_land_fire = 1
+	    leader_land_shock = 1 
+	    
+	}
+	reformed_angevin_infantry = {
+		infantry_power = 0.10
+	}
+	seneschal_of_france = {
+		governing_capacity_modifier = 0.2
+	}
+	British_naval_experience = {
+		naval_morale = 0.2
+	}
+}

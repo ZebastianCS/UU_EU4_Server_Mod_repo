@@ -4,11 +4,12 @@ add_accepted_culture = khorasani
 add_accepted_culture = persian
 religion = sunni
 government = monarchy
-add_government_reform = uu_timurid_monarchy
+add_government_reform = uu_timurid_monarchy	#UU
 government_rank = 3
 capital = 454 # Samarkand
 historical_rival = DLH
 historical_rival = MUL
+historical_rival = TUR
 religious_school = hanafi_school
 
 change_estate_land_share = {
@@ -19,6 +20,12 @@ change_estate_land_share = {
 	estate = estate_nobles
 	share = 12
 }
+set_estate_privilege = estate_church_TIM_yasa_supremacy
+set_estate_privilege = estate_nobles_TIM_soyurghal_grants
+set_estate_privilege = estate_burghers_patronage_of_the_arts
+
+add_army_tradition = 20			#Years of fighting and infighting before the game start.
+add_army_professionalism = 0.05
 
 1370.1.1 = {
 	monarch = {
@@ -93,7 +100,11 @@ change_estate_land_share = {
 		mil = 3
 	}
 	add_piety = -0.4
+	add_ruler_modifier = {
+		name = shahrukhs_empire
+	}
 }
+
 
 1444.6.1 = { #Serious illness of Shahrukh. Goharshad makes Firuzshah (governor of Balkh) swear bayqat to Ala al-Dawla
 	heir = {

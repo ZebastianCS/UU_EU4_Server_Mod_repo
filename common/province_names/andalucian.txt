@@ -50,7 +50,7 @@
 2473 = "Susa"
 2751 = "Qunka"
 2753 = "Arbouna"
-2754 = "Al-Mansha"
+2754 = "al-Mansha" #UU Change for consistent Arabic anglicization
 2755 = "Madinat Salim"
 2982 = "Saraqusa"
 2988 = "Tarrakunah"
@@ -80,7 +80,7 @@
 388 = "Adan"
 390 = "San'a"	
 391 = "Najran"	
-392 = "Al'Arid"
+392 = "al-Arid" #UU Change for consistent Arabic anglicization
 393 = "Jabal Shammar"
 394 = "Qatif"	
 395 = "Qatar"
@@ -90,7 +90,7 @@
 400 = "Masqat"
 404 = "Liwa"
 405 = "Tadmor"
-407 = "Ar-Raqqah"
+407 = "ar-Raqqa" #UU Change for consistent Arabic anglicization
 408 = "Basrah"
 410 = "Bagdad"
 411 = "Mawsil"

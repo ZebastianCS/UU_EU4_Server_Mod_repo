@@ -1,5 +1,6 @@
 country_decisions = {
     uu_kitara_embrace_isolationism = {
+		color = { 255 225 57 }
         potential = {
             tag = KIT 
 			NOT = { has_country_flag = uu_kitara_isolationism_flg }
@@ -24,6 +25,7 @@ country_decisions = {
         }
     }
     uu_kitara_embrace_irrigate_savanna = {
+		color = { 255 225 57 }
         potential = {
             tag = KIT 
 			NOT = { has_country_flag = uu_kitara_savanna_flg }

@@ -6917,14 +6917,12 @@ TUA_ideas = {
 
 KAZ_ideas = {
 	start = {
-		# ae_impact = -0.10		
-		# tolerance_heathen = 2	
-		cavalry_cost = -0.15
-		cavalry_power = 0.15	
+		ae_impact = -0.10		
+		tolerance_heathen = 2		
 	}
 	
 	bonus = {
-		cavalry_flanking = 0.5
+		 cavalry_flanking = 0.5
 	}
 	
 	trigger = {
@@ -6933,16 +6931,13 @@ KAZ_ideas = {
 	free = yes
 	
 	kaz_idea_1 = {
-		# religious_unity = 0.25
-		ae_impact = -0.10 	#uu
-		tolerance_heathen = 2
+		religious_unity = 0.25
 	}
 	kaz_idea_2 = {
 		core_creation = -0.25
 	}
 	kaz_idea_3 = {
-		#cavalry_power = 0.20
-		religious_unity = 0.25	#uu
+		cavalry_power = 0.20
 	}
 	kaz_idea_4 = {
 		global_manpower_modifier = 0.25	
@@ -10269,12 +10264,10 @@ SLO_ideas = {
 GLH_ideas = {
 	start = {
 		global_manpower_modifier = 0.25
-		#land_maintenance_modifier = -0.05	#uu
-		discipline = 0.05					#uu
+		land_maintenance_modifier = -0.05
 	}
 	bonus = {
-		#global_institution_spread = 0.1	#uu
-		may_establish_frontier = yes		#uu
+		global_institution_spread = 0.1
 	}
 	trigger = {
 		tag = GLH
@@ -10295,9 +10288,7 @@ GLH_ideas = {
 		cavalry_power = 0.20
 	}
 	glh_secure_the_trade_routes = {
-		#global_prov_trade_power_modifier = 0.10	#uu
-		trade_efficiency = 0.1						#uu
-		caravan_power = 0.2							#uu
+		global_prov_trade_power_modifier = 0.10
 	}
 	logistics_of_khan = { #Used by horde_ideas
 		manpower_recovery_speed = 0.2

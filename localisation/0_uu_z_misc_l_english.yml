@@ -103,6 +103,9 @@
  #Other tooltips
  uu_heir_cult_cannot_be_same_as_main_tt:0 "§YNote: Heir cult cannot be the same as the main cult.§!"
  uu_max_parliament_seats:0 "You have already assigned the maximum possible parliament seats. The default is 20."
+ uutim_subjects_splendor_tt:0 "If it is the §YAge of Discovery§! and we have at least §Y3 Subjects§!, we will additionally gain §G800§! Splendor."
+ uutim_no_mug_tt:0 "§RWe will not be able to form Mughals or Persia!§!"
+ uutim_no_mug_tt_2:0 "§RWe will not be able to form Mughals or Persia!§! §Y(this is here 3 times to ensure it is read)§!"
 
  #Unused?
  peruvian_theocarcy:0 "Peruvian Theocracy"
@@ -110,3 +113,5 @@
  expell_prisoners_aspect:0 "§YExpell Prisoners§!"
  force_debate_aspect:0 "§YForce Through Debate§!"
  kill_heir_aspect:0 "§YKill Heir§!"
+ uu_religious_festivities_reform:0 "Religious Festivities"
+  uu_religious_festivities_reform_desc:0 "Promoting religious festivities in the public will help us interwine our culture and religion even more"

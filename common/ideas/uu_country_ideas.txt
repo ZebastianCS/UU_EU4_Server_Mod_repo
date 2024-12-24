@@ -145,15 +145,15 @@ GBR_ideas = { #Great Britain
 	}
 	city_upon_a_hill = {
 		global_colonial_growth = 20
-		global_tariffs = 0.1			#UU halved
+		global_tariffs = 0.1				#UU halved
 	}
 	british_merchant_navy = {
 		drill_gain_modifier = 0.25
 		drill_decay_modifier = -0.25
 	}
 	gbr_the_royal_society = {
-		technology_cost = -0.1
-		num_of_parliament_issues = 1
+		technology_cost = -0.1				#Was 0.05
+		num_of_parliament_issues = 1		#Moved from above 
 	}
 	reform_of_comission_buying = {
 		discipline = 0.05
@@ -1898,8 +1898,8 @@ colonial_ideas = {	#Generic colonial
  
 USA_ideas = { #merc buff
 	start = {
-		colonist_placement_chance = 0.1
-		global_unrest = -2
+		colonist_placement_chance = 0.1		#new
+		global_unrest = -2					#moved
 	}
 	
 	bonus = {
@@ -2005,7 +2005,7 @@ CSC_ideas = {
 	}
 	CSC_chinook_jargon = {
 		native_uprising_chance = -1 # was 0.5
-		native_assimilation = 1         
+		native_assimilation = 1
 	}
 	CSC_forts_of_hudson_bay = {
 		garrison_size = 0.20  # was fort cost
@@ -2024,7 +2024,6 @@ CSC_ideas = {
 		reinforce_speed = 0.15 # was -20% attrition
 	}
 }
-
 
 
 AVE_ideas = {
@@ -2064,5 +2063,93 @@ AVE_ideas = {
 	}
 	British_naval_experience = {
 		naval_morale = 0.2
+	}
+}
+
+
+
+GLH_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		#land_maintenance_modifier = -0.05	#uu
+		discipline = 0.05					#uu
+	}
+	bonus = {
+		#global_institution_spread = 0.1	#uu
+		may_establish_frontier = yes		#uu
+	}
+	trigger = {
+		tag = GLH
+	}
+	free = yes
+	
+	glh_legacy_of_the_golden_horde = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	glh_perso_mongol_administration = {
+		core_creation = -0.25
+	}
+	glh_tatar_traditions = {
+		cavalry_power = 0.20
+	}
+	glh_secure_the_trade_routes = {
+		#global_prov_trade_power_modifier = 0.10	#uu
+		trade_efficiency = 0.1						#uu
+		caravan_power = 0.2							#uu
+	}
+	logistics_of_khan = { #Used by horde_ideas
+		manpower_recovery_speed = 0.2
+	}
+	glh_populating_the_steppes = {
+		development_cost = -0.1
+	}
+	glh_religious_pragmatism = {
+		tolerance_heathen = 2
+	}
+}
+KAZ_ideas = {
+	start = {
+		# ae_impact = -0.10		
+		# tolerance_heathen = 2	
+		cavalry_cost = -0.15
+		cavalry_power = 0.15	
+	}
+	
+	bonus = {
+		cavalry_flanking = 0.5
+	}
+	
+	trigger = {
+		tag = KAZ
+	}
+	free = yes
+	
+	kaz_idea_1 = {
+		# religious_unity = 0.25
+		ae_impact = -0.10 	#uu
+		tolerance_heathen = 2
+	}
+	kaz_idea_2 = {
+		core_creation = -0.25
+	}
+	kaz_idea_3 = {
+		#cavalry_power = 0.20
+		religious_unity = 0.25	#uu
+	}
+	kaz_idea_4 = {
+		global_manpower_modifier = 0.25	
+	}
+	kaz_idea_5 = {
+		leader_land_manuever = 1
+	}
+	kaz_idea_6 = {
+		defensiveness = 0.15
+	}
+	kaz_idea_7 = {
+		trade_efficiency = 0.1
 	}
 }

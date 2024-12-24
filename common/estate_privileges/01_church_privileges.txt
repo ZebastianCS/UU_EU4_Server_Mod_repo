@@ -3448,8 +3448,9 @@ estate_church_TIM_yasa_supremacy = {
 		religious_unity = -0.15
 	}
 	benefits = {
-		cavalry_power = 0.05
+		global_rebel_suppression_efficiency = 0.25	#UU replace CCA
 		nobles_influence_modifier = 0.05
+		church_privilege_slots = 1 #UU
 	}
 	can_revoke = {
 		custom_trigger_tooltip = {

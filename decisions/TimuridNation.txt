@@ -192,6 +192,9 @@ country_decisions = {
 		effect = {
 			set_country_flag = formed_tier_four_flag
 			change_tag = TIM
+			custom_tooltip = uutim_no_mug_tt
+			custom_tooltip = uutim_no_mug_tt
+			custom_tooltip = uutim_no_mug_tt_2
 			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
@@ -205,6 +208,18 @@ country_decisions = {
 					NOT = { government_rank = 3 }
 				}
 				set_government_rank = 3
+			}
+			if = {	#UU since TIM is not a seed
+				limit = {
+					has_estate = estate_nobles
+				}
+				set_estate_privilege = estate_nobles_TIM_soyurghal_grants
+			}
+			if = {	#UU since TIM is not a seed 
+				limit = {
+					has_estate = estate_church
+				}
+				set_estate_privilege = estate_church_TIM_yasa_supremacy
 			}
 			add_prestige = 25
 			add_country_modifier = {
@@ -267,48 +282,7 @@ country_decisions = {
 				}
 				add_permanent_claim = TIM
 			}
-			basra_area = {
-				limit = {
-					NOT = { owned_by = TIM }
-					NOT = { is_core = TIM }
-				}
-				add_permanent_claim = TIM
-			}
-			iraq_arabi_area = {
-				limit = {
-					NOT = { owned_by = TIM }
-					NOT = { is_core = TIM }
-				}
-				add_permanent_claim = TIM
-			}
-			al_jazira_area = {
-				limit = {
-					NOT = { owned_by = TIM }
-					NOT = { is_core = TIM }
-				}
-				add_permanent_claim = TIM
-			}
-			armenia_area = {
-				limit = {
-					NOT = { owned_by = TIM }
-					NOT = { is_core = TIM }
-				}
-				add_permanent_claim = TIM
-			}
-			north_kurdistan_area = {
-				limit = {
-					NOT = { owned_by = TIM }
-					NOT = { is_core = TIM }
-				}
-				add_permanent_claim = TIM
-			}
-			erzurum_area = {
-				limit = {
-					NOT = { owned_by = TIM }
-					NOT = { is_core = TIM }
-				}
-				add_permanent_claim = TIM
-			}
+			#UU removed some claims
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas

@@ -213,13 +213,19 @@ country_decisions = {
 				limit = {
 					has_estate = estate_nobles
 				}
-				set_estate_privilege = estate_nobles_TIM_soyurghal_grants
+				custom_tooltip = uutim_estate_priv_tt_1
+				hidden_effect = {
+					set_estate_privilege = estate_nobles_TIM_soyurghal_grants
+				}
 			}
 			if = {	#UU since TIM is not a seed 
 				limit = {
 					has_estate = estate_church
 				}
-				set_estate_privilege = estate_church_TIM_yasa_supremacy
+				custom_tooltip = uutim_estate_priv_tt_2
+				hidden_effect = {				
+					set_estate_privilege = estate_church_TIM_yasa_supremacy
+				}
 			}
 			add_prestige = 25
 			add_country_modifier = {

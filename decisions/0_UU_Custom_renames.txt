@@ -1,6 +1,6 @@
 country_decisions = { 
-
-	rename_to_iran = {					#Persia 1
+	#First two were moved from PersiaNation.txt
+	rename_to_iran = {					#Persia 1 
 		potential = {
 			or = {
 				tag = ERS

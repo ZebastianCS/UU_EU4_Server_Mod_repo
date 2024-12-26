@@ -1,5 +1,7 @@
-#UU UPDATED 1.37.0
-militarization_mechanic = {
+#UU UPDATED 1.37.5
+
+#UU Note: This is only used for Milan and other dictatorships rn
+militarization_mechanic = {				
 	alert_icon_gfx = GFX_alerticons_government_mechanics
 	alert_icon_index = 10
 	available = {

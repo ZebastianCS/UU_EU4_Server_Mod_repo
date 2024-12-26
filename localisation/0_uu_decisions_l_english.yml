@@ -95,7 +95,7 @@
  uucanal_panama_close_title:0 "Close the Panama Canal"
   uucanal_panama_close_desc:0 "Temporarily close the Panama Canal to the passage of all seaborne traffic, including our own and our allies' ships."
  uucanal_panama_open_title:0 "Reopen the Panama Canal"
-  uucanal_panama_open_desc:0 "Reopen the Panama Canal to the passage of all ships."
+  uucanal_panama_open_desc:0 "Reopen the Panama Canal to the passage of seaborne traffic."
  uu_closed_canal_mod:0 "Canal Closed"
  amazon_peru_strait:0 "River Port of Iquitos"
   amazon_peru_strait_tt:0 "Allows movement of troops between §Y[815.GetName]§! and §Y[2934.GetName]§!"

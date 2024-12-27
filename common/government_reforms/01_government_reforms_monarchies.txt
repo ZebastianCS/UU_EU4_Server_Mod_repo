@@ -2308,8 +2308,11 @@ al_andalusia_government = {
 			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180�
 		}
 	}
-	custom_attributes = {	#uu added
-		enables_estate_janissaries = yes
+	conditional = {	#UU
+		allow = { 
+			has_dlc = "Cradle of Civilization"
+		}
+		has_janissaries = yes
 	}
 	government_abilities = {	#uu added
 		iqta_mechanic

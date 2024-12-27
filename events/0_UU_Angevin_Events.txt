@@ -14,37 +14,36 @@ country_event = { #Anglois begins to spread
 
 	
 	option = { #Begin conversion!
-	name = UU_ave_mission_events.1.a
-	add_stability = -1
-	change_primary_culture = anglois
-	add_country_modifier = {
-			name = UU_converting_anglois
-			duration = 10950
-		     }
-				ile_de_france_area = {
+		name = UU_ave_mission_events.1.a
+				add_stability = -1
+			change_primary_culture = anglois
+				add_country_modifier = {
+				name = UU_converting_anglois
+				duration = 10950
+		    }
+			ile_de_france_area = {
                 type = all 
                 change_culture = anglois
-				}
-			    home_counties_area {
-                type = all 
-                change_culture = anglois
-				}
+			}
+			 home_counties_area {
+               	type = all 
+               	change_culture = anglois
+			}
 			   
-			    picardy_area = {
+			picardy_area = {
                 type = all 
                 change_culture = anglois
-				}
+			}
                 
-				normandy_area {
-                type = all 
-                change_culture = anglois
-				
-				wessex_area = {
-                type = all 
+			normandy_area {
+               	type = all 
                 change_culture = anglois
 		    }
-	    }         
-	}
+			wessex_area = {
+    			type = all 
+            	change_culture = anglois	      
+			}
+	}       
 }  
 
 	
@@ -59,8 +58,8 @@ country_event = { #Periodic Conversion event
 			has_country_modifier = UU_converting_anglois
 		}
 
-	     mean_time_to_happen = {
-		 	 months = 12
+	 mean_time_to_happen = {
+        months = 12
         }  
 	
 
@@ -74,9 +73,9 @@ country_event = { #Periodic Conversion event
 					culture_group = british
 					culture_group = french
 				}			
+			 NOT = {culture = anglois}
 			}
-			change_culture = anglois
-		  NOT = culture = anglois
+			change_culture = anglois 
 		}
 		
 		random_owned_province = {
@@ -85,9 +84,9 @@ country_event = { #Periodic Conversion event
 					culture_group = british
 					culture_group = french
 				}			
+			 NOT = {culture = anglois}
 			}
 			change_culture = anglois
-		  NOT = culture = anglois
 		} 
 		
 		random_owned_province = {
@@ -96,9 +95,9 @@ country_event = { #Periodic Conversion event
 					culture_group = british
 					culture_group = french
 				}			
+			 NOT = {culture = anglois}
 			}
 			change_culture = anglois
-		  NOT = culture = anglois
 		}
 	}	
 }

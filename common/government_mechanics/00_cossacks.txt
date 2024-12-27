@@ -47,40 +47,66 @@ cossacks_mechanic = {
 					}
 					save_event_target_as = source_country
 				}
-				random_owned_province = {
-					add_base_tax = 1
-					add_base_production = 1
-					add_base_manpower = 1
+				custom_tooltip = uu_cossack_raid_tt_1
+				hidden_effect = {
+					random_owned_province = {
+						add_base_tax = 1
+						add_base_production = 1
+						add_base_manpower = 1
+					}
 				}
 				event_target:source_country = {
-					random_owned_province = {
-						limit = {
-							base_tax = 2
+					hidden_effect = {
+						random_owned_province = {
+							limit = {
+								base_tax = 2
+							}
+							add_base_tax = -1
+							add_devastation = 2
+							add_province_modifier = {
+								name = uu_cossack_stole_dev
+								duration = 730
+							}
 						}
-						add_base_tax = -1
-						add_devastation = 2
+						random_owned_province = {
+							limit = {
+								base_production = 2
+							}
+							add_base_production = -1
+							add_devastation = 2
+							add_province_modifier = {
+								name = uu_cossack_stole_dev
+								duration = 730
+							}
+						}
+						random_owned_province = {
+							limit = {
+								base_manpower = 2
+							}
+							add_base_manpower = -1
+							add_devastation = 2
+							add_province_modifier = {
+								name = uu_cossack_stole_dev
+								duration = 730
+							}
+						}
+					}
+					custom_tooltip = uu_cossack_raid_tt_2
+					tooltip = {
 						add_province_modifier = {
 							name = uu_cossack_stole_dev
 							duration = 730
 						}
 					}
-					random_owned_province = {
-						limit = {
-							base_production = 2
-						}
-						add_base_production = -1
-						add_devastation = 2
+					custom_tooltip = uu_cossack_raid_tt_3
+					tooltip = {
 						add_province_modifier = {
 							name = uu_cossack_stole_dev
 							duration = 730
 						}
 					}
-					random_owned_province = {
-						limit = {
-							base_manpower = 2
-						}
-						add_base_manpower = -1
-						add_devastation = 2
+					custom_tooltip = uu_cossack_raid_tt_4
+					tooltip = {
 						add_province_modifier = {
 							name = uu_cossack_stole_dev
 							duration = 730

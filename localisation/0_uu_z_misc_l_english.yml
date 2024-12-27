@@ -106,6 +106,12 @@
  uutim_subjects_splendor_tt:0 "If it is the §YAge of Discovery§! and we have at least §Y3 Subjects§!, we will additionally gain §G800§! Splendor."
  uutim_no_mug_tt:0 "§RWe will not be able to form Mughals or Persia!§!"
  uutim_no_mug_tt_2:0 "§RWe will not be able to form Mughals or Persia!§! §Y(this is here 3 times to ensure it is read)§!"
+ uutim_estate_priv_tt_1:0 "The estate privilege §YSoyurghal Grants§! will be granted to the §YNobility§!."
+ uutim_estate_priv_tt_2:0 "The estate privilege §YSupremacy of the Yasa§! will be granted to the §YClergy§!."
+ uu_cossack_raid_tt_1:0 "A random owned province gains §G1§! of each development."
+ uu_cossack_raid_tt_2:0 "A random owned province:\n Lose §R1§! Base Tax in Province(s).\n Gain §R2§! Devastation in Province(s)."
+ uu_cossack_raid_tt_3:0 "A random owned province:\n Lose §R1§! Base Production in Province(s).\n Gain §R2§! Devastation in Province(s)."
+ uu_cossack_raid_tt_4:0 "A random owned province:\n Lose §R1§! Base Manpower in Province(s).\n Gain §R2§! Devastation in Province(s)."  
 
  #Unused?
  peruvian_theocarcy:0 "Peruvian Theocracy"

@@ -1,7 +1,5 @@
 country_decisions = {
 	embrace_native_traditions = {
-		color = { 200 130 230 }
-		major = yes
 		potential = {
 			OR = {
 				tag = CAN

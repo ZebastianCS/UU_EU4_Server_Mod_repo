@@ -46,14 +46,15 @@
  zhuang:0 "Cuengh"
   zhuang_new:0 "Zhuang"
 
- white_house:0 "District of Columbia" 
- sankore_madrasah:0 "Sankoré Madrasah"
- belem_tower:0 "Belém Tower"
+ white_house:0 "District of Columbia"  #UU Change
+ sankore_madrasah:0 "Sankoré Madrasah" #UU Change
+ belem_tower:0 "Belém Tower"    #UU Change
  st_basil_cathedral:0 "St. Basil's Cathedral" #UU Change
  grand_canal_1:0 "Grand Canal: Hangzhou"  #UU Change
  grand_canal_2:0 "Grand Canal: Suzhou"    #UU Change
  grand_canal_3:0 "Grand Canal: Zhenjiang" #UU Change
  grand_canal_4:0 "Grand Canal: Yangzhou"  #UU Change
+ khami_ruins:0 "Great Zimbabwe"   #UU Change
 
  #Ideas 
  indigenous_ideas:0 "Advancement Ideas"

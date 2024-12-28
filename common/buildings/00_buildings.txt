@@ -2997,8 +2997,8 @@ state_house = {
 	modifier = {
 		statewide_governing_cost = -0.2
 		min_local_autonomy = -5
-		#local_governing_cost = -0.15	#UU
-		local_governing_cost_increase = -10
+		#local_governing_cost = -0.15			#UU
+		#local_governing_cost_increase = -10	#UU
 		allowed_num_of_buildings = 1
 	}
 	bonus_modifier = {

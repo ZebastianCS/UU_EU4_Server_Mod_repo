@@ -1284,24 +1284,22 @@ WoC_timurids_3 = {
 			}
 			army_size = 30
 		}
-		effect = {	#UU swapped rewards of this and next mission
-
-			add_country_modifier_for_age = {	#UU halved mana gain
-				name = TIM_timurid_empire_modifier
-				age = age_of_discovery
-				else = "	
-					add_adm_power = 50
-					add_dip_power = 50
-					add_mil_power = 50
-				"
+		effect = {
+			
+			create_general_with_pips = {	#UU moved from mission c4r3 nomadic branch, nerfed slightly
+				tradition = 30
+				add_fire = 1
+				add_shock = 1
+				add_siege = 1
 			}
+			add_dip_power = 25
 			custom_tooltip = uutim_subjects_splendor_tt
 			if = {
 				limit = { 
 					num_of_subjects = 3 
 					current_age = age_of_discovery
 				}
-				hidden_effect = { add_splendor = 800 }
+				hidden_effect = { add_splendor = 400 }
 			}
 		}
 	}
@@ -1317,14 +1315,17 @@ WoC_timurids_3 = {
 			prestige = 60
 			army_size = 100
 		}
-		effect = { #UU swapped rewards of this and previus mission
+		effect = {
 			custom_tooltip = uutim_unlock_missions_tt #UU no more branching missions, now everything is unlocked
 			
-			create_general_with_pips = {	#UU moved from mission c4r3 nomadic branch 
-				tradition = 30
-				add_fire = 2
-				add_shock = 2
-				add_siege = 1
+			add_country_modifier_for_age = {	#UU halved mana gain
+				name = TIM_timurid_empire_modifier
+				age = age_of_discovery
+				else = "	
+					add_adm_power = 50
+					add_dip_power = 50
+					add_mil_power = 50
+				"
 			}
 		}
 	}
@@ -1643,13 +1644,12 @@ WoC_timurids_3_persia = {
 				option_1 = "
 					change_primary_culture = persian
 					
-					custom_tooltip = TIM_will_be_necessary_to_form_persia
+					#custom_tooltip = TIM_will_be_necessary_to_form_persia
 					 
 					add_accepted_culture_or_dip_power_stated = {
 						culture = uzbehk
 						dip_reward = yes
 					}
-					custom_tooltip = \" \"
 				"
 				option_2 = "
 					add_country_modifier = {

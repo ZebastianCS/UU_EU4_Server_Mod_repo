@@ -103,7 +103,7 @@
  #Other tooltips
  uu_heir_cult_cannot_be_same_as_main_tt:0 "§YNote: Heir cult cannot be the same as the main cult.§!"
  uu_max_parliament_seats:0 "You have already assigned the maximum possible parliament seats. The default is 20."
- uutim_subjects_splendor_tt:0 "If it is the §YAge of Discovery§! and we have at least §Y3 Subjects§!, we will additionally gain §G800§! Splendor."
+ uutim_subjects_splendor_tt:0 "If it is the §YAge of Discovery§! and we have at least §Y3 Subjects§!, we will additionally gain §G400§! Splendor."
  uutim_unlock_missions_tt:0 "§JAllow completion of all formerly branching missions.\n§!"
  uutim_no_mug_tt:0 "§RForming another nation as Timurids will cause us to LOSE ALL REWARDS from Timurid missions (modifiers, mechanics, privileges, etc)!!§!"
  uutim_no_mug_tt_2:0 "§OWe will not be able to form Persia!§!"

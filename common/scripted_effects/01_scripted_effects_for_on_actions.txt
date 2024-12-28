@@ -4169,7 +4169,7 @@ on_change_tag_effect = {
 			is_or_was_tag = { tag = TIM }
 		}
 		uutim_remove_all_content_effect = yes
-		hidden_effect = {
+		hidden_effect = {		#cleanup
 			country_event = {
 				id = UU_balance_events.14
 				days = 240

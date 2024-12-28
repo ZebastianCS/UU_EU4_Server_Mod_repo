@@ -286,8 +286,11 @@
  mechanic_battles_on_own_territory_bonus_tradition_yes:2 "Winning battles on our territory grants §G+0.33§! bonus Army Tradition." #UU Change
  mechanic_army_tradition_on_stackwipe_yes:0 "Overrunning enemy armies now grants §G+0.33§! bonus Army Tradition." #UU Change
  TIM_unlock_razing_gov_reform:0 "Unlock the '§YPlunder Economy§!' Government Reform, at the §YNoble Privileges§! Monarchy Tier giving us §G+50.0%§! Razing Power Gain" #UU Change
+ TIM_will_be_necessary_to_form_persia:0 " " #UU removed
  AZT_MODIFY_MECHANIC_TLALOC:1 "Make §YTlaloc§! the main Patron Deity of our nation, which will make §YTonalli Gathering§! have the following effects at maximum power:\n   Construction Time: §G-20.0%§!\n   Development Cost in Primary Cultures: §G-7.5%§!" #UU Change
-
+ 
+ #missions 
+ TIM_timurid_empire_title:0 "§MTimurid Empire§!"
  #decisions
  TIM_bring_taxation_under_control_title:0 "@TIM Restore the Treasury"
  TIM_supremacy_of_the_sharia_title:0 "@TIM Supremacy of the Sharia"

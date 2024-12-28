@@ -4164,6 +4164,18 @@ on_change_tag_effect = {
 		#Clear all flags which add the preview buttons if you do not have any mission enabling them
 		update_mission_previews = yes
 	}
+	if = {		#UU
+		limit = {
+			is_or_was_tag = { tag = TIM }
+		}
+		uutim_remove_all_content_effect = yes
+		hidden_effect = {
+			country_event = {
+				id = UU_balance_events.14
+				days = 240
+			}
+		}
+	}
 }
 
 on_force_conversion_effect = {

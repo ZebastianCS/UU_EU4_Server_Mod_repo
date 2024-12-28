@@ -717,3 +717,20 @@ country_event = {	#Pluto arms industry remove
 		name = UU_balance_events.11.zzz
 	}
 }
+
+country_event = {	#TIM cleanup event
+	id = UU_balance_events.14
+	title = none
+	desc = none
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate = {
+		uutim_remove_all_content_effect = yes
+	}
+	option = {
+		name = UU_balance_events.11.zzz
+	}
+}

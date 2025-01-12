@@ -45,9 +45,10 @@ on_startup = {
         value = 0
     }
     events = {
-		flavor_mal.0 #UU event for decline of Mali
-		flavor_tim.0 #UU Timurid event
-		flavor_mor.0 #UU Morocco event
+		flavor_mal.0 				#UU event for decline of Mali
+		flavor_tim.0 				#UU Timurid event
+		flavor_mor.0 				#UU Morocco event
+		UU_ave_mission_events.3		#UU England event
 	}
     if = {		#Tiered Formables 
 		limit = {

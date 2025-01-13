@@ -311,7 +311,7 @@ age_of_reformation = {
 		obj_christian_convert = {
 			custom_trigger_tooltip = {	#UU
 				tooltip = obj_christian_convert_tooltip
-				has_country_flag = age_change_religion_absolutism
+				has_country_flag = age_change_religion_flag
 			}
 		}
 		

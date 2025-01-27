@@ -136,6 +136,13 @@ uu_special_color_effect = { #Applies specific colours to nations depending on go
 	every_subject_country = {
 		limit = {
 			NOT = { has_country_flag = uu_overlord_colour }
+			NOT = {
+				OR = {
+					has_reform = crown_colony_government
+					has_reform = private_enterprise_colony_government
+					has_reform = self_governing_colony_government
+				}
+			}
 		}
 		restore_country_color = yes
 	}

@@ -136,12 +136,9 @@ uu_special_color_effect = { #Applies specific colours to nations depending on go
 	every_subject_country = {
 		limit = {
 			NOT = { has_country_flag = uu_overlord_colour }
-			NOT = {
-				OR = {
-					has_reform = crown_colony_government
-					has_reform = private_enterprise_colony_government
-					has_reform = self_governing_colony_government
-				}
+			OR = {
+				is_march = yes
+				is_vassal = yes
 			}
 		}
 		restore_country_color = yes
@@ -199,7 +196,6 @@ uu_grant_daimyo_to_clan_effect = {
 			remove_core = $clan$
 		}
 		random_owned_province = {
-			set_province_flag = z_jap_clan_separatist_flag
 			spawn_rebels = {
 				type = nationalist_rebels
 				size = 2
@@ -209,7 +205,6 @@ uu_grant_daimyo_to_clan_effect = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					NOT = { has_province_flag = z_jap_clan_separatist_flag }
 					has_port = yes
 				}
 				$clan$ = {

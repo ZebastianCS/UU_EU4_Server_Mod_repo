@@ -1490,9 +1490,11 @@ Defensive-Court = {	##BUFF CAPITAL
 		}
 	}
 	removed_effect = {
-		every_owned_province = {
-			remove_province_modifier = uu_def_court_mod
-			remove_province_modifier = uu_def_court_capital_mod
+		hidden_effect = {
+			every_owned_province = {
+				remove_province_modifier = uu_def_court_mod
+				remove_province_modifier = uu_def_court_capital_mod
+			}
 		}
 	}
 	

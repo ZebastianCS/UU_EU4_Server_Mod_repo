@@ -387,5 +387,5 @@ uu_usa_marines_modifier = {
 }
 
 UU_converting_anglois = {
-global_unrest = 5
+	global_unrest = 5
 }

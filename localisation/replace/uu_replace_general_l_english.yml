@@ -50,11 +50,16 @@
  sankore_madrasah:0 "Sankoré Madrasah" #UU Change
  belem_tower:0 "Belém Tower"    #UU Change
  st_basil_cathedral:0 "St. Basil's Cathedral" #UU Change
+ stpeters_cathedral:0 "St. Peter's Basilica"  #UU Change
  grand_canal_1:0 "Grand Canal: Hangzhou"  #UU Change
  grand_canal_2:0 "Grand Canal: Suzhou"    #UU Change
  grand_canal_3:0 "Grand Canal: Zhenjiang" #UU Change
  grand_canal_4:0 "Grand Canal: Yangzhou"  #UU Change
  khami_ruins:0 "Great Zimbabwe"   #UU Change
+ kilwa_city:0 "Kilwa Kisiwani"    #UU Change
+ fire_temple_of_ateshgah:0 "Fire Temple of Baku" #UU Change because this is objectively cooler
+ kiev_pechersk_lavra:0 "Kyiv Pechersk Lavra"  #UU Change
+ 
 
  #Ideas 
  indigenous_ideas:0 "Advancement Ideas"
@@ -289,7 +294,8 @@
  TIM_unlock_razing_gov_reform:0 "Unlock the '§YPlunder Economy§!' Government Reform, at the §YNoble Privileges§! Monarchy Tier giving us §G+50.0%§! Razing Power Gain" #UU Change
  TIM_will_be_necessary_to_form_persia:0 " " #UU removed
  AZT_MODIFY_MECHANIC_TLALOC:1 "Make §YTlaloc§! the main Patron Deity of our nation, which will make §YTonalli Gathering§! have the following effects at maximum power:\n   Construction Time: §G-20.0%§!\n   Development Cost in Primary Cultures: §G-7.5%§!" #UU Change
- 
+ SLACK_TEXT:1 "Lose $DROP|Y$ Army Professionalism immediately.\n\nThe event '§YSlackening Recruitment Standards§!' will recur every 12 months, granting us §G2§! years of manpower each time.\n\nWe will gain the following modifier:"
+
  #missions 
  TIM_timurid_empire_title:0 "§MTimurid Empire§!"
  #decisions

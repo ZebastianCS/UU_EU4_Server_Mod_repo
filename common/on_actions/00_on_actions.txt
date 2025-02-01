@@ -6411,9 +6411,17 @@ on_slacken_start = {
 		name = slackening_modifier
 		duration = -1
 	}
+	hidden_effect = {	#UU
+		add_country_modifier = {
+			name = uu_slackening_cd
+			duration = 330
+			hidden = yes
+		}
+	}
 }
 on_slacken_stop = {
 	remove_country_modifier = slackening_modifier
+	remove_country_modifier = uu_slackening_cd	#UU
 }
 
 on_colony_finished = { #ROOT - Province

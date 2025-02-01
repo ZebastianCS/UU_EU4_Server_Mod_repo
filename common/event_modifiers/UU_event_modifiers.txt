@@ -358,6 +358,7 @@ dogma_manpower_5yr_cooldown = {}
 
 #debug
 uu_recently_gift_dontdeletethis = {}
+uu_slackening_cd = {}
 
 #policy
 uu_qty_hum_cd_mod = { 

@@ -25,14 +25,28 @@
 
 
 uu_road_1 = {
-	cost = 50
+	cost = 30
 	time = 12
+
+	build_trigger = {
+		OR = {
+			is_capital = yes 
+			province_has_center_of_trade_of_level = 1
+			any_neighbor_province = { 
+				OR = {
+					has_construction = uu_road_1
+					has_building = uu_road_1
+				}
+			}
+		}
+	}
 
 	modifier = {
 		local_friendly_movement_speed = 0.3
 		local_hostile_movement_speed = 0.3
-		local_state_maintenance_modifier = 0.5
-		supply_limit = 30
+		local_state_maintenance_modifier = 1
+		supply_limit = 10
+		supply_limit_modifier = 0.5
 		allowed_num_of_buildings = 1
 	}
 
